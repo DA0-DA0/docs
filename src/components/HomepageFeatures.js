@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Create DAOs',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Create DAOs with a point-and-click GUI. No command line interface.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Vote and Propose',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Create and vote on proposals without writing code.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Join the Cosmoverse',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Create your DAO on a Tendermint chain, and join the world of Cosmos with the magic of IBC.
       </>
     ),
   },
