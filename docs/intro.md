@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Introduction
 
-DAO DAO is a tooling for building multichain DAOs with the [Cosmos
-SDK](https://v1.cosmos.network/sdk). [CosmWasm](https://cosmwasm.com/) powers
-safe smart contracting in Rust.
+DAO DAO provides tooling for building multichain DAOs with safe smart
+contracting in Rust, powered by the [Cosmos
+SDK](https://v1.cosmos.network/sdk) and [CosmWasm](https://cosmwasm.com/).
 
 ## Getting Started
 

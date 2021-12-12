@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DAO DAO',
-  tagline: 'DAO tooling',
+  tagline: 'DAOs for everyone',
   url: 'https://DA0-DA0.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -15,7 +15,9 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'DAO DAO', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Inter:wght@500;600,'
+  ],
   presets: [
     [
       'classic',
@@ -47,6 +49,7 @@ const config = {
         logo: {
           alt: 'DAO DAO Logo',
           src: 'img/daodao-light.svg',
+          srcDark: 'img/daodao-dark.svg',
         },
         items: [
           {
