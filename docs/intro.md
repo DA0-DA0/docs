@@ -23,6 +23,10 @@ Create a page on how to start a sovreign DAO chain.
 
 To start a DAO on its own blockchain, see (TKTK).
 
+## Contributing
+
+If you find something wrong with this documentation, please [https://github.com/DA0-DA0/docs](open an issue)!
+
 ## Learn more
 
 To learn more about DAOs, and how DAO DAO works, continue on!
