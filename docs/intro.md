@@ -8,12 +8,13 @@ DAO DAO provides tooling for building multichain DAOs with safe smart
 contracting in Rust, powered by the [Cosmos
 SDK](https://v1.cosmos.network/sdk) and [CosmWasm](https://cosmwasm.com/).
 
-## Getting Started
+## Getting started
 
-To create a DAO or multisig in your browser, head to head to
-[daodao.zone](https://daodao.zone) This web-based UI will help you start a DAO
-on the [Juno](https://junochain.com/) chain. You'll just need [Keplr
-wallet](https://wallet.keplr.app/) and the addresses of your comrades.
+DAO DAO's UI (hosted at [daodao.zone](https://daodao.zone/) will help you build
+a DAO on the [Juno blockchain](https://junochain.com/).
+
+To get started, head on to our [Quickstart](./quickstart/what-is-dao).
+
 
 ## Running your own chain (advanced)
 
@@ -27,6 +28,6 @@ To start a DAO on its own blockchain, see (TKTK).
 
 If you find something wrong with this documentation, please [open an issue](https://github.com/DA0-DA0/docs)!
 
-## Learn more
+## Quickstart
 
-To learn more about DAOs, and how DAO DAO works, continue on!
+Want to get started building a DAO? Continue on!
