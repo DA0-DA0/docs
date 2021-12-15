@@ -8,7 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'DAO DAO',
   tagline: 'DAOs for everyone',
-  url: 'https://DA0-DA0.github.io',
+  url: 'https://DA0-DA0.github.io/docs',
+  organizationName: 'DA0-DA0',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
