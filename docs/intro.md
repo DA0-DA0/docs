@@ -18,14 +18,14 @@ wallet](https://wallet.keplr.app/) and the addresses of your comrades.
 ## Running your own chain (advanced)
 
 :::danger TODO
-Create a page on how to start a sovreign DAO chain.
+Create a page on how to start a sovereign DAO chain.
 :::
 
 To start a DAO on its own blockchain, see (TKTK).
 
 ## Contributing
 
-If you find something wrong with this documentation, please [https://github.com/DA0-DA0/docs](open an issue)!
+If you find something wrong with this documentation, please [open an issue](https://github.com/DA0-DA0/docs)!
 
 ## Learn more
 

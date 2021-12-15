@@ -9,7 +9,8 @@ const config = {
   title: 'DAO DAO',
   tagline: 'DAOs for everyone',
   url: 'https://docs.daodao.zone',
-  organizationName: 'DA0-DA0',
+  organizationName: 'DA0-DA0', // Github org name
+  projectName: 'docs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
   baseUrl: '/',
@@ -17,7 +18,6 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'DA0-DA0', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Inter:wght@500;600,'
   ],
