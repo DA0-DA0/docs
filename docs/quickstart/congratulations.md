@@ -7,6 +7,7 @@ sidebar_position: 6
 You've created your own DAO. More importantly, you've learned the basics of DAO DAO. 
 
 DAO DAO has **much more to offer**.
+By combining proposal messages and treasury actions, you can create complex incentive structures. The limit is your imagination and your ability to organize!
 
 Have **5 more minutes**? Take a look at TK or TK.
 
