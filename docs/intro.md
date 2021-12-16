@@ -15,7 +15,6 @@ a DAO on the [Juno blockchain](https://junochain.com/).
 
 To get started, head on to our [Quickstart](./quickstart/what-is-dao).
 
-
 ## Running your own chain (advanced)
 
 :::danger TODO
