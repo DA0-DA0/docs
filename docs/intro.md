@@ -4,9 +4,10 @@ sidebar_position: 1
 
 # Introduction
 
-DAO DAO provides tooling for building multichain DAOs with safe smart
-contracting in Rust, powered by the [Cosmos
-SDK](https://v1.cosmos.network/sdk) and [CosmWasm](https://cosmwasm.com/).
+Welcome to DAO DAO!
+
+DAO DAO provides tooling for building multichain [DAOs](./quickstart/what-is-dao.md)
+with smart contracting in Rust, powered by the [Cosmos SDK](https://v1.cosmos.network/sdk) and [CosmWasm](https://cosmwasm.com/).
 
 ## Getting started
 
@@ -20,8 +21,6 @@ To get started, head on to our [Quickstart](./quickstart/what-is-dao).
 :::danger TODO
 Create a page on how to start a sovereign DAO chain.
 :::
-
-To start a DAO on its own blockchain, see (TKTK).
 
 ## Contributing
 

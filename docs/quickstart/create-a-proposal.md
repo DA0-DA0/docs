@@ -6,16 +6,16 @@ sidebar_position: 3
 
 After [creating a DAO for your bookclub](./create-a-dao),
 I'm sure you're busy telling all of your friends to download Keplr so they can join you.
-
 While you wait for them to join the wonderful world of the Cosmoverse, why don't we make a governance proposal for them when they get here? 
 
-Let's create a proposal to decide what book to read. To begin, starting from your DAO's page, navigate to Proposals > Create.
+Let's create a proposal to decide what book to read. 
 
 ## Create Proposal
 
 Since you're the first one here, it's only fair that you suggest what everyone read next.
-
 Let's create a proposal suggesting the group read Murray Bookchin's *The Next Revolution: Popular Assemblies and the Promise of Direct Democracy*.
+
+To begin, starting from your DAO's page, navigate to **Proposals > Create**.
 
 > **Name**: Let's read Murray Bookchin - The Next Revolution
 >
@@ -25,11 +25,11 @@ Let's create a proposal suggesting the group read Murray Bookchin's *The Next Re
 
 Proposal messages are actions that execute when the proposal passes. These messages let you do things like *mint* new governance tokens, *spend* from the shared treasury, and more. 
 
-:::danger TODO
-Add separate documentation for each of the spend messages and link to it here.
-:::
-
 The proposal we have here is more of a social contract. We don't need anything to change in code. 
+
+:::danger TODO
+Add separate documentation for proposal messages and link to it here
+:::
 
 ### Create proposal
 
