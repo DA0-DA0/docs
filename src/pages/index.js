@@ -29,8 +29,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={"DAOs for everyone."}
+      description="Easy tooling to build your own DAO or multisig.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
