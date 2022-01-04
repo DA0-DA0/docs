@@ -47,6 +47,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // meta image https://docusaurus.io/docs/api/themes/configuration#meta-image
+      image: 'static/img/daodao.png',
+      // announcement bar
+      // https://docusaurus.io/docs/api/themes/configuration#announcement-bar
+      announcementBar: {
+        id: 'try_it_out',
+        content:
+        'Try out DAO DAO! <a target="_blank" rel="noopener noreferrer" href="#">Launch a DAO on Juno</a>.',
+        // backgroundColor: '#000',
+        // textColor: '#fff',
+        isCloseable: true,
+      },
       navbar: {
         title: 'DAO DAO',
         logo: {
