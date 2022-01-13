@@ -6,6 +6,7 @@ sidebar_position: 3
 
 Governance proposals are how DAOs change their state. Governance proposals are composed of three components: a title, a description, and proposal messages.
 
+
 ## Title
 
 This is the human-readable title of your proposal. It will appear in voting screens.
@@ -17,8 +18,7 @@ syntax](https://www.markdownguide.org/basic-syntax/) for rich formatting.
 
 ## Proposal messages
 
-Messages allow you to add programmable actions to your proposals.
-If your proposal passes, these messages will execute on the chain.
+Proposal messages are actions that execute when the proposal passes. These messages let you do things like *mint* new governance tokens, *spend* from the shared treasury, and more. 
 
 :::tip
 Proposal messages are a bit like [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks). 
