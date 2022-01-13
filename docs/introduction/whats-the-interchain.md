@@ -8,7 +8,7 @@ The interchain (or cross-chain) is a phrase used to describe interoperability be
 self-sovereign blockchains.
 
 ## What's a blockchain?
-A blockchain is a database made up of *blocks* of data, concatenated together to form a *chain**.
+A blockchain is a database made up of *blocks* of data, concatenated together to form a *chain*.
 
 Specifically, new data comes in piece by piece in the form of transactions. Each transaction is added to a block. Each blocks is chained to the previous block, creating a chronological ordering of data.
 
