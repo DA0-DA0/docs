@@ -1,11 +1,13 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Deploying a smart contract from a DAO
 
-Here we'll walk through the process of deploying a smart contract via
-a proposal in the DAO DAO UI.
+Have a smart contract, but want your DAO to control it?
+
+In this recipe, we'll walk through the process of deploying a smart contract via
+a proposal in DAO DAO.
 
 This example is intended for folks who already have some amount of
 experience deploying smart contracts in Juno. If you'd like a
@@ -22,19 +24,19 @@ funds. By deploying a smart contract from a DAO we can make sure that
 the DAO owns the smart contract instead of a potentially untrustworthy
 individual.
 
-:::tip
+:::tip Did you know?
 
-The Ethereum Name Service is currently controlled by a four of seven
+The Ethereum Name Service (ENS) is currently controlled by a four-of-seven
 multisig. This means that at the root of the entire system are seven
 people, four of whom together have complete control over the
-contract. This is sub optimal. As they write in [their
+contract. As they write in [their
 docs](https://ens.domains/about/#about-root):
 
 > In the long term, we would like the root multisig to be replaced by
 > some form of distributed decision making process, as such systems
 > become available.
 
-DAO-DAO has such systems.
+DAO DAO is one such system.
 
 :::
 
