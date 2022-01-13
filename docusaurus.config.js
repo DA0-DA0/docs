@@ -54,7 +54,7 @@ const config = {
       announcementBar: {
         id: 'try_it_out',
         content:
-        'Try out DAO DAO! <a target="_blank" rel="noopener noreferrer" href="#">Launch a DAO on Juno</a>.',
+        'Try out DAO DAO! <a target="_blank" rel="noopener noreferrer" href="https://daodao.zone">Launch a DAO on Juno</a>.',
         // backgroundColor: '#000',
         // textColor: '#fff',
         isCloseable: true,
@@ -85,8 +85,8 @@ const config = {
           //   position: 'left'
           // },
           {
-            href: 'https://github.com/DA0-DA0/',
-            label: 'GitHub',
+            href: 'https://daodao.zone/',
+            label: 'Launch the app!',
             position: 'right',
           },
         ],
