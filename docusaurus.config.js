@@ -48,7 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // meta image https://docusaurus.io/docs/api/themes/configuration#meta-image
-      image: 'img/daodao.png',
+      image: 'img/banner.jpg',
       // announcement bar
       // https://docusaurus.io/docs/api/themes/configuration#announcement-bar
       announcementBar: {
@@ -69,9 +69,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'introduction/welcome-to-dao-dao',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            type: 'doc',
+            docId: 'quickstart/create-a-dao',
+            position: 'left',
+            label: 'Quickstart',
           },
           // {
           //   to: '/blog',
