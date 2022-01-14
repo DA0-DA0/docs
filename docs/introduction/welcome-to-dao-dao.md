@@ -7,7 +7,7 @@ sidebar_position: 1
 We're a DAO that builds tools for building DAOs. (Yes, we used DAO DAO to build DAO DAO).
 
 ## Why DAOs?
-DAOs are programmable organizations with easliy-inspectible states. With liquid
+DAOs are programmable organizations with easliy inspectible states. With liquid
 governance tokens, DAOs can produce incentive structures of any level of
 complexity&mdash;from giving a grant to a promising artist to creating a welfare
 system to your entire community.
