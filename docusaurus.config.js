@@ -48,7 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // meta image https://docusaurus.io/docs/api/themes/configuration#meta-image
-      image: 'img/banner.jpg',
+      image: 'img/banner.png',
       // announcement bar
       // https://docusaurus.io/docs/api/themes/configuration#announcement-bar
       announcementBar: {
