@@ -47,3 +47,5 @@ You can add any JSON to a proposal. Perhaps you've deployed a custom smart
 contract that ingests these data; perhaps there's another part of the stack that
 you'd like to modify we haven't covered here. The sky is the limit!
 
+
+Messages should fit the serde-json version of the struct [CosmosMsg](https://docs.rs/cosmwasm-std/latest/cosmwasm_std/enum.CosmosMsg.html).
