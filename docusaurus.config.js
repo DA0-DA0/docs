@@ -60,11 +60,11 @@ const config = {
         isCloseable: true,
       },
       navbar: {
-        title: 'DAO DAO',
+        title: '',
         logo: {
           alt: 'DAO DAO Logo',
-          src: 'img/daodao-light.svg',
-          srcDark: 'img/daodao-dark.svg',
+          src: 'img/daodao-dark.png',
+          srcDark: 'img/daodao-light.png',
         },
         items: [
           {
