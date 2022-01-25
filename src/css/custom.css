@@ -19,11 +19,6 @@
   --ifm-heading-font-family: var(--ifm-font-family-base);
 }
 
-.footer {
-  --ifm-footer-background-color: var(--ifm-background-color);
-  filter: brightness(0.95);
-}
-
 
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
