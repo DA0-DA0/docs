@@ -28,7 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/DA0-DA0/docs/tree/main/docs',
+          editUrl: 'https://github.com/DA0-DA0/docs/tree/main/',
         },
         // blog: {
         //   showReadingTime: true,
