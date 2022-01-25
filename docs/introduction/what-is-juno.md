@@ -20,7 +20,7 @@ module.
 
 ## Smart contracting in Rust
 
-  * [ ] In practice, this technical stack allows us (DAO DAO) to build smart contracts
+In practice, this technical stack allows us (DAO DAO) to build smart contracts
 in [Rust](https://www.rust-lang.org/). Rust is a performant, memory- and
 thread-safe programming language with a rich type system.
 

@@ -28,7 +28,7 @@ IBC allows chains to share data with one another, including tokens.
 Since DAO DAO is IBC-native, your DAO governance tokens can be shared across any chain that supports IBC. Want your governance token to be tradeable [Osmosis](https://osmosis.zone/)? DAO DAO can help with that!
 :::
 
-## Okay, but how does IBC work?
+### How does IBC work?
 
 Say Alice wants to send 10 ATOM from her chain to Bob's chain:
 
@@ -45,3 +45,7 @@ Say Alice wants to send 10 ATOM from her chain to Bob's chain:
 The ATOM on Bob’s chain are not real ATOM. they represent Alice's ATOM, and a
 proof that those ATOM are frozen. But Bob can “redeem” her vouchers for ATOM on
 A anytime. So they’re as good as ATOM!
+
+:::tip
+Want to learn more about IBC? Check out [the Cosmos docs](https://v1.cosmos.network/intro#designing-the-internet-of-blockchains).
+:::
