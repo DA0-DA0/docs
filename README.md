@@ -2,6 +2,11 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/).
 
+## Contributing
+
+Interested in contributing to DAO DAO? Check out [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+
 ### Installation
 
 ```
