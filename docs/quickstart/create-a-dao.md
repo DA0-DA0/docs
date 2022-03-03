@@ -6,17 +6,23 @@ sidebar_position: 2
 
 For this tutorial, **we'll make a DAO for your reading group**. This will let folks in your reading group vote on which books to read, organize money for snacks, and so on.
 
+To keep things cheap, we'll do everything on the Juno testnet. These testnet tokens have no value, and you can get some for free in Juno's Discord. More on that n a moment.
+
 ## Connect your wallet
 
-To make your first DAO, head to [daodao.zone](https://daodao.zone/) and connect
+To make your first DAO, head to [testnet.daodao.zone](https://testnet.daodao.zone/) and connect
 your [Keplr wallet](https://wallet.keplr.app/).
 
-:::tip New to the interchain? Get Keplr!
+:::warning New to the interchain? Get Keplr!
 Keplr is a web wallet for interacting with web3 applications in the interchain. Go ahead and [install it](https://www.keplr.app/) if you don't have it already!
 :::
 
-:::danger Get some $JUNO!
-Since DAO DAO deploys on the Juno chain, you will need a few $JUNO tokens to deploy your DAO. You can pick some up on [Osmosis](https://osmosis.zone/).
+## Get some $JUNOX
+
+To get some $JUNOX (testnet $JUNO), join the [Juno Discord](https://discord.com/invite/QcWPfK4gJ2) and put your Juno address in the #faucet channel. A bot should airdrop you enough $JUNOX to follow this tutorial.
+
+:::tip You'll need $JUNO to build a real DAO
+We'll stick to the testnet for this tutorial. But, once you're ready to build a real DAO, you'll need some mainnet $JUNO. (The [mainnet version of DAO DAO](https://daodao.zone) is deployed on [the Juno chain](/docs/introduction/what-is-juno)). You can pick some $JUNO up on an exchange like [Osmosis](https://osmosis.zone/) or [JunoSwap](https://junoswap.com/).
 :::
 
 ## Create a DAO
