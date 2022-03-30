@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Create your first DAO
@@ -75,7 +75,7 @@ Notice that we've given 100 tokens to our DAO's treasury. These are funds contro
 
 You'll notice some additional configuration here as well. You can [read about those voting configurations](/docs/voting-config) if you like. For now, we'll accept the defaults for now and create our DAO!
 
-Go ahead and press "Create DAO." 
+Go ahead and press "Create DAO."
 
 Keplr will ask you to approve the transaction. Approve it.
 
