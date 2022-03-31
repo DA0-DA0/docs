@@ -1,14 +1,19 @@
 # Executing smart contracts
 
 Once you've [deployed a smart contract](./contract-deployment.md) from
-your DAO you'll likely want to execute messages on it. Here we'll walk
-through the process of executing a message on a DAO's staking contract
-to update its unstaking duration.
+your DAO you'll then likely want to start using it. The way to modify
+the state of a contract or tell it to perform an action on cosmwasm is
+to execute a message on it. Here we'll walk through the process of
+executing a message on a DAO's staking contract to update its
+unstaking duration and in the process learn about controlling smart
+contracts from a DAO DAO DAO.
 
 ## Background
 
-On Juno and there are a number of message types that can be
-executed. These are enumerated
+With CosmWasm there are a number of message types that can be executed
+by the chain. These message types can do things like stake tokens with
+validators, send tokens to addresses, and manage smart contracts. The
+message types are enumerated
 [here](https://docs.rs/cosmwasm-std/latest/cosmwasm_std/enum.CosmosMsg.html). A
 "custom" message on a DAO DAO proposal can cause any of these message
 types to be executed.
@@ -30,32 +35,31 @@ Lets say we have a Rust enum that looks something like this:
 
 ```rust
 pub enum Msg {
-	Foo(FooMsg),
+	House(HouseMsg),
 	Bar {
 	    baz: String,
 	},
 	BluBla {}
 }
 
-pub struct FooMsg {
+pub struct HouseMsg {
 	width: Uint128,
 	height: Decimal,
 	depth: u64,
 }
 ```
 
-This pretty well covers all of the enum variations you'll see in
-CosmWasm messages. Don't worry that there is a lot here, we'll walk
-through it examples. :)
+Lets see what the variants of this Rust enum look like in JSON,
+starting with `House`.
 
-### Foo
+### House
 
-Say I want to write a `Foo` with a `with` of `100` and a height of
+Say I want to write a `House` with a `width` of `100` and a height of
 `0.12` and a depth of `12`. The JSON for that would look like this:
 
 ```json
 {
-	"foo": {
+	"house": {
 		"width": "100",
 		"height": "0.12",
 		"depth": 12
@@ -82,6 +86,12 @@ same. Here's what a `Bar` with a `baz` of `"zoop"` looks like:
 }
 ```
 
+For comparason, here's how you'd construct that same `Bar` in Rust:
+
+```rust
+Msg::Bar { baz: "zoop".to_string() }
+```
+
 ### Blu
 
 A `BluBla` is just like a `Bar` or a `Foo` but it doesn't have any data:
@@ -92,22 +102,26 @@ A `BluBla` is just like a `Bar` or a `Foo` but it doesn't have any data:
 }
 ```
 
+:::note
 Notice that the `BluBla` gets converted from camel case to snake case
 during serialization. This is not a hard rule for CosmWasm contracts,
 but most will do this.
+:::
 
 ## Executing a contract
 
-Now that we understand how messages are put together we can write a
-custom message to update the unstaking duration for a DAO. We'll start
-by collecting the relevant addresses for our message. For our purposes
-we'll need the DAO address and the staking contract address. Those can
-be found in under the "Staking" and "DAO" addresses in the "Addresses"
-section of your DAO page.
+Now that we understand how messages are put together, let's try
+writing a custom message to update the unstaking duration for a
+DAO. We'll start by collecting the relevant addresses for our
+message. For our purposes we'll need the DAO address and the staking
+contract address. Those can be found in under the "Staking" and "DAO"
+addresses in the "Addresses" section of your DAO page.
 
+:::note
 For this walk through we'll use `<DAO>` and `<STAKING>` as placeholders
 for those addresses. When you're writing your message you'll want to
 replace those with the addresses you're using.
+:::
 
 We can start with a basic [WASM
 execute](https://docs.rs/cosmwasm-std/latest/cosmwasm_std/enum.WasmMsg.html)
@@ -125,9 +139,10 @@ message:
   }
 ```
 
-Next, lets fill in the address of our staking contract. That will be
-the contract we want to execute this message on as we want to tell it
-to change the unstaking duration.
+Let's fill in this basic message with the address of our staking
+contract. The staking contract will be the contract we want to execute
+this message on as we want to tell it to change the unstaking
+duration.
 
 ```json
   {
@@ -156,9 +171,16 @@ looking at the [`UpdateConfig`
 message](https://github.com/DA0-DA0/dao-contracts/blob/2c7bc83eeb5f9a882ec36e442a1c8fdb6e3f90c6/contracts/stake-cw20/src/msg.rs#L25-L28)
 in the DAO DAO staking contract.
 
-For our purposes, lets leave the admin as the DAO and update the
-unstaking duration to ten seconds. Our `msg` field will then look like
-this:
+We see that the message variant we want is `UpdateConfig` so in JSON
+that becomes `update_config`. Likewise, the admin field is a string so
+we call it `admin`. Inspecting the `Duration` type we see that it has
+a `Height` and `Time` variant. We select the `Time` variant and
+following our rules of enum serialzation the `duration` field becomes
+`{ "time": <VALUE> }`
+
+As for the actual values, lets leave the admin as the DAO and update
+the unstaking duration to ten seconds. Our `msg` field will then look
+like this:
 
 ```json
 {
