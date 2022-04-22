@@ -16,10 +16,6 @@ You may be wondering: why is your voting weight determined by your voting weight
 
 You can change the parameters of voting on your DAO in a variety of ways. These parameters can be set when you create a DAO, and can be modified after the fact by [governance proposals](proposal-messages).
 
-## Threshold
-
-Threshold is the proportion of "yes" votes required for a proposal to pass. For example, if threshold is set to 51%, then a proposal must achieve 51% "yes" votes to pass.
-
 ## Quorum
 
 Quorum is the proportion of all staked tokens that must vote for a proposal to pass. For example, if quorum is set to 33%, then a proposal can only pass when 33% of staked tokens have voted. As with voting, quorum is calculated based on staked tokens at the time of proposal creation.
@@ -30,7 +26,7 @@ Threshold and quorum are not the same. Threshold is about the proportion of "yes
 
 ## Passing threshold (%)
 
-In the case of an absolute threshold, this is the percentage of the DAO that must vote "yes" for a proposal to pass. In the case of a quorum threshold, this is the percentage of the quorum # of voters that must vote "yes" for a proposal to pass.
+This is the percentage of the DAO's voting weight that must vote "yes" for a proposal to pass. For example, if threshold is set to 51%, then a proposal must achieve 51% "yes" votes to pass.
 
 ## Voting duration (seconds)
 
