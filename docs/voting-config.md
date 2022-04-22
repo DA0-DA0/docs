@@ -28,9 +28,9 @@ Threshold and quorum are not the same. Threshold is about the proportion of "yes
 
 Passing threshold can work differently depending on whether or not your DAO has set a quorum.
 
-- **Threshold of voting weight**. If your DAO has **no quorum**, this is the percentage of the DAO's voting weight that must vote "yes" for a proposal to pass. For example, if threshold is set to 51%, then a proposal must achieve 51% "yes" votes to pass.
+- **Threshold of voting weight**. If your DAO has **no quorum set**, this is the percentage of the DAO's voting weight that must vote "yes" for a proposal to pass. For example, if threshold is set to 51%, then a proposal must achieve 51% "yes" votes to pass.
 
-- **Threshold of quorum**. If your DAO **has quorum**, the passing percentage is only calculated among those who voted. For example, with a quorum of 50% and a passing threshold of 50%, a proposal could pass with only 25% of the total voting weight having voted "yes." Imagine: 50% of the voting weight votes on the proposal. The proposal has passed quorum. Of those that do vote, 50% vote "yes." Abstain and no split the rest of the vote. "Yes" will have won the vote with a 50% margin, even though only 25% of the voting weight was represented in the vote.
+- **Threshold of quorum**. If your DAO **has a quorum set**, the passing percentage is only calculated among those who voted. For example, with a quorum of 50% and a passing threshold of 50%, a proposal could pass with only 25% of the total voting weight having voted "yes." Imagine: 50% of the voting weight votes on the proposal. The proposal has passed quorum. Of those that do vote, 50% vote "yes." Abstain and no split the rest of the vote. "Yes" will have won the vote with a 50% threshold of quorum, even though only 25% of the voting weight was represented in the vote.
 
 ## Voting duration (seconds)
 
