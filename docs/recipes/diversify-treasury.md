@@ -27,6 +27,5 @@ DAO's address.
 
 :::danger
 Make sure you have the right channel ID. Check the [active IBC
-channels](https://keplr.crunch.help/ibc-guides-troubleshooting/how-to-find-the-right-ibc-channel-for-transfers)
-for Juno. 
+channels](https://hub.mintscan.io/ibc-network) for Juno. 
 :::
