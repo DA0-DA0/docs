@@ -1,19 +1,19 @@
-# Upgrading a multisig
+# Upgrading a DAO
 
-To upgrade a beta multisig to a v1 multisig:
+To upgrade a beta DAO to a v1 DAO:
 
 1. Create a new proposal.
-2. Press the "Add Component +" button and select the "🦢 Upgrade to
-   V1" template.
+2. Press the "Add Component +" button and select the "☯️ Upgrade to V1"
+   template.
 
 The template will then walk you through the steps to migrate to your
-new V1 multisig. After you fill out the template, make sure to double
-check that the new multisig is configured correctly.
+new V1 DAO. After you fill out the template, make sure to double check
+that the new DAO is configured correctly.
 
-A good way of testing that your new multisig is correct is to make a 
-new proposal in the new one called "Acceptance of V1 multisig". Then,
+A good way of testing that your new DAO is correct is to make a
+new proposal in the new one called "Acceptance of V1 DAO". Then,
 have members vote on the proposal. If everyone votes and the proposal
-passes, its a good sign that your multisig is configured correctly.
+passes, its a good sign that your DAO is configured correctly.
 
 ## Why upgrade
 
@@ -24,3 +24,4 @@ smart contracts.
 
 The beta frontend and contracts will eventually be moved to
 legacy.daodao.zone and stop receiving new feature releases.
+ 
