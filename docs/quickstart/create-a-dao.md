@@ -51,10 +51,9 @@ You'll need $JUNO to build a real DAO We'll stick to the testnet for
 this tutorial. But, once you're ready to build a real DAO, you'll need
 some mainnet $JUNO. (The [mainnet version of DAO
 DAO](https://daodao.zone) is deployed on [the Juno
-chain](/docs/more-info/what-is-juno)). You can pick some $JUNO up
-on an exchange like [Osmosis](https://osmosis.zone/) or
-[JunoSwap](https://junoswap.com/)
-
+chain](/docs/more-info/what-is-juno)). You can get Juno on
+[Kraken](https://kraken.com), or on a decentralized exchange like
+[Osmosis](https://osmosis.zone) or [Junoswap](https://junoswap.com).
 :::
 
 ## Create a DAO
