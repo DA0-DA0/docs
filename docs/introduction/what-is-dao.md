@@ -6,19 +6,29 @@ sidebar_position: 2
 
 Decentralized autonomous organizations (DAOs) are collectively owned governance
 systems whose governing software is cryptographically bound to obey the
-democratic wishes of token holders.
+democratic wishes of community members.
 
 ## Proposals
 
 At its simplest, a DAO is an organization where you can vote on proposals.
-Proposals are updated to a ledger---their text, whether they passed or failed,
-and who voted on them. Proposals can be natural language rules or laws (for
-example, you could run a legislature with them), or they can be software.
-
+Proposals are written to an immutable, public ledger (blockchain) - their text,
+whether they passed or failed, and who voted on them. Proposals can be natural
+language rules or laws (for example, you could run a legislature with them), or
+they can be software.
 
 When a proposal passes the DAO's voting period, that proposal becomes canonical.
 It will be as "passed" in the ledger, and any *proposal messages* (effectively,
 bits of code) will be executed on the chain, modifying the DAO's state.
+
+:::info
+
+For example, [this proposal](https://www.rawdao.zone/vote/11) in RAW DAO (which
+governs the [Junoswap DEX](https://junoswap.com)) has proposal messages
+associated with it. These messages will _only_ be executed if the proposal
+passes and they will change the unbonding period for LPs on Junoswap
+automatically.
+
+:::
 
 The DAO's governance can itself be modified by governance proposals. For
 example, the voting rules of the DAO themselves (e.g., how long voting periods
@@ -26,7 +36,14 @@ last, what proportion of people need to vote on something for it to pass, etc)
 can be modified by governance proposals.
 
 :::tip Changing the rules by which rules are made
-You can think of DAOs as a big game of [Nomic](https://en.wikipedia.org/wiki/Nomic#:~:text=Nomic%20is%20a%20game%20in,done%20afterwards%2C%20and%20doing%20it.).
+
+You can think of DAOs as a big game of
+[Nomic](https://en.wikipedia.org/wiki/Nomic#:~:text=Nomic%20is%20a%20game%20in,done%20afterwards%2C%20and%20doing%20it.). For
+example, [this
+proposal](https://daodao.zone/dao/juno1czh5dy2kxwwt5hlw6rr2q25clj96sheftsdccswg9qe34m3wzgdswmw8ju/proposals/A9)
+in Dog Dao updates the DAOs voting rules to make the voting duration shorter
+and, thus, make proposals complete more quickly.
+
 :::
 
 ## Governance tokens

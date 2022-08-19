@@ -9,9 +9,6 @@ DAO](https://daodao.zone/dao/juno10h0hc64jv006rr8qy0zhlu4jsxct8qwa0vtaleayh0ujz0
 that builds DAOs. We build powerful, [open
 source](https://github.com/DA0-DA0), DAO tooling.
 
-The best way to learn is via play. You can make a DAO for free on the
-Juno testnet at [testnet.daodao.zone](https://testnet.daodao.zone).
-
 ## Why DAOs?
 
 DAOs are programmable organizations with easily inspectible
@@ -27,9 +24,10 @@ help provide trust that DAO members are being good stewards of their
 communities.
 
 The programmability of DAOs makes them extremely flexible. DAO DAO is
-designed as a set of governance Lego blocks. Communities can pick and
-choose pre-built governance components to build a system that works
-well for them, or they can program their own.
+designed as a set of [governance Lego
+blocks](https://github.com/DA0-DA0/dao-contracts/wiki/DAO-DAO-Contracts-Design). Communities
+can pick and choose pre-built governance components to build a system
+that works well for them, or they can program their own.
 
 Any kind of institution can be represented as a DAO. You can launch a
 business or an investment group, found a school, or create a popular
@@ -40,15 +38,18 @@ bureaucratic.
 ## Why DAO DAO?
 
 DAO DAO helps you build and operate DAOs with a visual interface. We
-take usability extremely seriously. Our tech is good, but we pull all
-the stops when it comes to making sure it is usable. Technical and
-non-technical communities alike have a space here.
+take usability extremely seriously. Technical and non-technical
+communities alike have a space here.
 
-DAO DAO DAOs are also [IBC](https://ibcprotocol.org) enabled. This
-means that your DAO on [Juno](https://junonetwork.io) can manage
-protocols and hold assets on any IBC enabled chain.
+DAOs on DAO DAO do everything from helping run
+[blockchains](https://daodao.zone/dao/juno1gpwekludv6vu8pkpnp2hwwf7f84a7mcvgm9t2cvp92hvpxk07kdq8z4xj2)
+and [decentralized exchanges](https://www.rawdao.zone/) to building
+communities of people who [like
+dogs](https://daodao.zone/dao/juno1czh5dy2kxwwt5hlw6rr2q25clj96sheftsdccswg9qe34m3wzgdswmw8ju).
 
-The future is multichain.
+DAO DAO DAOs are [IBC](https://ibcprotocol.org) enabled. This means
+that your DAO on [Juno](https://junonetwork.io) can manage protocols
+and hold assets on any IBC enabled chain.
 
 ## Where do I begin?
 
