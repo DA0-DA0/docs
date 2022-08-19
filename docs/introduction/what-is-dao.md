@@ -38,16 +38,34 @@ autocratically. Distributing tokens evenly will give everyone an even
 vote, assuming no one trades their tokens.
 
 :::tip Tokens are programmable.
-You can prevent transfer, vest tokens over time, and more.
+
+You can prevent transfer, vest (i.e. slowly unlock) tokens over time,
+and more.
+
 :::
 
 ## Non-token based DAOs
 
-Not all DAOs need a token. DAOs may also use fixed voting weights to
-determine voting power. For example, the DAO DAO [Development
+Most DAOs do not need a token. Those DAOs may use fixed voting weights
+to determine voting power. For example, the DAO DAO [Development
 Fund](https://daodao.zone/dao/juno130z8079e3dvalal8lw7yu37l99umm0ytzehes00830xl546uu7aqz5akcp)
-assigns fixed weights to members.
+assigns fixed weights to members. These types of DAOs are often
+referred to a "multisigs".
 
 Tokens can be useful when you want very fluid governance with many
-members. For smaller groups, or committees of experts not having a
-token can simplify governance.
+members. They also introduce complexity because if your governance
+token becomes liquid your DAO will loose control of what members it
+has. Non-token based DAOs add and remove members via vote so they
+don't have this problem.
+
+Additionally, launching a token with a DAO may invite speculators who
+will "invest" in your DAO. This may bring expectations and scrutiny as
+others could expect your team to spend time increasing the value of
+your governance token. For some DAOs, this is desirable, but many DAOs
+may want to focus on building out their product and revenue streams.
+
+The current state of DAOs and the blockchain ecosystem is very token
+governance heavy. We enchorage you to think deeply about if that is
+the system that actually works best for you when creating a DAO for
+your community. In many cases, a member based DAO may be a better
+option. You can always migrate to a token based DAO later.

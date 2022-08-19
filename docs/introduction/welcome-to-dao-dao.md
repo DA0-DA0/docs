@@ -21,7 +21,7 @@ to the [development funds of entire
 blockchains](https://daodao.zone/dao/juno1gpwekludv6vu8pkpnp2hwwf7f84a7mcvgm9t2cvp92hvpxk07kdq8z4xj2).
 
 Because DAO DAO DAOs operate on a blockchain, they are
-transparent-by-default. This means that votes, the voting power of
+transparent by default. This means that votes, the voting power of
 members, and actions a DAO takes are all publicly auditable. This can
 help provide trust that DAO members are being good stewards of their
 communities.
