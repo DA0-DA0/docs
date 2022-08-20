@@ -42,19 +42,23 @@ wallet button in the top left.
 
 To get some $JUNOX (testnet $JUNO), join the [Juno
 Discord](https://discord.com/invite/QcWPfK4gJ2) and put your Juno
-address in the #faucet channel. A bot should airdrop you enough $JUNOX
-to follow this tutorial.
+address in the #faucet channel by sending a message in the form
+`$request <your address>`. A bot should airdrop you enough $JUNOX to
+follow this tutorial.
+
+You can get your Juno testnet address by pressing the copy icon on the
+wallet display in the DAO DAO sidebar once you're connected.
+
+![](/img/copy-wallet.jpg)
 
 :::tip
 
-You'll need $JUNO to build a real DAO We'll stick to the testnet for
-this tutorial. But, once you're ready to build a real DAO, you'll need
-some mainnet $JUNO. (The [mainnet version of DAO
-DAO](https://daodao.zone) is deployed on [the Juno
-chain](/docs/more-info/what-is-juno)). You can pick some $JUNO up
-on an exchange like [Osmosis](https://osmosis.zone/) or
-[JunoSwap](https://junoswap.com/)
-
+We'll stick to the testnet for this tutorial. But, once you're ready
+to build a real DAO, you'll need some mainnet $JUNO. (The [mainnet
+version of DAO DAO](https://daodao.zone) is deployed on [the Juno
+chain](/docs/more-info/what-is-juno)). You can get Juno on
+[Kraken](https://kraken.com), or on a decentralized exchange like
+[Osmosis](https://osmosis.zone) or [Junoswap](https://junoswap.com).
 :::
 
 ## Create a DAO
@@ -67,58 +71,36 @@ You will see the basic configurations for your DAO.
 Every DAO has a name and a description. These will be displayed in the
 DAO DAO UI and on the chain. These don't need to be unique.
 
-Let's create a DAO called "Bookclub."
+Let's create a DAO called "Bookclub." We'll make our DAO a membership
+based DAO (as opposed to a token-based DAO, in which voting weight is
+allocated via _governance tokens_, which act as fungible shares).
 
 ![](/img/quickstart/create-dao-title.png)
 
-
 :::tip
 
-The UI is full of tooltips. Read them! They'll tell you more about
-configuration options.
+To learn more about the differences between membership- and
+token-based DAOs, read our documentation
+[here](/docs/introduction/what-is-dao#non-token-based-daos).
 
 :::
 
+## Add the initial menbers
 
-### Create your DAO's governance token
+Now we can add the initial members of our DAO. If you're making this
+DAO with friends, add their Juno addresses during this
+step. Otherwise, you can start the DAO with only yourself and add new
+members via proposals later.
 
-Every DAO has a governance token, a
-[cw20-gov](https://github.com/DA0-DA0/dao-contracts/tree/main/contracts/cw20-gov)
-token native to the DAO. This token is used for voting on DAO
-proposals.
-
-Let's call our book club's token $BOOKC.
-
-![](/img/quickstart/create-dao-token.png)
-
-### Distribute your governance tokens
-
-Next, you can pick some addresses to distribute tokens to. These
-addresses will have *voting power* in your DAO relative to their
-weight.
-
-Sadly, the rest of your friends in the book club aren't as into DAOs
-as you are, so they don't have Juno addresses yet. That's fine. We'll
-give most of the tokens to you for now.
-
-![](/img/quickstart/create-dao-distribution.png)
-
-
-This will mint 200 $BOOKC, giving half to you and half to your
-treasury.
+![](/img/quickstart/member-weights.png)
 
 :::tip
 
-To find your Juno address, open Keplr, go to Juno Mainnet, and
-click on your address to copy it to your clipboard.
+To find your Juno address, open Keplr, press the dropdown at the top
+and select "Juno Testnet", and click on your address to copy it to
+your clipboard.
 
 :::
-
-
-Notice that we've given 100 tokens to our DAO's treasury. These are
-funds controlled by the DAO&mdash;that is, by governance
-proposals. We'll return to the treasury later.
-
 
 ### Create DAO
 

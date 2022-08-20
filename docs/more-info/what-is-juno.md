@@ -4,8 +4,9 @@ sidebar_position: 4
 
 # What is Juno? CosmWasm?
 
-DAO DAO is built on top of the [Juno chain](https://junochain.com/). Juno is a
-permissionless blockchain network for deploying cross-chain smart contracts.
+DAO DAO is built on top of the [Juno
+blockchain](https://junochain.com/). Juno is a permissionless
+blockchain network for deploying cross-chain smart contracts.
 
 The smart contracts that power DAO DAO are deployed on Juno.
 
