@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Decentralized autonomous organizations (DAOs) are collectively owned governance
 systems whose governing software is cryptographically bound to obey the
-democratic wishes of community members.
+democratic wishes of members.
 
 ## Proposals
 

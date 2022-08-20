@@ -24,10 +24,11 @@ help provide trust that DAO members are being good stewards of their
 communities.
 
 The programmability of DAOs makes them extremely flexible. DAO DAO is
-designed as a set of [governance Lego
-blocks](https://github.com/DA0-DA0/dao-contracts/wiki/DAO-DAO-Contracts-Design). Communities
-can pick and choose pre-built governance components to build a system
-that works well for them, or they can program their own.
+designed as a set of [composable
+components](https://github.com/DA0-DA0/dao-contracts/wiki/DAO-DAO-Contracts-Design)
+that can snap together like Lego blocks. Communities can pick and 
+choose pre-built governance components to build a system that works
+well for them, or they can program their own.
 
 Any kind of institution can be represented as a DAO. You can launch a
 business or an investment group, found a school, or create a popular
@@ -37,9 +38,9 @@ bureaucratic.
 
 ## Why DAO DAO?
 
-DAO DAO helps you build and operate DAOs with a visual interface. We
-take usability extremely seriously. Technical and non-technical
-communities alike have a space here.
+DAO DAO helps you build and operate DAOs with a visual
+interface. Usability and accessibility are a priorty. Technical and
+non-technical communities alike have a space here.
 
 DAOs on DAO DAO do everything from helping run
 [blockchains](https://daodao.zone/dao/juno1gpwekludv6vu8pkpnp2hwwf7f84a7mcvgm9t2cvp92hvpxk07kdq8z4xj2)

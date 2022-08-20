@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Joining a token based DAO
+# Joining a token-based DAO
 
 The DAO we previously created was not a token based DAO. While you're
 using DAO DAO you are likely to encounter DAOs that are token
@@ -40,3 +40,4 @@ your tokens. For example:
    non-zero staking duration, and you think you may want to sell or
    trade those tokens quickly in the future, you may consider leaving
    some tokens unstaked.
+

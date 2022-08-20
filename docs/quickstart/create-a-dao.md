@@ -71,14 +71,16 @@ You will see the basic configurations for your DAO.
 Every DAO has a name and a description. These will be displayed in the
 DAO DAO UI and on the chain. These don't need to be unique.
 
-Let's create a DAO called "Bookclub." We'll make our DAO a membership based DAO.
+Let's create a DAO called "Bookclub." We'll make our DAO a membership
+based DAO (as opposed to a token-based DAO, in which voting weight is
+allocated via _governance tokens_, which act as fungible shares).
 
 ![](/img/quickstart/create-dao-title.png)
 
 :::tip
 
-For more information about the distinction between member and token
-based DAOs we've got some docs
+To learn more about the differences between membership- and
+token-based DAOs, read our documentation
 [here](/docs/introduction/what-is-dao#non-token-based-daos).
 
 :::
@@ -91,7 +93,7 @@ step. Otherwise, you can start the DAO with only yourself and add new
 members via proposals later.
 
 ![](/img/quickstart/member-weights.png)
- 
+
 :::tip
 
 To find your Juno address, open Keplr, press the dropdown at the top
