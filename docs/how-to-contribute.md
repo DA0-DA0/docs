@@ -6,19 +6,19 @@ sidebar_position: 6
 
 DAO DAO exists because of contributors! Initial $DAO tokens were distributed to these contributors. However, it was impossible to include everyone in the first drop. Going forward, we will periodically recognize more contributors and drop tokens to them!
 
-This document describes how to contribute and be recognized for contributions
+This document describes how to contribute and be recognized for contributions.
 
 ## How to become a contributor?
 
 First step is to join the community! We generally hangout in Discord ([invite link](https://discord.com/invite/sAaGuyW3D2), be sure to complete the verification process).
 
-There are many ways to become contributor a:
+There are many ways to become contributor:
 
 - Code
 - Design
 - QA and Bug Reporting
 - Contributing clear, concise, and helpful documentation
-- Educational materials
+- Educational materials (e.g. contributing to this repo!)
 - Being a helpful community member
 - Translations
 
@@ -26,7 +26,7 @@ Note that financial donations are not on this list. Contributions are donations 
 
 ## How to get recognized
 
-Core DAO DAO contributors will nominate people for contributor drops. Nomination is the only way to receive a contributor drop. Hanging out in the Discord community or making a pull request on GitHub is a great way to be seen.
+Each month, anyone who has contributed to the project in the past month will fill out a form detailing their contributions. Following this, the DAO DAO Development Fund (a group of core DAO DAO contributors) will review the responses and vote on token allocations for the contributions.
 
 To prevent spam and unwanted DMs to DAO DAO members, we have one rule: **no asking for DAO tokens**.
 
