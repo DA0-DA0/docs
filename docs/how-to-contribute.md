@@ -2,6 +2,8 @@
 sidebar_position: 6
 ---
 
+# Contribute to DAO DAO!
+
 DAO DAO rewards the people who contribute to it. 
 
 The first step is to join the community! We generally hangout in Discord ([invite link](https://discord.com/invite/sAaGuyW3D2), be sure to complete the verification process).
