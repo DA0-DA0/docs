@@ -37,7 +37,7 @@ Then, fill in the proposal's name and description.
 
 :::tip Actions?
 
-You'll notice the Messages tag there. [Proposal actions](/docs/proposal-messages.md#proposal-actions) allow you to add rich scripting capabilities to proposal messages&mdash;commands that execute on the chain when the proposal passes.
+You'll notice the Actions tag there. [Proposal actions](/docs/proposal-messages.md#proposal-actions) allow you to add rich scripting capabilities to proposal actions&mdash;commands that execute on the chain when the proposal passes.
 
 The proposal we have here is more of a social contract. We don't need anything to change in code.
 :::
