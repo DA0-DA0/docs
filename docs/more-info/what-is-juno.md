@@ -16,13 +16,13 @@ Aside from what we've already mentioned, Juno's killer feature is its support of
 [CosmWasm](https://cosmwasm.com/).
 
 CosmWasm is a [WebAssembly](https://webassembly.org/) virtual machine that runs
-in a [Cosmos SDK](https://docs.cosmos.network/v0.42/building-modules/intro.html)
+in a [Cosmos SDK](https://docs.cosmos.network/main)
 module.
 
 ## Smart contracting in Rust
 
 In practice, this technical stack allows us (DAO DAO) to build smart contracts
-in [Rust](https://www.rust-lang.org/). Rust is a performant, memory- and
+in [Rust](https://www.rust-lang.org/). Rust is a performant, memory-safe and
 thread-safe programming language with a rich type system.
 
 Writing smart contracts in Rust allows us to do better security analysis on our

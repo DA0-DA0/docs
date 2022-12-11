@@ -42,9 +42,8 @@ Say Alice wants to send 10 ATOM from her chain to Bob's chain:
 4. Bob verifies the proof. if valid, Bob creates 10 ATOM "vouchers" on his
    chain.
 
-The ATOM on Bob’s chain are not real ATOM. they represent Alice's ATOM, and a
-proof that those ATOM are frozen. But Bob can “redeem” her vouchers for ATOM on
-A anytime. So they’re as good as ATOM!
+The ATOM on Bob’s chain is not real ATOM. They represent Alice's ATOM, and a
+proof that those ATOMs are frozen. But Bob can “redeem” her vouchers for ATOMs anytime. So they’re as good as ATOM!
 
 :::tip
 Want to learn more about IBC? Check out [the Cosmos docs](https://v1.cosmos.network/intro#designing-the-internet-of-blockchains).

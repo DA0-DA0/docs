@@ -4,14 +4,14 @@ sidebar_position: 1
 
 # Welcome to DAO DAO
 
-DAO DAO [is a
-DAO](https://daodao.zone/dao/juno10h0hc64jv006rr8qy0zhlu4jsxct8qwa0vtaleayh0ujz0zynf2s2r7v8q)
+[DAO DAO](https://daodao.zone/dao/juno10h0hc64jv006rr8qy0zhlu4jsxct8qwa0vtaleayh0ujz0zynf2s2r7v8q) is a
+DAO
 that builds DAOs. We build powerful, [open
 source](https://github.com/DA0-DA0), DAO tooling.
 
 ## Why DAOs?
 
-DAOs are programmable organizations with easily inspectible
+DAOs are programmable organizations with easily inspectable
 states. DAOs can help govern everything from an [Internet community of
 dogs](https://daodao.zone/dao/juno1czh5dy2kxwwt5hlw6rr2q25clj96sheftsdccswg9qe34m3wzgdswmw8ju)
 to the [development funds of entire
@@ -39,7 +39,7 @@ bureaucratic.
 ## Why DAO DAO?
 
 DAO DAO helps you build and operate DAOs with a visual
-interface. Usability and accessibility are a priorty. Technical and
+interface. Usability and accessibility are a priority. Technical and
 non-technical communities alike have a space here.
 
 DAOs on DAO DAO do everything from helping run
@@ -48,9 +48,9 @@ and [decentralized exchanges](https://www.rawdao.zone/) to building
 communities of people who [like
 dogs](https://daodao.zone/dao/juno1czh5dy2kxwwt5hlw6rr2q25clj96sheftsdccswg9qe34m3wzgdswmw8ju).
 
-DAO DAO DAOs are [IBC](https://ibcprotocol.org) enabled. This means
+DAO DAO DAOs are [IBC](https://www.coinbase.com/cloud/discover/dev-foundations/ibc-protocol) enabled. This means
 that your DAO on [Juno](https://junonetwork.io) can manage protocols
-and hold assets on any IBC enabled chain.
+and hold assets on any IBC-enabled chain.
 
 ## Where do I begin?
 
@@ -59,4 +59,4 @@ If you want to get started building a DAO, check out our
 
 If you want to understand more about IBC, DAOs, and how all of these
 pieces fit together, see [What does DAO DAO
-do?](/docs/more-info/what-does-dao-dao-do)
+do?](/docs/more-info/what-does-dao-dao-do.md)
