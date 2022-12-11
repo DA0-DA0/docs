@@ -40,17 +40,17 @@ voting screens.
 This is the human-readable description of your proposal. You can use [Markdown
 syntax](https://www.markdownguide.org/basic-syntax/) for rich formatting.
 
-## Proposal messages
+## Proposal Actions
 
-Proposal messages are actions that execute when the proposal
-passes. These messages let you do things like *mint* new governance
+Proposal actions are actions that execute when the proposal
+passes. These actions let you do things like *mint* new governance
 tokens, *spend* from the shared treasury, and more.
 
-DAO DAO has a number of predefined message templates which mean that,
+DAO DAO has a number of predefined action templates which mean that,
 for the most part, you can create proposals without needing to
 actually write out the transactions that you'd like executed should it
 pass. If you're doing something custom, you can always use a custom
-message. If you'd like to contribute a message template to DAO DAO
+message. If you'd like to contribute an action template to DAO DAO
 [you can do that
 too](https://github.com/DA0-DA0/dao-dao-ui/wiki/Adding-an-action-to-DAO-DAO)!
  

@@ -20,14 +20,14 @@ wallet](https://wallet.keplr.app/). You'll need to install that before
 getting started.
 
 Once you've installed Keplr you'll need to create an account. To do
-this open the Keplr extension by pressing the puzzle piece icon in the
+this, open the Keplr extension by pressing the puzzle piece icon in the
 top right of your browser and clicking on the Keplr logo. Once you do
 that you'll be directed to a page where you can create a new account.
 
 Make sure to store your seed phrase somewhere only you'll be able to
 find it.
 
-If you'd like a video walkthrough of this DAO DAO member @case has
+If you'd like a video walkthrough of this DAO DAO member, @case has
 made a nice one you can find
 [here](https://www.youtube.com/watch?v=jN-ns9lu6O0).
 
@@ -56,9 +56,10 @@ wallet display in the DAO DAO sidebar once you're connected.
 We'll stick to the testnet for this tutorial. But, once you're ready
 to build a real DAO, you'll need some mainnet $JUNO. (The [mainnet
 version of DAO DAO](https://daodao.zone) is deployed on [the Juno
-chain](/docs/more-info/what-is-juno)). You can get Juno on
+chain](/docs/more-info/what-is-juno.md)). You can get Juno on
 [Kraken](https://kraken.com), or on a decentralized exchange like
 [Osmosis](https://osmosis.zone) or [Junoswap](https://junoswap.com).
+
 :::
 
 ## Create a DAO
@@ -92,7 +93,7 @@ DAO with friends, add their Juno addresses during this
 step. Otherwise, you can start the DAO with only yourself and add new
 members via proposals later.
 
-![](/img/quickstart/member-weights.png)
+![](/static/img/quickstart/member-weights.png)
 
 :::tip
 
@@ -104,8 +105,8 @@ your clipboard.
 
 ### Create DAO
 
-You'll notice some additional configuration here as well. You can
-[read about those voting configurations](/docs/voting-config.md) if you
+You'll notice some additional configurations here as well. You can
+[read about those voting configurations](/docs/voting-config) if you
 like. For now, we'll accept the defaults for now and create our DAO!
 
 Go ahead and press "Create DAO." If you see an error here, please make sure that you have some

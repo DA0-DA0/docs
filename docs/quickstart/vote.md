@@ -7,7 +7,7 @@ sidebar_position: 4
 Now that everyone has [joined the DAO](./joining.md) and a proposal
 has [been made](./create-a-proposal.md) you can vote on it!
 
-![](/img/quickstart/vote-voting.png)
+![](/static/img/quickstart/vote-voting.png)
 
 ### Vote yes!
 
