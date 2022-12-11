@@ -6,7 +6,7 @@ sidebar_position: 1
 # What does DAO DAO do?
 
 As described in the
-[introduction](/docs/introduction/welcome-to-dao-dao), DAO DAO is a
+[introduction](/docs/introduction/welcome-to-dao-dao.md), DAO DAO is a
 tool for building DAOs.
 
 Now, here's the fully-jargoned explanation. DAO DAO is a tool for
@@ -20,5 +20,5 @@ managing them.
 
 ## Sorry, what?
 
-Not sure what any of these terms mean? Don't worry! Continue on to
+Not sure what any of these terms mean? Don't worry! Continue to
 learn more about IBC, Juno, and CosmWasm.
