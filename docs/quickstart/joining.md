@@ -16,12 +16,10 @@ proposals that were created before you registered.
 To register to vote, visit your DAO's page on DAO DAO and look in the
 right sidebar:
 
-<img src="/img/quickstart/vote-staking.png" style={{maxWidth: "500px"}} />
-
 From here you can press the "Stake tokens" button and a modal will
 appear asking how many you'd like to stake:
 
-![](/img/quickstart/vote-staking-50.png)
+![](/static/img/quickstart/vote-staking-50.png)
 
 By staking your tokens, you are registering those tokens for
 voting. Any tokens you do not stake won't count towards your voting

@@ -13,10 +13,12 @@ them?
 Let's create a proposal to decide what book to read.
 
 :::note
+
 If you create your proposal before your friends join they won't be
 able to vote on it as they won't have registered to vote in time. Make
 sure that everyone has joined the DAO and staked their tokens before
 making your proposal.
+
 :::
 
 ## Crafting your proposal
@@ -26,12 +28,16 @@ what everyone read next.  Let's create a proposal suggesting the group
 read Murray Bookchin's *The Next Revolution: Popular Assemblies and
 the Promise of Direct Democracy*.
 
-To begin, starting from your DAO's page, navigate to **Proposals > Create**.
+To begin, starting from your DAO's page, navigate to **Proposals > New Proposal**.
 
-![](/img/quickstart/create-proposal.png)
+![](/static/img/quickstart/new-proposal-position.png)
 
-:::tip Messages?
-You'll notice the Messages tag there. [Proposal messages](/docs/proposal-messages#proposal-messages) allow you to add rich scripting capabilities to proposal messages&mdash;commands that execute on the chain when the proposal passes.
+Then, fill in the proposal's name and description.
+![](/static/img/quickstart/new-proposal.png)
+
+:::tip Actions?
+
+You'll notice the Actions tag there. [Proposal actions](/docs/proposal-messages.md#proposal-actions) allow you to add rich scripting capabilities to proposal actions&mdash;commands that execute on the chain when the proposal passes.
 
 The proposal we have here is more of a social contract. We don't need anything to change in code.
 :::
@@ -39,10 +45,10 @@ The proposal we have here is more of a social contract. We don't need anything t
 ## Ship it!
 
 
-Now that we're ready, go ahead and press **Create proposal**.
+Now that we're ready, go ahead and press **Publish**.
 Keplr will again ask you to approve the transaction.
 
-![](/img/quickstart/create-proposal-done.png)
+![](/static/img/quickstart/new-proposal-done.png)
 
 Once you approve it, you'll see your proposal is live!
 

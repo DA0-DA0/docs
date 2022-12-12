@@ -32,7 +32,7 @@ automatically.
 
 The DAO's governance can itself be modified by governance proposals. For
 example, the voting rules of the DAO themselves (e.g., how long voting periods
-last, what proportion of people need to vote on something for it to pass, etc)
+last, what proportion of people need to vote on something for it to pass, etc.)
 can be modified by governance proposals.
 
 :::tip Changing the rules by which rules are made
@@ -71,8 +71,8 @@ referred to a "multisigs".
 
 Tokens can be useful when you want very fluid governance with many
 members. They also introduce complexity because if your governance
-token becomes liquid your DAO will loose control of what members it
-has. Non-token based DAOs add and remove members via vote so they
+token becomes liquid your DAO will loosen control of what members it
+has. Non-token based DAOs add and remove members via vote, so they
 don't have this problem.
 
 Additionally, launching a token with a DAO may invite speculators who
@@ -82,7 +82,7 @@ your governance token. For some DAOs, this is desirable, but many DAOs
 may want to focus on building out their product and revenue streams.
 
 The current state of DAOs and the blockchain ecosystem is very token
-governance heavy. We enchorage you to think deeply about if that is
+governance heavy. We encourage you to think deeply about if that is
 the system that actually works best for you when creating a DAO for
 your community. In many cases, a member based DAO may be a better
 option. You can always migrate to a token based DAO later.

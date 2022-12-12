@@ -14,7 +14,7 @@ on a proposal to change your DAO's configuration.
 
 Before beginning you'll need to have a DAO deployed on DAO-DAO. For a
 quick introduction to that see the
-[quickstart](../quickstart/create-a-dao) guide.
+[quickstart](../quickstart/create-a-dao.md) guide.
 
 ## The DAO DAO config
 
