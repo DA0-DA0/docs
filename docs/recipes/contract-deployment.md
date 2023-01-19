@@ -51,7 +51,7 @@ quick introduction to that see the
 From the homepage for your DAO go the proposals page and press the
 create button to create a new proposal.
 
-![](/static/img/examples/create-button.jpg)
+![](/img/examples/create-button.jpg)
 
 Type in the name and description of your proposal and then add a
 "WASM" message. We'll be using a WASM message as we'll be interacting
