@@ -49,7 +49,7 @@ follow this tutorial.
 You can get your Juno testnet address by pressing the copy icon on the
 wallet display in the DAO DAO sidebar once you're connected.
 
-![](static/img/copy-wallet.jpg)
+![](/img/copy-wallet.jpg)
 
 :::tip
 
@@ -75,7 +75,7 @@ Let's create a DAO called "Bookclub." We'll make our DAO a membership
 based DAO (as opposed to a token-based DAO, in which voting weight is
 allocated via _governance tokens_, which act as fungible shares).
 
-![](static/img/quickstart/create-dao-title.png)
+![](/img/quickstart/create-dao-title.png)
 
 :::tip
 
@@ -113,7 +113,7 @@ $JUNOX in your testnet wallet.
 
 Keplr will ask you to approve the transaction. Approve it.
 
-![](static/img/quickstart/create-dao-done.png)
+![](/img/quickstart/create-dao-done.png)
 
 🎉 **Congratulations!** You've made a DAO! 🎉
 
