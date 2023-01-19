@@ -63,8 +63,8 @@ chain](/docs/more-info/what-is-juno)). You can get Juno on
 
 ## Create a DAO
 
-Navigate to the [DAO creation page](https://daodao.zone/dao/create).
-You will see the basic configurations for your DAO.
+Navigate to the DAO creation page [on testnet](https://testnet.daodao.zone/) (or [on mainnet](https://daodao.zone/dao/create), if that's your thing).
+You will see the basic configurations for your DAO. 
 
 ## Name and describe your DAO
 
