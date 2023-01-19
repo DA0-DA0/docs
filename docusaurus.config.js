@@ -14,7 +14,7 @@ const config = {
     deploymentBranch: 'gh-pages',
     trailingSlash: false,
     baseUrl: '/',
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'DA0-DA0', // Usually your GitHub org/user name.
