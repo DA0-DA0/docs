@@ -19,7 +19,7 @@ right sidebar:
 From here you can press the "Stake tokens" button and a modal will
 appear asking how many you'd like to stake:
 
-![](/static/img/quickstart/vote-staking-50.png)
+![](/img/quickstart/vote-staking-50.png)
 
 By staking your tokens, you are registering those tokens for
 voting. Any tokens you do not stake won't count towards your voting
