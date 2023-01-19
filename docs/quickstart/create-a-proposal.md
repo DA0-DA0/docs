@@ -30,10 +30,10 @@ the Promise of Direct Democracy*.
 
 To begin, starting from your DAO's page, navigate to **Proposals > New Proposal**.
 
-![](/static/img/quickstart/new-proposal-position.png)
+![](/img/quickstart/new-proposal-position.png)
 
 Then, fill in the proposal's name and description.
-![](/static/img/quickstart/new-proposal.png)
+![](/img/quickstart/new-proposal.png)
 
 :::tip Actions?
 
@@ -48,7 +48,7 @@ The proposal we have here is more of a social contract. We don't need anything t
 Now that we're ready, go ahead and press **Publish**.
 Keplr will again ask you to approve the transaction.
 
-![](/static/img/quickstart/new-proposal-done.png)
+![](/img/quickstart/new-proposal-done.png)
 
 Once you approve it, you'll see your proposal is live!
 
