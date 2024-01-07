@@ -4,10 +4,10 @@ sidebar_position: 3
 
 # Create your first proposal
 
-After [creating a DAO for your bookclub](./create-a-dao) I'm sure
-you're busy telling all of your friends to download Keplr so they can
-[join you](./joining.md).  Once they join your DAO and the wonderful
-world of the Cosmoverse, why don't we make a governance proposal for
+After [creating a DAO for your bookclub](./create-a-dao), I'm sure you're busy
+telling all of your friends to download Leap so they can [join
+you](./joining-leaving-token-based-dao.md). Once they join your DAO and the
+wonderful world of the Cosmoverse, why don't we make a governance proposal for
 them?
 
 Let's create a proposal to decide what book to read.
