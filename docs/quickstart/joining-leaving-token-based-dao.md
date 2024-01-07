@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Joining and leaving a token-based DAO
 
 The DAO we created in the previous guide was not a token-based DAO. However, you
 are likely to encounter token-based DAOs soon enough if you are engaging with
-other DAOs, and there are a few steps needed to interact with them.
+DAOs, and there are a few things you need to learn before interacting with them.
 
 ## Joining
 
