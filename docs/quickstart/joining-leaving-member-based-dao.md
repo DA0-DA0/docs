@@ -69,8 +69,8 @@ heading.
 
 ![Remove Meow](/img/quickstart/remove-member-action.png)
 
-Passing and executing this proposal will kick Meow out of the DAO, and they
-will no longer be able to vote on future proposals.
+Passing and executing this proposal will kick Meow out of the DAO, and they will
+no longer be able to vote on future proposals.
 
 :::note
 

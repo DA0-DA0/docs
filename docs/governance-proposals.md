@@ -111,7 +111,8 @@ Proposals`.
 
 ![DAO Governance category](/img/action-modal-dao-governance-category.png)
 
-![Enable multiple choice action](/img/enable-multiple-choice-dao-governance-category.png)
+![Enable multiple choice
+action](/img/enable-multiple-choice-dao-governance-category.png)
 
 ![Complete proposal](/img/enable-multiple-choice-done.png)
 

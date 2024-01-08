@@ -20,9 +20,8 @@ here](https://docs.google.com/document/d/12WpREOPrvhW3YVxGLoOkrhTgf_bDUy4cn9VKey
 
 :::warning
 
-DAO DAO's retroactive reward and contributor compensation systems are
-temporarily paused while we figure out our legal plans. For the time being, keep
-track of your contributions yourself. We fully intend on restarting our system
-in the near future.
+DAO DAO's contributor compensation system is temporarily paused while we figure
+out our legal plans. For the time being, keep track of your contributions
+yourself. We fully intend on restarting our system in the near future.
 
 :::

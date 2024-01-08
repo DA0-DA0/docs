@@ -17,7 +17,8 @@ DAO is learning [how to design your DAO
 securely](https://medium.com/@dao-dao/best-security-practices-for-daos-59484932377f).
 While we build DAO DAO to be powerful and composable, it is easy to shoot
 yourself in the foot. A great place to double check your assumptions and discuss
-ideas with others before managing sensitive assets is [our Discord server](https://discord.daodao.zone). 
+ideas with others before managing sensitive assets is [our Discord
+server](https://discord.daodao.zone). 
 
 Anything **unclear** or **buggy** in this tutorial? [Please report
 it](https://github.com/DA0-DA0/docs/issues)!
