@@ -36,7 +36,7 @@ Then, fill in the proposal's name and description.
 :::tip Actions?
 
 You'll notice the `Actions` label there. [Proposal
-actions](/docs/proposal-messages.md#proposal-actions) allow you to add rich
+actions](/docs/governance-proposals.md#actions) allow you to add rich
 functionality to proposals: software instructions that execute on the blockchain
 when a proposal is passed and executed.
 

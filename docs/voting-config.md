@@ -22,7 +22,7 @@ proposal goes live.
 
 You can change the parameters of voting on your DAO in a variety of
 ways. These parameters can be set when you create a DAO, and can be
-modified after the fact by [governance proposals](proposal-messages).
+modified after the fact by [governance proposals](./governance-proposals).
 
 ## Quorum
 
