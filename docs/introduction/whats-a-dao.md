@@ -56,7 +56,7 @@ most common use cases of today:
 ### Members (multisig replacement)
 
 We call the simplest form of DAO a member-based DAO. This type of DAO has
-*static membership*, meaning that the DAO must pass a proposal to change its
+_static membership_, meaning that the DAO must pass a proposal to change its
 members. Adding a new member, removing an existing member, and changing the
 voting powers of existing members all must be voted on by existing members
 through a proposal. In other words, no individual has the power to change the
@@ -96,7 +96,7 @@ However, their programmability allows them to become something entirely new.
 
 :::tip Hot take
 
-Most DAOs do *not* need a token. The blockchain ecosystem is token-heavy due to
+Most DAOs do _not_ need a token. The blockchain ecosystem is token-heavy due to
 the role cryptocurrencies have played in the blockchain narrative.
 
 Tokens can bring undesirable attention, speculation, and financial expectations,

@@ -109,7 +109,7 @@ On the proposal creation page, click the `Add an action` button.
 Click on the `DAO Governance` category, and then choose `Enable Multiple Choice
 Proposals`.
 
-![DAO Governance category](/img/enable-multiple-choice-action-modal.png)
+![DAO Governance category](/img/action-modal-dao-governance-category.png)
 
 ![Enable multiple choice action](/img/enable-multiple-choice-dao-governance-category.png)
 

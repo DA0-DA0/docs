@@ -86,7 +86,7 @@ simplicity.
 :::tip
 
 To learn more about the differences between member- and token-based DAOs, read
-our documentation [here](/docs/introduction/what-is-dao.md#voting-power).
+our documentation [here](../introduction/whats-a-dao.md#voting-power).
 
 :::
 

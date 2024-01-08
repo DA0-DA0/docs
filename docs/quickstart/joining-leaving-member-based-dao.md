@@ -5,7 +5,7 @@ sidebar_position: 2
 # Joining and leaving a member-based DAO
 
 As explained in [_What's a
-DAO?_](../introduction/what-is-dao#members-multisig-replacement), member-based
+DAO?_](../introduction/whats-a-dao#members-multisig-replacement), member-based
 DAOs have static membership, meaning the DAO must pass a proposal to add or
 remove members. Members cannot independently decide to join or leave a
 member-based DAO.

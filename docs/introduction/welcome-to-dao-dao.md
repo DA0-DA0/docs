@@ -55,8 +55,5 @@ IBC-enabled chain, like [Osmosis](https://osmosis.zone),
 If you want to get started building a DAO, check out our
 [Quickstart](/quickstart/create-a-dao.md) guide.
 
-If you want to understand more about IBC, DAOs, and how all of these pieces fit
-together, see [What does DAO DAO do?](/docs/more-info/what-does-dao-dao-do.md)
-
 If you want to chat with like-minded people experimenting with new governance
 tools, hop in our [Discord server](https://discord.daodao.zone).
