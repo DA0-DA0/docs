@@ -5,7 +5,7 @@ sidebar_position: 5
 # Voting
 
 Now that everyone has joined the DAO and a [proposal has been
-made](./create-a-proposal.md), all current members of the DAO can vote on it!
+made](./create-a-proposal), all current members of the DAO can vote on it!
 
 ![Proposal vote](/img/quickstart/proposal-vote.png)
 

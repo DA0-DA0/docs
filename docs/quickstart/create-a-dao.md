@@ -102,8 +102,8 @@ the DAO with only yourself and add new members via proposals later.
 
 On the next screen, there are many configuration options available that
 determine how the DAO behaves. You can [read about the available voting
-configuration options](/docs/voting-config.md) if you like, but for now, we'll
-accept the defaults and create our DAO!
+configuration options](../voting-config) if you like, but for now, we'll accept
+the defaults and create our DAO!
 
 ![Review page](/img/quickstart/create-dao-review.png)
 
