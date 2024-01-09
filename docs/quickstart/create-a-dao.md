@@ -86,11 +86,11 @@ simplicity.
 :::tip
 
 To learn more about the differences between member- and token-based DAOs, read
-our documentation [here](../introduction/whats-a-dao.md#voting-power).
+our documentation [here](/introduction/whats-a-dao.md#voting-power).
 
 :::
 
-## Add the initial menbers
+## Add the initial members
 
 Now we can add the initial members of our DAO. If you're making this DAO with
 friends, add their Osmosis addresses during this step. Otherwise, you can start
@@ -102,8 +102,8 @@ the DAO with only yourself and add new members via proposals later.
 
 On the next screen, there are many configuration options available that
 determine how the DAO behaves. You can [read about the available voting
-configuration options](../voting-config) if you like, but for now, we'll accept
-the defaults and create our DAO!
+configuration options](../voting) if you like, but for now, we'll accept the
+defaults and create our DAO!
 
 ![Review page](/img/quickstart/create-dao-review.png)
 

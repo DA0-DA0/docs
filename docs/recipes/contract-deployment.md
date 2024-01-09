@@ -44,7 +44,7 @@ DAO DAO is one such system.
 
 Before beginning you'll need to have a DAO deployed on DAO-DAO. For a
 quick introduction to that see the
-[quickstart](../quickstart/create-a-dao) guide.
+[quickstart](/quickstart/create-a-dao) guide.
 
 ## Deploying a contract
 

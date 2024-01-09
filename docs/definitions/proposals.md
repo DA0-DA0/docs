@@ -1,13 +1,28 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Governance proposals
+# Proposals
 
-Governance proposals are how DAOs take action. You can think of proposals as the
-nervous system of the DAO—members submit and vote on proposals, and if passed,
-the DAO _does something_. Proposals are composed of three components: a title, a
+Proposals are how DAOs take action. You can think of proposals as the nervous
+system of the DAO—members submit and vote on proposals, and if passed, the DAO
+_does something_. Proposals are composed of three components: a title, a
 description, and actions.
+
+:::note
+
+When you create a proposal, the voting distribution of members at the time of
+proposal creation is snapshotted and used for the proposal. This means that if
+you were not a member when a proposal was created, you will not be able to vote
+on it.
+
+This is a security measure that prevents an attacker from purchasing a DAO's
+governance tokens if it's listed on an exchange, manipulating a vote, and then
+selling tokens immediately afterward. It also ensures that a DAO members knows
+_to whom_ they are making a proposal: the people who have voting power at the
+moment the proposal goes live.
+
+:::
 
 Actions are where things get interesting. They are software instructions that
 get executed on the blockchain after a proposal is passed. As a simple example:
@@ -70,9 +85,13 @@ too](https://github.com/DA0-DA0/dao-dao-ui/wiki/Adding-an-action-to-DAO-DAO)!
 
 ## Multiple choice proposals
 
-The default proposal type is single choice, meaning voters only have the option
-to vote `Yes` or `No`, and thus a proposal either passes or fails. You can also
-create multiple choice proposals if they have been enabled.
+The default proposal type is `single choice`, meaning voters only have the
+option to vote `Yes` or `No`, and thus a proposal either passes or fails.
+Multiple choice proposals, on the other hand, allow many options to be voted on.
+
+If your DAO does not have multiple choice proposals enabled, ensure the DAO is
+at least on [version 2](/upgrading/v2), and then [enable them with a
+proposal](#enable-multiple-choice-proposals).
 
 ### How do they work?
 

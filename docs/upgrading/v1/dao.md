@@ -24,7 +24,7 @@ DAO is configured correctly.
 
 ## Why upgrade
 
-By upgrading from beta to V1 you'll continue to receive new feature releases
+By upgrading from beta to V1, you'll continue to receive new feature releases
 from DAO DAO and start using
 [audited](https://github.com/DA0-DA0/dao-contracts/releases/tag/v1.0.0) smart
 contracts.

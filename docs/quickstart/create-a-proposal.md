@@ -4,9 +4,10 @@ sidebar_position: 4
 
 # Create your first proposal
 
-After [creating a DAO for your book club](./create-a-dao), I'm sure you're busy
-telling all of your friends to download Leap so they can join you. Once they
-join your DAO, why don't we make a governance proposal for everyone to vote on?
+After [creating a DAO for your book club](/quickstart/create-a-dao), I'm sure
+you're busy telling all of your friends to download Leap so they can join you.
+Once they join your DAO, why don't we make a governance proposal for everyone to
+vote on?
 
 Let's create a proposal to decide what book to read.
 
@@ -36,7 +37,7 @@ Then, fill in the proposal's name and description.
 :::tip Actions?
 
 You'll notice the `Actions` label there. [Proposal
-actions](../governance-proposals#actions) allow you to add rich functionality to
+actions](/definitions/proposals#actions) allow you to add rich functionality to
 proposals: software instructions that execute on the blockchain when a proposal
 is passed and executed.
 
@@ -54,4 +55,4 @@ Once you approve it, you'll see that your proposal is live!
 
 ![Created proposal](/img/quickstart/create-proposal-done.png)
 
-Now that we've made a proposal, let's [vote on it](./voting).
+Now that we've made a proposal, let's [vote on it](/quickstart/voting).
