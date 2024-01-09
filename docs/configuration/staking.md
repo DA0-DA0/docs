@@ -4,15 +4,19 @@ sidebar_position: 3
 
 # Staking
 
-Token-based and NFT-based DAOs can configure the parameters of their staking
-process.
+A DAO's staking configuration determines the rules of the token staking process.
+Only token-based and NFT-based DAOs have a staking process to configure.
+Member-based DAOs do not have staking because they do not use tokens.
 
-Staking parameters are initially set when you create a DAO. Of course you can
-always modify them later with a [governance proposal](/definitions/proposals)
-containing the `Update Staking Config` action from the `DAO Governance`
-category.
+## How to update the staking configuration
 
-## Unstaking duration
+To change the staking configuration of a DAO, you must submit a [governance
+proposal](/features/proposals/what) containing the `Update Staking Config`
+action from the `DAO Governance` category.
+
+## Parameters
+
+### Unstaking duration
 
 After someone stakes tokens in a DAO, those tokens cannot be immediately
 unstaked. The unstaking duration is how long they remain locked after deciding

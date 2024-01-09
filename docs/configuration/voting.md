@@ -4,17 +4,27 @@ sidebar_position: 1
 
 # Voting
 
-Voting parameters are initially set when you create a DAO. Of course you can
-always modify them later with a [governance proposal](/definitions/proposals)
-containing the `Update Voting Config` action from the `DAO Governance` category.
+A DAO's voting configuration determines the rules of the voting process. Things
+like the passing threshold and voting duration.
+
+## How to update the voting configuration
+
+To change the voting configuration of a DAO, you must submit a [governance
+proposal](/features/proposals/what) containing the `Update Voting Config` action
+from the `DAO Governance` category.
 
 If you have multiple choice proposals enabled, you will instead see two
 different actions, one labeled `Update Single Choice Voting Config` and the
-other labeled `Update Multiple Choice Voting Config`.
+other `Update Multiple Choice Voting Config`. You may configure each proposal
+type (single and multiple choice) separately, though they should probably be
+kept in sync so the voting experience is consistent.
 
-The various parameters are described below.
+## Parameters
 
-## Passing threshold and quorum
+You can update all of these parameters with the action(s) mentioned above at any
+time.
+
+### Passing threshold and quorum
 
 The **_passing threshold_** is the `Yes` threshold needed to pass a proposal. It
 defaults to majority (i.e. any votes above 50%). It sounds simple, but it gets
@@ -25,7 +35,7 @@ The **_quorum_** is the proportion of all voting power that must vote for a
 proposal to be **passable**. It defaults to 20%. For single choice proposals,
 quorum can be disabled.
 
-### Multiple choice proposals
+#### Multiple choice proposals
 
 Multiple choice proposals use quorum in the same way, but they do not have a
 passing threshold. Instead, as long as the quorum is met, whichever option
@@ -35,7 +45,7 @@ quorum for multiple choice proposals.
 Read on to understand how passing threshold and quorum affect each other for
 single choice proposals.
 
-### With quorum enabled
+#### With quorum enabled
 
 If your DAO has a quorum set, the passing threshold is only calculated among
 **those who voted**.
@@ -62,7 +72,7 @@ preferences (if not enough people are paying attention).
 
 :::
 
-### With quorum disabled
+#### With quorum disabled
 
 If your DAO has no quorum set, the passing threshold is calculated among **all
 possible voters**. This is considered an absolute threshold.
@@ -77,16 +87,16 @@ understanding with others before making any changes.
 
 :::
 
-## Only members execute
+### Only members execute
 
 If enabled, only members may execute passed proposals. If disabled, anyone can.
 This defaults to enabled.
 
-## Voting duration
+### Voting duration
 
 This is the maximum time proposals remain open for voting.
 
-## Allow revoting
+### Allow revoting
 
 If enabled, votes can be changed before the voting duration ends. This defaults
 to disabled.

@@ -37,9 +37,9 @@ Then, fill in the proposal's name and description.
 :::tip Actions?
 
 You'll notice the `Actions` label there. [Proposal
-actions](/definitions/proposals#actions) allow you to add rich functionality to
-proposals: software instructions that execute on the blockchain when a proposal
-is passed and executed.
+actions](/features/proposals/what#actions) allow you to add rich functionality
+to proposals: software instructions that execute on the blockchain when a
+proposal is passed and executed.
 
 The proposal we are creating is a social agreement, so we don't need to run any
 code.
