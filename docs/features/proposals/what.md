@@ -41,7 +41,7 @@ you were not a member when a proposal was created, you will not be able to vote
 on it.
 
 This security measure prevents an attacker from purchasing a DAO's governance
-tokens if it's listed on an exchange, manipulating a vote, and then selling the
+token if it's listed on an exchange, manipulating a vote, and then selling the
 tokens immediately afterward. Essentially, it ensures that a DAO member knows
 _to whom_ they are making a proposal: the people who have voting power at the
 moment the proposal goes live.
