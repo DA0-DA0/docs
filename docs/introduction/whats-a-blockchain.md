@@ -58,6 +58,8 @@ Before IBC, each blockchain was siloed. There was no way to send a token from
 one self-sovereign blockchain to another. IBC allows chains to share data with
 one another, including tokens.
 
+You can dive deeper into IBC from [its website](https://www.ibcprotocol.dev/).
+
 :::tip
 
 Since DAO DAO is IBC-native, your DAO's governance tokens can be shared across

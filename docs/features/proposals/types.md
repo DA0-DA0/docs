@@ -85,9 +85,9 @@ proposal](/img/features/proposals/multiple-choice-proposal-done.png)
 
 If you create a new DAO, multiple choice proposals are enabled by default. If
 you have an existing DAO without multiple choice proposals enabled, you can
-enable them by [passing a single choice proposal](/quickstart/create-a-proposal)
-containing the `Enable Multiple Choice Proposals` action in the `DAO Governance`
-category.
+enable them by [passing a single choice
+proposal](/how-to/how-to-create-a-proposal) containing the `Enable Multiple
+Choice Proposals` action in the `DAO Governance` category.
 
 On the proposal creation page, click the `Add an action` button.
 

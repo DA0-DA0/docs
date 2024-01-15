@@ -48,5 +48,5 @@ moment the proposal goes live.
 
 ## How do I create a proposal?
 
-Check out the [Create your first proposal](/quickstart/create-a-proposal) guide
-in the Quickstart section to get started.
+Check out the [How to create a proposal](/how-to/how-to-create-a-proposal) guide
+to get started.
