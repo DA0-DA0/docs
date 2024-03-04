@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Voting
 
-A DAO's voting configuration determines the rules of the voting process. Things
+A DAO's voting configuration determines the rules of the voting process: things
 like the passing threshold and voting duration.
 
 ## How to update the voting configuration
