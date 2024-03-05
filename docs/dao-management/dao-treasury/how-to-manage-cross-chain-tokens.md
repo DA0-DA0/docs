@@ -10,6 +10,8 @@ hold, spend, and stake tokens on other chains.
 The first step is to set up a cross-chain account on each chain you want to
 manage tokens on.
 
+[What a video on managing cross-chain tokens!](https://youtu.be/5LSe48BcTyk)
+
 ## Setup
 
 [Create a proposal](/how-to/how-to-create-a-proposal) and add the `Create
