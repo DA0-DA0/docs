@@ -1,14 +1,16 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
 
-# How to manage cross-chain tokens
+# Manage cross-chain tokens
 
 By default, you can manage tokens on the DAO's home chain. You may also want to
 hold, spend, and stake tokens on other chains.
 
 The first step is to set up a cross-chain account on each chain you want to
 manage tokens on.
+
+[Watch a video on managing cross-chain tokens!](https://youtu.be/5LSe48BcTyk)
 
 ## Setup
 

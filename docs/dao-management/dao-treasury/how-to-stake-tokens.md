@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-# How to stake tokens
+# Manage Staking
 
 You can stake tokens on the DAO's home chain and any chain that the DAO has
 created a [cross-chain account](/how-to/how-to-manage-cross-chain-tokens) on.
