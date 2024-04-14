@@ -53,7 +53,7 @@ IBC-enabled chain, like [Osmosis](https://osmosis.zone),
 ## Where do I begin?
 
 If you want to get started building a DAO, check out our
-[Quickstart](/dao-management/create-a-dao.md) guide.
+[Create a DAO](docs/dao-management/create-a-dao.md) guide.
 
 If you want to chat with like-minded people experimenting with new governance
 tools, hop in our [Discord server](https://discord.daodao.zone).
