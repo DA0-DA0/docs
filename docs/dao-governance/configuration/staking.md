@@ -11,7 +11,7 @@ Member-based DAOs do not have staking because they do not use tokens.
 ## How to update the staking configuration
 
 To change the staking configuration of a DAO, you must submit a [governance
-proposal](/features/proposals/what) containing the `Update Staking Config`
+proposal](../proposals/what.md) containing the `Update Staking Config`
 action from the `DAO Governance` category.
 
 ## Parameters
