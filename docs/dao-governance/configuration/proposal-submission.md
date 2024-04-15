@@ -10,7 +10,7 @@ proposal for voting.
 ## How to update the proposal submission configuration
 
 To change the proposal submission configuration of a DAO, you must submit a
-[governance proposal](../proposals/what) containing the `Update Proposal
+[governance proposal](./proposals/what) containing the `Update Proposal
 Submission Config` action from the `DAO Governance` category.
 
 If you have multiple choice proposals enabled, you will instead see two
