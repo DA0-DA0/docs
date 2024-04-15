@@ -10,7 +10,7 @@ like the passing threshold and voting duration.
 ## How to update the voting configuration
 
 To change the voting configuration of a DAO, you must submit a [governance
-proposal](/features/proposals/what) containing the `Update Voting Config` action
+proposal](../proposals/what.md) containing the `Update Voting Config` action
 from the `DAO Governance` category.
 
 If you have multiple choice proposals enabled, you will instead see two
