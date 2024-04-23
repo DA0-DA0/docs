@@ -68,7 +68,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "quickstart/create-a-dao",
+            docId: "introduction/quickstart/create-a-dao",
             position: "left",
             label: "Quickstart",
           },
