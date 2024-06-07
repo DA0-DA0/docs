@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Grant Authz Exec
 
 You can grant an account, another DAO or SubDAO authorization to perform a number of actions on behalf of the DAO. 
