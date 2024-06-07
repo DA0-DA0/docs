@@ -17,8 +17,10 @@ c. Give your proposal a title and description.
 a. Scroll down to the Action section of the Create proposal page. Select Authz Grant / Revoke from the Authorizations tab. 
 ![Authorizations tab and Authz Grant / Revoke](/img/dao-management/authz-exec2.png)
 b. Since the proposal in this example seeks to give a SubDAO authorization to stake, unstake, redelegate and vote on behalf of the DAO, four sepearate actions will need to be added to the proposal. 
+c. Under Grantee address, paste an Osmosis address or search for an account or DAO already on DAO DAO. This will be the party granted Authz Exec privileges. 
+d. In this example the Authorization type is "Generic" and the Message types are "Stake," "Unstake," "Redelegate," and "Vote." 
 ![4 action boxes to grant authz exec](/img/dao-management/authz-exec7.png)
-c. At the bottom of the screen will be an option to publish your proposal. Once you have reviewed your changes, publish your proposal to start the vote!
+e. At the bottom of the screen will be an option to publish your proposal. Once you have reviewed your changes, publish your proposal to start the vote!
 
 ## 3. Vote
 a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](.../dao-governance/proposals/how-to-vote-on-a-proposal.md)
