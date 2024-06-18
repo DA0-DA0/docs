@@ -5,7 +5,7 @@ sidebar_position: 2
 # Adding a Pre-Proposal Approver
 
 ## What is It?
-A pre-proposal approver is an assigned address that must approve proposals before they can be voted on.
+A pre-proposal approver is an assigned address that must approve proposals before they can be voted on. This may be useful for a DAO that expects many members with very fluid ownership, and would like to offset the risk of malicous proposals by requiring consensus from a 3rd party (quite possibly another DAO).
 
 ## Workflow
 
@@ -28,7 +28,7 @@ To update the pre-propose requirements, a DAO can call a the proposal module ent
 ```
 
 ### 2. Approving Proposals
-Any DAO delegated as a proposal approver is able to make use of the **apps tab**, located in their daos home page. 
+Any DAO delegated as a proposal approver is able to make use of the **apps tab**, located in their DAOs home page. 
 
 First, copy and paste the [DAO DAO link](https://daodao.zone) into the apps URL browser. 
 
@@ -36,7 +36,7 @@ First, copy and paste the [DAO DAO link](https://daodao.zone) into the apps URL 
 We can now navigate to the proposal requiring our decision as the approval DAO, and create a proposal to broadcast the decision.
 ![Advnaced Settings](/img/quickstart/proposal-approver.png)
 
-Alternatively, a custom [execute smart contract proposal](../dao-governance/actions/cosmwasm) from the approval dao may be proposed to manually broadcast the decision.
+Alternatively, a custom [execute smart contract proposal](../dao-governance/actions/cosmwasm) from the approval DAO may be proposed to manually broadcast the decision.
 ```json
 ## approve 
 {"extension": {"msg": {"approve": {"id": <proposal-id>}}}}
