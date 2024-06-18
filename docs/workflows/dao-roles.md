@@ -7,7 +7,7 @@ sidebar_position: 5
 CW721-Roles are non-transferrable NFT's that associate its owner with a specific role and weight.  
 
 ## When Might A DAO use CW721-Roles?
-One example of making use of Cw721-Roles is a scenario of a DAO having an internal management application with access token-gated by active participating members. Conditions can be made to require a role and a minimum voting power in order to access content. Smart contracts can also be created to interact with a DAO's roles collection
+In a scenario of a DAO with an internal management app that would want to limit access to only those assigned by the dao. A DAO might even decide conditions require a role and also a minimum voting power in order to access content in there application.
 
 ## Workflow 
 
@@ -16,10 +16,10 @@ Decide what roles are needed, as well as any weight distribution for the roles.
 
 ### 2. Instantiate & Mint Proposal 
 Propose to create the roles collection by defining:
-- `name`
-- `symbol`
-- `minter` - *set-as-DAO*
-- `withdraw_address` -  *set-as-DAO*
+- `name` - name of your dao roles collection
+- `symbol` - collection symbol
+- `minter` - minter of collection *set-as-DAO*
+<!-- - `withdraw_address` -  *set-as-DAO* -->
 
 The minter is the only address with the ability to transfer, burn, or modify the state of the contracts.
 
@@ -30,8 +30,8 @@ Propose to mint:
 - `extension` - Metadata extension for the `role` & `weight`
 
 :::info
- If a DAO has not yet assigned roles, all tokens can be minted to the DAO treasury, until roles are assigned with a nft-transfer proposal.
+ If a DAO has not yet assigned roles, all tokens can be minted to the DAO treasury, until roles are assigned with a [nft-transfer proposal](../dao-governance/actions/nfts#transfer-nft).
 :::
 
 ### 3. Implement Roles Into Custom UI 
-With the roles collection contract known, a client can now perform an ownership query to the contract to check if for example a connected wallet is assigned a role to an internal DAO committee website.
+With the roles collection contract known, ownership queries can be made by clients and other contracts to power features that make use of the daos role tokens *(e.g. a dao with a moderator role needs to restrict access to a specific analytic page in their web-app)*.

@@ -10,7 +10,7 @@ A pre-proposal approver is an assigned address that must approve proposals befor
 ## Workflow
 
 ### A. From A New DAO
-When creating a new DAO, an approver can be enabled in the Advanced Configuration options available. An address, profile or DAO name may be specified as the approver. 
+When creating a new DAO, an approver can be enabled in the advanced configurations available. An address, profile or DAO name may be specified as the approver. 
 
 ![Advnaced Settings](/img/quickstart/create-dao-advanced-approval.png)
 <!-- :::warning
@@ -24,7 +24,7 @@ To update the pre-propose requirements, a DAO can call a the proposal module ent
 
 #### Proposal JSON
 ```json
-
+{"update_pre_propose_info":{"info":{"module_may_propose":{"info":{"code_id" 420, "msg": "<base64-msg-for-encoding>","admin": "<you-dao-here>","funds":[], "label":"<your-dao-pre-proposal-approver-single>"}}}}}
 ```
 
 ### 2. Approving Proposals
@@ -36,7 +36,7 @@ First, copy and paste the [DAO DAO link](https://daodao.zone) into the apps URL 
 We can now navigate to the proposal requiring our decision as the approval DAO, and create a proposal to broadcast the decision.
 ![Advnaced Settings](/img/quickstart/proposal-approver.png)
 
-Alternatively, a custom msg proposal from the approval dao may be proposed to manually broadcast the decision.
+Alternatively, a custom [execute smart contract proposal](../dao-governance/actions/cosmwasm) from the approval dao may be proposed to manually broadcast the decision.
 ```json
 ## approve 
 {"extension": {"msg": {"approve": {"id": <proposal-id>}}}}
