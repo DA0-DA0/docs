@@ -14,7 +14,7 @@ with CosmWasm and thus run on blockchains that support CosmWasm:
 - [Migaloo](https://twitter.com/migaloo_zone)
 
 ### Developer Wiki
-Further technical documentation can be found in the [contracts github wiki](https://github.com/DA0-DA0/dao-contracts/wiki).
+Further technical documentation can be found in the [contracts Github wiki](https://github.com/DA0-DA0/dao-contracts/wiki).
 
 ## What is CosmWasm?
 
