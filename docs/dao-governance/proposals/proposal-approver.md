@@ -1,9 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
-# Adding a Pre-Proposal Approver
-
+# Adding a pre-proposal approver
 ## What is It?
 A pre-proposal approver is an assigned address that must approve proposals before they can be voted on. This may be useful for a DAO that expects many members with very fluid ownership, and would like to offset the risk of malicous proposals by requiring consensus from a 3rd party (quite possibly another DAO).
 

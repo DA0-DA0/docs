@@ -49,7 +49,7 @@ A smart contract instantiate proposal can create the fund distributor by definin
     - `funding_period` - a time duration that should suffice to move the funds to be distributed into the distributor contract. 
     - `voting_contract` - the DAOs voting contract for calculating distribution ratios
 
-![Init Fund Distributor](../../static/img/how-to/fund-distributor-init.png)
+![Init Fund Distributor](/img/how-to/fund-distributor-init.png)
 
 There are two contract entry points to fund a distribution: 
 - `FundNative` for native tokens 
@@ -66,7 +66,7 @@ There are three contract entry points for choosing how to claim tokens:
 
 A DAO member can use the accounts builder component to claim their distribution :
 
-![Claim Fund Distributor](../../static/img/how-to/fund-distributor-claim.png)
+![Claim Fund Distributor](/img/how-to/fund-distributor-claim.png)
 
 ### 3. Fund Redistribution 
 Considering it is more than likely that not every user would claim its allocation, it is possible to redistribute the unclaimed funds. 
