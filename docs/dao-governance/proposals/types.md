@@ -35,7 +35,8 @@ DAO DAO already has many actions that cover almost every possible action you can
 Multiple choice proposals can contain between 2 and 20 different options, each with their own set of actions, and they always include a `None of the above` option to ensure a proposal cannot force an action to be taken.
 
 If your DAO does not have multiple choice proposals enabled, ensure the DAO is
-at least on [V2](..../upgrading/v2), and then [enable multiple choice proposals with a single choice proposal](#enable-multiple-choice-proposals).
+at least on V2, and then [enable multiple choice proposals with a single choice
+proposal](#enable-multiple-choice-proposals).
 
 ### How do they work?
 
@@ -57,7 +58,7 @@ When you go to vote, the proposal will show each of the options and a `None of t
 
 ### Enable multiple choice proposals
 
-If you create a new DAO, multiple choice proposals are enabled by default. If you have an existing DAO without multiple choice proposals enabled, you can enable them by [passing a single choice proposal](../how-to-create-a-proposal.md) containing the `Enable Multiple Choice Proposals` action in the `DAO Governance` category.
+If you create a new DAO, multiple choice proposals are enabled by default. If you have an existing DAO without multiple choice proposals enabled, you can enable them by [passing a single choice proposal](./how-to-create-a-proposal.md) containing the `Enable Multiple Choice Proposals` action in the `DAO Governance` category.
 
 On the proposal creation page, click the `Add an action` button.
 

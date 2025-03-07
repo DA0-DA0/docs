@@ -1,14 +1,14 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# How to send tokens
+# Send tokens
 
 Sending tokens from a DAO is easy. Tokens can be sent to a recipient on the same chain as the DAO or on another [IBC](..../introduction/whats-a-blockchain#how-do-you-send-tokens-between-blockchains)-connected chain.
 
 ## Steps
 
-[Create a proposal](..../dao-governance/proposals/how-to-create-a-proposal.md) and add the `Spend` action from the `DAO Treasury` category.
+[Create a proposal](../../dao-governance/proposals/how-to-create-a-proposal.md) and add the `Spend` action from the `DAO Treasury` category.
 
 ![Create proposal form](/img/features/proposals/single-choice-proposal.png)
 
