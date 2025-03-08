@@ -8,7 +8,7 @@ A DAO's staking configuration determines the rules of the token staking process.
 
 ## How to update the staking configuration
 
-To change the staking configuration of a DAO, you must submit a [governance proposal](../proposals/what.md) containing the `Update Staking Config` action from the `DAO Governance` category.
+To change the staking configuration of a DAO, you must submit a [governance proposal](../proposals/what) containing the `Update Staking Config` action from the `DAO Governance` category.
 
 ## Parameters
 

@@ -8,7 +8,7 @@ DAOs on DAO DAO can create and manage accounts on many chains with the magic of
 IBC, allowing them to hold assets and interact with smart contracts, native
 protocols, and dApps across the ecosystem. The following is a description of how
 this works. A user-friendly guide of how to manage cross-chain assets can be
-found [here](../treasury/how-to-manage-cross-chain-tokens).
+found [here](./treasury/cross-chain).
 
 ## Terminology
 
@@ -163,7 +163,7 @@ another one of its Polytone-connected ("Cross-Chain") accounts.
 #### Multi-hop IBC transfers (PFM)
 
 In order to [send tokens over
-IBC](../treasury/how-to-send-tokens#change-recipient-chain) with intermediary
+IBC](./treasury/send#change-recipient-chain) with intermediary
 hops that unwind the IBC token (e.g. sending Noble USDC from Osmosis to
 Neutron), a DAO must have an account on each intermediary chain. It is a
 requirement of

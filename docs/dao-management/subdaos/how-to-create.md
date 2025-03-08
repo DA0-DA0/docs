@@ -15,13 +15,13 @@ You will be brought to an interface that looks identical to the interface for cr
 ![New SubDAO UI](/img/features/subdaos/new-subdao.png)
 
 Create the SubDAO like you would any other DAO. If you need help, check out
-[Create your first DAO](..../introduction/quickstart/create-a-dao.md) in the Quickstart section.
+[Create your first DAO](../../introduction/quickstart/create-a-dao) in the Quickstart section.
 
 ![SubDAO home](/img/features/subdaos/unregistered-subdao-home.png)
 
 Lastly, the parent DAO needs to recognize the SubDAO with a proposal. This security step prevents anyone from creating a SubDAO of an organization and pretending to be a part of it.
 
-Check out our YouTube for video guide for [adding]((https://youtu.be/F42qF2mAYxU)) or [removing](https://youtu.be/qpP_WSiju2U) a subDAO from the parent DAO!
+Check out our YouTube for video guide for [adding](https://youtu.be/F42qF2mAYxU) or [removing](https://youtu.be/qpP_WSiju2U) a subDAO from the parent DAO!
 
 If you are a member of the parent DAO, you can click on the banner at the top of the SubDAO's home page to open the parent DAO's proposal creation page with the action prefilled.
 

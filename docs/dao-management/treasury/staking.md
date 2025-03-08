@@ -4,13 +4,13 @@ sidebar_position: 3
 
 # Manage staking
 
-You can stake tokens on the DAO's home chain and any chain that the DAO has created a [cross-chain account](/how-to/how-to-manage-cross-chain-tokens) on.
+You can stake tokens on the DAO's home chain and any chain that the DAO has created a [cross-chain account](./cross-chain) on.
 
 Check out our YouTube for videos for [managing staking](https://youtu.be/DQzT3T_tPF8), [claiming rewards](https://youtu.be/SLJTuZMra7c), [redelegating](https://youtu.be/Jvx6Cd48EZw), or [unstaking](https://youtu.be/NToj_x_fid8)
 
 ## Steps
 
-[Create a proposal](/how-to/how-to-create-a-proposal) and add the `Manage Staking` action from the `DAO Treasury` category.
+[Create a proposal](../../dao-governance/proposals/how-to-create-a-proposal) and add the `Manage Staking` action from the `DAO Treasury` category.
 
 ![Create proposal form](/img/features/proposals/single-choice-proposal.png)
 
@@ -20,7 +20,7 @@ Check out our YouTube for videos for [managing staking](https://youtu.be/DQzT3T_
 
 ![Manage Staking action](/img/how-to/manage-staking-action.png)
 
-You can choose any token native to the chains the DAO has accounts on. If you want to stake tokens on a chain that the DAO does not have an account on, you have to [create a cross-chain account](../how-to-manage-cross-chain-tokens) on that chain first.
+You can choose any token native to the chains the DAO has accounts on. If you want to stake tokens on a chain that the DAO does not have an account on, you have to [create a cross-chain account](./cross-chain) on that chain first.
 
 Once this proposal is passed and executed, the tokens will be staked.
 

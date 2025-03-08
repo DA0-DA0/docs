@@ -11,7 +11,7 @@ individual account or a DAO/SubDAO.
 
 ### 1. Initiate Action
 
-a. From the [home page](daodao.zone), select the Actions tab, indicated by the green arrow in the picture below.
+a. From the [home page](https://daodao.zone), select the Actions tab, indicated by the green arrow in the picture below.
 ![Action tab from user profile](/img/dao-management/authz-exec10.png)
 
 b. From the Action Library, select the Authorizations tab and then Authz Exec.
@@ -21,7 +21,7 @@ b. From the Action Library, select the Authorizations tab and then Authz Exec.
 
 a. A new window for Authz Exec actions will populate. First paste the Osmosis address for the DAO you which you act on behalf of or search for it by name.
 
-b. This account was granted privileges to stake, unstake, and restake on behalf of the DAO in [Grant Authz Exec](../grant-authz-exec.md), thus it may perform any of these actions autonomously with the DAO's treasury funds.
+b. This account was granted privileges to stake, unstake, and restake on behalf of the DAO in [Grant Authz Exec](./grant), thus it may perform any of these actions autonomously with the DAO's treasury funds.
 ![Authz Exec action options](/img/dao-management/authz-exec12.png)
 
 ### 3. Execute :key:
@@ -56,6 +56,6 @@ c. At the bottom of the screen will be an option to publish your proposal. Once 
 
 ### 4. Vote
 
-a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](.../dao-governance/proposals/how-to-vote-on-a-proposal.md)
+a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](../../dao-governance/proposals/how-to-vote-on-a-proposal)
 
 b. If the DAO membership votes in favor of the proposal, all of the change will happen automatically at the close of the voting period.

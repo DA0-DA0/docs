@@ -8,7 +8,7 @@ A DAO's voting configuration determines the rules of the voting process. Things 
 
 ## How to update the voting configuration
 
-To change the voting configuration of a DAO, you must submit a [governance proposal](../proposals/what.md) containing the `Update Voting Config` action from the `DAO Governance` category.
+To change the voting configuration of a DAO, you must submit a [governance proposal](../proposals/what) containing the `Update Voting Config` action from the `DAO Governance` category.
 
 If you have multiple choice proposals enabled, you will instead see two different actions, one labeled `Update Single Choice Voting Config` and the other `Update Multiple Choice Voting Config`. You may configure each proposal type (single and multiple choice) separately, though they should probably be kept in sync so the voting experience is consistent.
 

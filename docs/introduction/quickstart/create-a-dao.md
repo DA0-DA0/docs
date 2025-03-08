@@ -58,7 +58,7 @@ Let's create a DAO called `Bookclub`. We'll make our DAO member-based for simpli
 
 :::tip
 
-To learn more about the differences between member- and token-based DAOs, read our documentation [here](../whats-a-dao.md#voting-power).
+To learn more about the differences between member- and token-based DAOs, read our documentation [here](../whats-a-dao#voting-power).
 
 :::
 
@@ -70,7 +70,7 @@ Now we can add the initial members of our DAO. If you're making this DAO with fr
 
 ### Create DAO
 
-On the next screen, there are many configuration options available that determine how the DAO behaves. You can [read about the available voting configuration options](.../dao-governance/configuration/voting-config) if you like, but for now, we'll accept the defaults and create our DAO!
+On the next screen, there are many configuration options available that determine how the DAO behaves. You can [read about the available voting configuration options](../../dao-governance/configuration/voting) if you like, but for now, we'll accept the defaults and create our DAO!
 
 ![Review page](/img/quickstart/create-dao-review.png)
 

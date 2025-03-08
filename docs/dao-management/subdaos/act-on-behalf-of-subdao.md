@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # How to act on behalf of a SubDAO
 
-As discussed in [What are SubDAOs?](../what.md), the admin (or parent DAO) can execute any action on behalf of the SubDAO. Follow this guide or [watch our video guide](https://youtu.be/T8P8TFOU_kU) to learn how.
+As discussed in [What are SubDAOs?](./what), the admin (or parent DAO) can execute any action on behalf of the SubDAO. Follow this guide or [watch our video guide](https://youtu.be/T8P8TFOU_kU) to learn how.
 
 In the parent DAO, create a new proposal and add the `DAO Admin Execute` action from the `DAO Governance` category.
 

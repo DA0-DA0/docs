@@ -36,4 +36,4 @@ This security measure prevents an attacker from purchasing a DAO's governance to
 
 ## How do I create a proposal?
 
-Check out the [How to create a proposal](../how-to-create-a-proposal.md) guide to get started.
+Check out the [How to create a proposal](./how-to-create-a-proposal) guide to get started.

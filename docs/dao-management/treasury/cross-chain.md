@@ -12,7 +12,7 @@ The first step is to [set up a cross-chain account](https://youtu.be/D4oiQl1Ne7k
 
 ## Setup
 
-[Create a proposal](..../dao-governance/proposals/how-to-create-a-proposal.md) and add the `Create Cross-Chain Account` action from the `DAO Treasury` category.
+[Create a proposal](../../dao-governance/proposals/how-to-create-a-proposal) and add the `Create Cross-Chain Account` action from the `DAO Treasury` category.
 
 ![Create proposal form](/img/features/proposals/single-choice-proposal.png)
 
@@ -40,7 +40,7 @@ Click on the address to the right of the chain you want to send tokens to in ord
 
 Spending cross-chain tokens is as easy as spending on the DAO's home chain.
 
-Check out the [How to send tokens](../how-to-send-tokens) guide to get started.
+Check out the [How to send tokens](./send) guide to get started.
 
 When you select the token you want to send, you will see a list of all tokens on all chains the DAO has an account on.
 
@@ -50,7 +50,7 @@ When you select the token you want to send, you will see a list of all tokens on
 
 Earning cross-chain staking rewards is as easy as staking on the DAO's home chain.
 
-Check out the [How to stake tokens](../how-to-stake-tokens) guide to get started.
+Check out the [How to stake tokens](./staking) guide to get started.
 
 You can change the token you're going to stake in the action.
 

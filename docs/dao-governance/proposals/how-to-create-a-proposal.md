@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # How to create a proposal
 
-If you don't know what a proposal is, read the [proposal explanation doc](../what.md) first.
+If you don't know what a proposal is, read the [proposal explanation doc](./what) first.
 
 :::note
 
@@ -24,11 +24,11 @@ Then, fill in the proposal's name, description, and actions (if needed).
 
 :::tip What is an action?
 
-[Proposal actions](../what.md#actions) allow you to add rich functionality to proposals: software instructions that execute on the blockchain when a proposal is passed and executed. Read the [proposal docs](../what.md) to learn more.
+[Proposal actions](./what#actions) allow you to add rich functionality to proposals: software instructions that execute on the blockchain when a proposal is passed and executed. Read the [proposal docs](./what) to learn more.
 
 :::
 
-If you want to create a multiple choice proposal, check out the [multiple choice proposal docs](../types.md#multiple-choice).
+If you want to create a multiple choice proposal, check out the [multiple choice proposal docs](./types#multiple-choice).
 
 To preview how the proposal will look once its created, press **Preview**.
 
