@@ -4,8 +4,12 @@ sidebar_position: 1
 
 # Grant Authorization
 
-You can grant an account, another DAO, or SubDAO authorization to perform a
-number of actions on behalf of the DAO.
+You can grant any account, like a wallet, another DAO, or SubDAO, authorization
+to perform a number of actions on behalf of the DAO. While this is a very
+powerful feature, it is worth understanding the authz module's [critical
+limitation](./limitation) before dreaming about all of the authorization flows
+you want to create. In time, we hope this is resolved by the maintainers of the
+SDK.
 
 ## 1. Create Proposal
 

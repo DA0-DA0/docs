@@ -1,0 +1,68 @@
+---
+sidebar_position: 4
+---
+
+# Limitation
+
+While powerful conceptually, the [Authz SDK
+module](https://docs.cosmos.network/main/build/modules/authz) suffers from one
+primary drawback that unfortunately makes it quite limited in application and in
+some cases, often experienced by DAOs, entirely useless. The issue has been
+raised [here](https://github.com/cosmos/cosmos-sdk/issues/18567), but the
+maintainers at the time were unable to grasp the importance of fixing it enough
+to prioritize it, and it remains unfixed.
+
+## Problem
+
+The problem lies in the fact that only one authorization can exist for the
+triple `(granter, grantee, type)`, where `type` is the type URL of an
+authorization. Different SDK modules define their own authorization types: the
+authz module itself defines one
+([`GenericAuthorization`](https://docs.cosmos.network/main/build/modules/authz#genericauthorization)),
+the wasm module defines three (`StoreCodeAuthorization`,
+`ContractMigrationAuthorization`, and `ContractExecutionAuthorization`), etc.
+
+`GenericAuthorization` grants a grantee unrestricted permission to execute a
+specific message on behalf of the granter (e.g. stake tokens, undelegate tokens,
+upload contracts, etc.). While this is very powerful, the granter can only
+choose one message to allow a grantee to perform, preventing more complex
+situations where an account (or DAO) wishes to allow another account to act on
+behalf of them in many ways.
+
+The three authorizations in the wasm module mentioned before attempt to
+workaround this issue with an internal pattern where a single
+`ContractExecutionAuthorization` can contain a list of one or more
+`ContractGrant`s, so a granter can effectively authorize a specific grantee to
+perform many executions on different contracts. This is certainly an
+improvement, but it yields two more problems:
+
+1. The less serious one is that since the list of `ContractGrant`s in the
+   authorization is non-paginated, there is some limit to the number that can be
+   created—though it is probably pretty large.
+2. The more serious issue is that a developer must include all existing grants
+   when adding a new grant. This means that if an app wants to create a contract
+   authorization between a granter and grantee, it must first query for existing
+   grants between them to prevent overriding another app's grants or even other
+   grants that exist within the same app. This is inefficient, and while
+   technically possible, developers are not always that careful, nor should they
+   be expected to be; a developer's ability and incentive to discover that they
+   are breaking another app and resolve the issue is probably quite low, and an
+   app should not have to rely on other apps not accidentally breaking their
+   app.
+
+   Taking it a step further, proposals are created separately from when they are
+   executed. If a proposal must include all existing grants, but the grants
+   change in the middle of its voting period, executing that proposal will now
+   override any changes that were made after it was published. Ideally,
+   proposals operate incrementally: they should be able to insert a specific
+   grant or delete an existing grant without needing to know about the rest of
+   them.
+
+Clearly, there is recognition that authz should function more as a mutable list
+of many authorizations, and since each module defines its own authorization
+types, this is possible to an extent. But for it to be maximally flexible and
+future-proof, this incremental multi-authorization functionality needs to be
+implemented at the top, within the authz module, not individually by modules in
+their authorization types. It would be a nightmare for each module to come up
+with its own system for supporting simultaneous authorization types, which is
+what's already happening.
