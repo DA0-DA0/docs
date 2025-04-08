@@ -37,6 +37,9 @@ The following guide will add the `v2.6.0` single choice proposal module to a DAO
 on Osmosis mainnet (`osmosis-1`), so we need the `dao-proposal-single` and
 `dao-pre-propose-single` code IDs.
 
+A few steps involve base64 encoding, which
+[base64encode.org](https://www.base64encode.org/) can help with.
+
 Here is the configuration we will use:
 
 - threshold: majority
