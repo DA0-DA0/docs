@@ -7,11 +7,19 @@ sidebar_position: 5
 [DAO DAO's smart contracts](https://github.com/DA0-DA0/dao-contracts/) are built
 with CosmWasm and thus run on blockchains that support CosmWasm:
 
+- [Cosmos Hub](https://hub.cosmos.network/)
 - [Juno](https://junonetwork.io/)
 - [Osmosis](https://osmosis.zone/)
-- [Stargaze](https://stargaze.zone/)
 - [Neutron](https://www.neutron.org/)
+- [Stargaze](https://stargaze.zone/)
 - [Migaloo](https://twitter.com/migaloo_zone)
+- Terra
+- Terra Classic
+- [Oraichain](https://orai.io)
+- [Kujira](https://kujira.network/)
+- [Rujira/THORChain](https://rujira.network/)
+- [BitSong](https://bitsong.io/)
+- [OmniFlix](https://omniflix.network/)
 
 ## What is CosmWasm?
 
