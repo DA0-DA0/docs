@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_dao_dao_docs=self.webpackChunk_dao_dao_docs||[]).push([[4195],{2841:(o,d,a)=>{a.r(d),a.d(d,{default:()=>c});a(7294);var e=a(6550),t=a(5893);function c(){return(0,t.jsx)(e.l_,{to:"/introduction/welcome-to-dao-dao"})}}}]);
