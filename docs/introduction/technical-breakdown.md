@@ -21,12 +21,16 @@ with CosmWasm and thus run on blockchains that support CosmWasm:
 - [BitSong](https://bitsong.io/)
 - [OmniFlix](https://omniflix.network/)
 
+### Developer Wiki
+Further technical documentation can be found in the [contracts Github wiki](https://github.com/DA0-DA0/dao-contracts/wiki).
+
 ## What is CosmWasm?
 
 CosmWasm is a [WebAssembly](https://webassembly.org/) virtual machine that runs
 in a [Cosmos SDK](https://docs.cosmos.network/) module.
 
 In practice, CosmWasm smart contracts (like DAO DAO's) are written in Rust.
+
 
 ## What is Rust?
 
@@ -44,3 +48,4 @@ our contracts, which in turn protects your DAOs from common attacks.
 As the UI is the primary entrypoint for users interacting with DAO DAO DAOs, its
 security is as important as the smart contracts themselves. TypeScript increases
 the likelihood that bugs are detected earlier, during development.
+
