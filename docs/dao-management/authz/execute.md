@@ -18,7 +18,7 @@ b. From the Action Library, select the Authorizations tab and then Authz Exec.
 
 a. A new window for Authz Exec actions will populate. First paste the Osmosis address for the DAO you which you act on behalf of or search for it by name.
 
-b. This account was granted privileges to stake, unstake, and restake on behalf of the DAO in [Grant Authz Exec](grant/), thus it may perform any of these actions autonomously with the DAO's treasury funds.
+b. This account was granted privileges to stake, unstake, and restake on behalf of the DAO in [Grant Authz Exec](grant.md), thus it may perform any of these actions autonomously with the DAO's treasury funds.
 
 <figure><img src="../../.gitbook/assets/authz-exec12.png" alt=""><figcaption></figcaption></figure>
 
