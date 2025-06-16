@@ -16,7 +16,7 @@ Any kind of institution can be represented as a DAO. You can launch a business o
 
 DAO DAO helps you build and operate DAOs by providing a visual interface to easily interact with the underlying smart contracts that run on the blockchain. Ideally, DAO DAO abstracts away the complexities of blockchains and lets you focus on your community. Usability and accessibility are a priority. Technical and non-technical communities alike have a space here.
 
-DAO DAO DAOs are[IBC](https://www.coinbase.com/cloud/discover/dev-foundations/ibc-protocol)-enabled, meaning that your DAO can interact with and manage protocols and assets on any IBC-enabled chain, like [Osmosis](https://osmosis.zone), [Stargaze](https://stargaze.zone) and [Juno](https://junonetwork.io).
+DAO DAO DAOs are [IBC](https://www.coinbase.com/cloud/discover/dev-foundations/ibc-protocol)-enabled, meaning that your DAO can interact with and manage protocols and assets on any IBC-enabled chain, like [Osmosis](https://osmosis.zone), [Stargaze](https://stargaze.zone) and [Juno](https://junonetwork.io).
 
 ## Where do I begin?
 
