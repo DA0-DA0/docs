@@ -8,7 +8,7 @@ The first step is to [set up a cross-chain account](https://youtu.be/D4oiQl1Ne7k
 
 ## Setup
 
-[Create a proposal](https://github.com/DA0-DA0/docs/blob/gitbook/docs/dao-governance/proposals/how-to-create-a-proposal/README.md) and add the `Create Cross-Chain Account` action from the `DAO Treasury` category.
+[Create a proposal](../../dao-governance/proposals/how-to-create-a-proposal.md) and add the `Create Cross-Chain Account` action from the `DAO Treasury` category.
 
 ![Create proposal form](../../.gitbook/assets/single-choice-proposal.png)
 

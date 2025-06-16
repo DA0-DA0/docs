@@ -6,7 +6,7 @@ Check out our YouTube for videos for [managing staking](https://youtu.be/DQzT3T_
 
 ## Steps
 
-[Create a proposal](https://github.com/DA0-DA0/docs/blob/gitbook/docs/dao-governance/proposals/how-to-create-a-proposal/README.md) and add the `Manage Staking` action from the `DAO Treasury` category.
+[Create a proposal](../../dao-governance/proposals/how-to-create-a-proposal.md) and add the `Manage Staking` action from the `DAO Treasury` category.
 
 ![Create proposal form](../../.gitbook/assets/single-choice-proposal.png)
 
