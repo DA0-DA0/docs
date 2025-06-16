@@ -30,9 +30,7 @@ DAO DAO already has many actions that cover almost every possible action you can
 
 Multiple choice proposals can contain between 2 and 20 different options, each with their own set of actions, and they always include a `None of the above` option to ensure a proposal cannot force an action to be taken.
 
-If your DAO does not have multiple choice proposals enabled, ensure the DAO is\
-at least on V2, and then [enable multiple choice proposals with a single choice\
-proposal](types.md#enable-multiple-choice-proposals).
+If your DAO does not have multiple choice proposals enabled, ensure the DAO is at least on V2, and then [enable multiple choice proposals with a single choice proposal](types.md#enable-multiple-choice-proposals).
 
 ### How do they work?
 

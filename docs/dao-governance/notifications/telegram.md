@@ -12,8 +12,7 @@ Setting up Telegram notifications takes 60 seconds.
     On Desktop:
 
     ![Telegram Desktop](../../.gitbook/assets/tg-start-desktop.png)
-2.  Once you tap the `Start` button, you should see instructions for tracking a\
-    DAO.
+2.  Once you tap the `Start` button, you should see instructions for tracking a DAO.
 
     \
     On Mobile:
@@ -23,8 +22,7 @@ Setting up Telegram notifications takes 60 seconds.
     On Desktop:
 
     ![Telegram Desktop](../../.gitbook/assets/tg-started-desktop.png)
-3.  If you'd like to track DAOs with other people, add the bot to a group chat by tapping its name at the top of the screen and then tapping the `Add to Group or Channel` button at the bottom. When adding the bot to a group, it may ask if you want to make it an admin. You do _**NOT**_ need to do this. Adding it as a regular member is sufficient. Also, it runs in privacy mode, so it can't read any of your\
-    messages. If you just want private notifications, skip this step.
+3.  If you'd like to track DAOs with other people, add the bot to a group chat by tapping its name at the top of the screen and then tapping the `Add to Group or Channel` button at the bottom. When adding the bot to a group, it may ask if you want to make it an admin. You do _**NOT**_ need to do this. Adding it as a regular member is sufficient. Also, it runs in privacy mode, so it can't read any of your messages. If you just want private notifications, skip this step.
 
     \
     On Mobile:
@@ -48,8 +46,4 @@ Setting up Telegram notifications takes 60 seconds.
     On Desktop:
 
     ![Telegram Desktop](../../.gitbook/assets/tg-add-desktop.png)
-5. Now you're done! When new proposals are created, the bot will message you\
-   right away. If you added the bot to a group, everyone in the group will start receiving\
-   notifications. If you added the bot to a private chat, you'll be the only one receiving\
-   notifications. You can track additional DAOs by sending the same command from any chat that\
-   the bot is in.
+5. Now you're done! When new proposals are created, the bot will message you right away. If you added the bot to a group, everyone in the group will start receiving notifications. If you added the bot to a private chat, you'll be the only one receiving notifications. You can track additional DAOs by sending the same command from any chat that the bot is in.

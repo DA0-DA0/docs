@@ -4,8 +4,7 @@
 
 ## Why DAOs?
 
-Decentralized Autonomous Organizations (DAOs) are programmable organizations with rules and procedures governed by its members. DAOs can help manage everything from an [Internet community of\
-dogs](https://daodao.zone/dao/juno1czh5dy2kxwwt5hlw6rr2q25clj96sheftsdccswg9qe34m3wzgdswmw8ju) to the [development of entire blockchains](https://daodao.zone/dao/neutron1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrstdxvff/proposals).
+Decentralized Autonomous Organizations (DAOs) are programmable organizations with rules and procedures governed by its members. DAOs can help manage everything from an [Internet community of dogs](https://daodao.zone/dao/juno1czh5dy2kxwwt5hlw6rr2q25clj96sheftsdccswg9qe34m3wzgdswmw8ju) to the [development of entire blockchains](https://daodao.zone/dao/neutron1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrstdxvff/proposals).
 
 Because DAO DAO DAOs operate on a blockchain, they are transparent by default. This means that votes, the voting power of members, and actions a DAO takes are all publicly auditable. This can help provide trust that DAO members are being good stewards of their communities.
 

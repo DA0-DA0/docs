@@ -10,8 +10,7 @@ If you have multiple choice proposals enabled, you will instead see two differen
 
 ## Parameters
 
-You can update all of these parameters with the action(s) mentioned above at any\
-time.
+You can update all of these parameters with the action(s) mentioned above at any time.
 
 ### Proposal deposit
 
@@ -21,8 +20,7 @@ This is a required deposit someone must put down to create a proposal. This can 
 
 There are three ways to handle proposal deposits:
 
-1. `Always` refund proposal deposits, regardless of whether the proposal passes\
-   or fails.
+1. `Always` refund proposal deposits, regardless of whether the proposal passes or fails.
 2. `Only passed proposals` refund proposal deposits.
 3. `Never` refund proposal deposits.
 
