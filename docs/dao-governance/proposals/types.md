@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Types of proposals
 
 DAO DAO supports single choice (`Yes`, `No`, or `Abstain`) and multiple choice (`A`, `B`, `C`, `D`, ..., or `None of the above`) proposals. They work very similarly.
@@ -10,7 +6,7 @@ DAO DAO supports single choice (`Yes`, `No`, or `Abstain`) and multiple choice (
 
 A single choice proposal contains a title, description, and an optional set of actions to execute if passed. The only voting options are `Yes`, `No`, and `Abstain`, and thus a single choice proposal either passes or fails.
 
-![Single choice proposal](/img/features/proposals/single-choice-proposal.png)
+![Single choice proposal](../../.gitbook/assets/single-choice-proposal.png)
 
 ### Title
 
@@ -22,7 +18,7 @@ A description explains in detail what a proposal _is_. This may be a [constituti
 
 For example, if you are submitting a proposal to pay someone's salary, you may want to explain why you're paying them or what the relevant terms of work are.
 
-You can use [Markdown syntax](https://www.markdownguide.org/basic-syntax/) for rich formatting.
+You can use [Markdown syntax](https://www.markdownguide.org/basic-syntax) for rich formatting.
 
 ### Actions
 
@@ -34,9 +30,7 @@ DAO DAO already has many actions that cover almost every possible action you can
 
 Multiple choice proposals can contain between 2 and 20 different options, each with their own set of actions, and they always include a `None of the above` option to ensure a proposal cannot force an action to be taken.
 
-If your DAO does not have multiple choice proposals enabled, ensure the DAO is
-at least on V2, and then [enable multiple choice proposals with a single choice
-proposal](#enable-multiple-choice-proposals).
+If your DAO does not have multiple choice proposals enabled, ensure the DAO is at least on V2, and then [enable multiple choice proposals with a single choice proposal](types.md#enable-multiple-choice-proposals).
 
 ### How do they work?
 
@@ -44,32 +38,32 @@ A multiple choice proposal is just like a single choice proposal, except that in
 
 Simply choose the `Multiple Choice` proposal type when creating a new proposal.
 
-![Multiple choice proposal](/img/features/proposals/multiple-choice-proposal.png)
+![Multiple choice proposal](../../.gitbook/assets/multiple-choice-proposal.png)
 
 Each option has different actions associated with it.
 
-![Option 1](/img/features/proposals/multiple-choice-proposal-option-1.png)
+![Option 1](../../.gitbook/assets/multiple-choice-proposal-option-1.png)
 
-![Option 2](/img/features/proposals/multiple-choice-proposal-option-2.png)
+![Option 2](../../.gitbook/assets/multiple-choice-proposal-option-2.png)
 
 When you go to vote, the proposal will show each of the options and a `None of the above` option, instead of just `Yes` and `No`.
 
-![Multiple choice proposal](/img/features/proposals/multiple-choice-proposal-done.png)
+![Multiple choice proposal](../../.gitbook/assets/multiple-choice-proposal-done.png)
 
 ### Enable multiple choice proposals
 
-If you create a new DAO, multiple choice proposals are enabled by default. If you have an existing DAO without multiple choice proposals enabled, you can enable them by [passing a single choice proposal](./how-to-create-a-proposal) containing the `Enable Multiple Choice Proposals` action in the `DAO Governance` category.
+If you create a new DAO, multiple choice proposals are enabled by default. If you have an existing DAO without multiple choice proposals enabled, you can enable them by [passing a single choice proposal](how-to-create-a-proposal.md) containing the `Enable Multiple Choice Proposals` action in the `DAO Governance` category.
 
 On the proposal creation page, click the `Add an action` button.
 
-![Proposal creation form](/img/features/proposals/enable-multiple-choice-add-action.png)
+![Proposal creation form](../../.gitbook/assets/enable-multiple-choice-add-action.png)
 
 Click on the `DAO Governance` category, and then choose `Enable Multiple Choice Proposals`.
 
-![DAO Governance category](/img/shared/action-modal-dao-governance-category.png)
+![DAO Governance category](../../.gitbook/assets/action-modal-dao-governance-category.png)
 
-![Enable multiple choice action](/img/features/proposals/enable-multiple-choice-dao-governance-category.png)
+![Enable multiple choice action](../../.gitbook/assets/enable-multiple-choice-dao-governance-category.png)
 
-![Complete proposal](/img/features/proposals/enable-multiple-choice-done.png)
+![Complete proposal](../../.gitbook/assets/enable-multiple-choice-done.png)
 
 Once you publish, pass, and execute this proposal, multiple choice proposals will be enabled for the DAO!

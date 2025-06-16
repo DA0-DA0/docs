@@ -1,10 +1,6 @@
----
-sidebar_position: 3
----
-
 # Manage staking
 
-You can stake tokens on the DAO's home chain and any chain that the DAO has created a [cross-chain account](./cross-chain) on.
+You can stake tokens on the DAO's home chain and any chain that the DAO has created a [cross-chain account](cross-chain.md) on.
 
 Check out our YouTube for videos for [managing staking](https://youtu.be/DQzT3T_tPF8), [claiming rewards](https://youtu.be/SLJTuZMra7c), [redelegating](https://youtu.be/Jvx6Cd48EZw), or [unstaking](https://youtu.be/NToj_x_fid8)
 
@@ -12,15 +8,15 @@ Check out our YouTube for videos for [managing staking](https://youtu.be/DQzT3T_
 
 [Create a proposal](../../dao-governance/proposals/how-to-create-a-proposal) and add the `Manage Staking` action from the `DAO Treasury` category.
 
-![Create proposal form](/img/features/proposals/single-choice-proposal.png)
+![Create proposal form](../../.gitbook/assets/single-choice-proposal.png)
 
-![DAO Treasury category in Add an action modal](/img/how-to/add-action-modal-dao-treasury-category.png)
+![DAO Treasury category in Add an action modal](../../.gitbook/assets/add-action-modal-dao-treasury-category.png)
 
-![Manage Staking action in DAO Treasury category](/img/how-to/manage-staking-action-dao-treasury-category.png)
+![Manage Staking action in DAO Treasury category](../../.gitbook/assets/manage-staking-action-dao-treasury-category.png)
 
-![Manage Staking action](/img/how-to/manage-staking-action.png)
+![Manage Staking action](../../.gitbook/assets/manage-staking-action.png)
 
-You can choose any token native to the chains the DAO has accounts on. If you want to stake tokens on a chain that the DAO does not have an account on, you have to [create a cross-chain account](./cross-chain) on that chain first.
+You can choose any token native to the chains the DAO has accounts on. If you want to stake tokens on a chain that the DAO does not have an account on, you have to [create a cross-chain account](cross-chain.md) on that chain first.
 
 Once this proposal is passed and executed, the tokens will be staked.
 
@@ -28,7 +24,7 @@ Once this proposal is passed and executed, the tokens will be staked.
 
 Aside from staking, you can also unstake, restake, claim rewards, and change the rewards withdrawal address.
 
-![Staking options](/img/how-to/staking-options.png)
+![Staking options](../../.gitbook/assets/staking-options.png)
 
 ### Changing the rewards withdrawal address
 
