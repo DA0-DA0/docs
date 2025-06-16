@@ -52,7 +52,7 @@ When you go to vote, the proposal will show each of the options and a `None of t
 
 ### Enable multiple choice proposals
 
-If you create a new DAO, multiple choice proposals are enabled by default. If you have an existing DAO without multiple choice proposals enabled, you can enable them by [passing a single choice proposal](how-to-create-a-proposal) containing the `Enable Multiple Choice Proposals` action in the `DAO Governance` category.
+If you create a new DAO, multiple choice proposals are enabled by default. If you have an existing DAO without multiple choice proposals enabled, you can enable them by [passing a single choice proposal](how-to-create-a-proposal.md) containing the `Enable Multiple Choice Proposals` action in the `DAO Governance` category.
 
 On the proposal creation page, click the `Add an action` button.
 

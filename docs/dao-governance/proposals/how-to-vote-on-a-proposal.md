@@ -1,6 +1,6 @@
 # How to vote on a proposal
 
-Once you've [created a proposal](how-to-create-a-proposal), members of the DAO need to vote on it.
+Once you've [created a proposal](how-to-create-a-proposal.md), members of the DAO need to vote on it.
 
 ## Steps
 
