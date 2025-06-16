@@ -4,8 +4,7 @@ sidebar_position: 3
 
 # Execute via Authorization
 
-This guide outlines how to use authorized privileges (via Authz Exec) as an\
-individual account or a DAO/SubDAO.
+This guide outlines how to use authorized privileges (via Authz Exec) as an individual account or a DAO/SubDAO.
 
 ## Individual Account
 
