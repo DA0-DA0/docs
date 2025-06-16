@@ -30,6 +30,6 @@ Writing smart contracts in Rust allows us to perform better security analysis on
 
 ## What about the UI?
 
-[DAO DAO's UI](https://github.com/DA0-DA0/dao-dao-ui) is built with[Next.js](https://nextjs.org) in [TypeScript](https://www.typescriptlang.org).
+[DAO DAO's UI](https://github.com/DA0-DA0/dao-dao-ui) is built with [Next.js](https://nextjs.org) in [TypeScript](https://www.typescriptlang.org).
 
 As the UI is the primary entrypoint for users interacting with DAO DAO DAOs, its security is as important as the smart contracts themselves. TypeScript increases the likelihood that bugs are detected earlier, during development.
