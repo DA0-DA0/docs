@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Congratulations!
 
 You've created your own DAO. More importantly, you've learned the basics of DAO DAO.

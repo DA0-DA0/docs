@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Technical breakdown
 
 [DAO DAO's smart contracts](https://github.com/DA0-DA0/dao-contracts/) are built with CosmWasm and thus run on blockchains that support CosmWasm:

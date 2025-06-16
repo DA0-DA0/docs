@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # What's a blockchain?
 
 A blockchain is a database made of _blocks_ of data, strung together to form a _chain_. Quite literally, a blockchain is a chain of blocks.

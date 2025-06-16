@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Joining and leaving a token-based DAO
 
 The DAO we created in the previous guide was not a token-based DAO. However, you are likely to encounter token-based DAOs soon enough if you are engaging with DAOs, and there are a few things you need to learn before interacting with them.
@@ -12,7 +8,7 @@ To join a token-based DAO, you must register to vote by staking governance token
 
 To register to vote, first visit the DAO's home page.
 
-![Token-based DAO home page](../../../../static/img/quickstart/token-based-home.png)
+![Token-based DAO home page](../../../.gitbook/assets/token-based-home.png)
 
 On here you will see:
 
@@ -23,7 +19,7 @@ On here you will see:
 
 Click the `Stake` or `Manage... stake` button to stake your tokens.
 
-![Manage staking modal](../../../../static/img/quickstart/manage-staking.png)
+![Manage staking modal](../../../.gitbook/assets/manage-staking.png)
 
 By staking your tokens, you are registering those tokens as voting power. Any tokens you do not stake won't count towards your voting power. If you want your votes to matter as much as possible, you'll likely want to stake all of them.
 
@@ -36,20 +32,20 @@ There are some situations where you may not want to stake all of your tokens. Fo
 
 To leave a token-based DAO, you must unstake all your tokens.
 
-![Staked token membership](../../../../static/img/quickstart/staked-membership.png)
+![Staked token membership](../../../.gitbook/assets/staked-membership.png)
 
 Click the `Manage your <token> stake` button, and select the `Unstake` tab. On that tab, select the `100%` button to fill in all your tokens, then press `Unstake` in the bottom right.
 
-![Manage staking unstake modal](../../../../static/img/quickstart/manage-staking-unstake-all.png)
+![Manage staking unstake modal](../../../.gitbook/assets/manage-staking-unstake-all.png)
 
 Approve the transaction in your wallet.
 
 Once doing so, you will have to wait the unstaking duration before the tokens are available to you again. While you are waiting, you will also not be able to vote on proposals.
 
-![Unstaking token membership](../../../../static/img/quickstart/your-membership-unstaking.png)
+![Unstaking token membership](../../../.gitbook/assets/your-membership-unstaking.png)
 
-![Unstaking token modal](../../../../static/img/quickstart/unstaking-modal.png)
+![Unstaking token modal](../../../.gitbook/assets/unstaking-modal.png)
 
 After the unstaking duration, you will need to claim your tokens by clicking on the `Claim your <tokens>` button. After approving the transaction in your wallet, the tokens will be available to you.
 
-![Unstaked all membership](../../../../static/img/quickstart/your-membership-nothing-staked.png)
+![Unstaked all membership](../../../.gitbook/assets/your-membership-nothing-staked.png)

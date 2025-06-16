@@ -1,10 +1,6 @@
----
-sidebar_position: 3
----
-
 # Create your first proposal
 
-After [creating a DAO for your book club](create-a-dao/), I'm sure you're busy telling all of your friends to download Leap so they can join you. Once they join your DAO, why don't we make a governance proposal for everyone to vote on?
+After [creating a DAO for your book club](../../introduction/quickstart/create-a-dao/), I'm sure you're busy telling all of your friends to download Leap so they can join you. Once they join your DAO, why don't we make a governance proposal for everyone to vote on?
 
 Let's create a proposal to decide what book to read.
 
@@ -18,11 +14,11 @@ Since you were the first one here, it's only fair that you suggest what everyone
 
 To begin, starting from your DAO's page, navigate to **Proposals > New Proposal**.
 
-![Create proposal button](../../../static/img/quickstart/create-proposal-button.png)
+![Create proposal button](../../.gitbook/assets/create-proposal-button.png)
 
 Then, fill in the proposal's name and description.
 
-![Proposal creation form](../../../static/img/quickstart/create-proposal-form.png)
+![Proposal creation form](../../.gitbook/assets/create-proposal-form.png)
 
 {% hint style="info" %}
 **Actions?**
@@ -38,6 +34,6 @@ Now that we're ready, go ahead and press **Publish**. Your wallet will prompt yo
 
 Once you approve it, you'll see that your proposal is live!
 
-![Created proposal](../../../static/img/quickstart/create-proposal-done.png)
+![Created proposal](../../.gitbook/assets/create-proposal-done.png)
 
-Now that we've made a proposal, let's [vote on it](voting/).
+Now that we've made a proposal, let's [vote on it](../../introduction/quickstart/voting/).

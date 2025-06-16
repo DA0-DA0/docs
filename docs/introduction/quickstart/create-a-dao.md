@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Create your first DAO
 
 For this tutorial, **we'll make a DAO for your reading group**. This will let folks in your reading group vote on which books to read, organize money for snacks, and so on.
@@ -14,13 +10,13 @@ To use DAO DAO you'll need a wallet. A wallet is your digital identity on a bloc
 
 Once you've installed Leap, you need to create an account. To do this, open the Leap extension by pressing the puzzle piece icon in the top right of your browser and clicking on the Leap wallet extension.
 
-![puzzle icon](../../../static/img/quickstart/puzzle.png)
+![puzzle icon](../../.gitbook/assets/puzzle.png)
 
-![Leap wallet extension](../../../static/img/quickstart/leap-extension.png)
+![Leap wallet extension](../../.gitbook/assets/leap-extension.png)
 
 Once you do that, you'll be directed to a page where you can create a new account.
 
-![Leap wallet extension](../../../static/img/quickstart/welcome-to-leap.png)
+![Leap wallet extension](../../.gitbook/assets/welcome-to-leap.png)
 
 Make sure to store your seed phrase somewhere only you'll be able to find it. This is the recovery key in case you ever need to recover your account, like if you lose your device.
 
@@ -30,13 +26,13 @@ To make your first DAO, head to [testnet.daodao.zone](https://testnet.daodao.zon
 
 Once logged in, you will see your Osmosis testnet address. Click on it to copy and save it for the next step.
 
-![Copy wallet address](../../../static/img/quickstart/wallet-copy-address.png)
+![Copy wallet address](../../.gitbook/assets/wallet-copy-address.png)
 
 ## Get some testnet $OSMO
 
 To get some testnet $OSMO, head over to [faucet.testnet.osmosis.zone](https://faucet.testnet.osmosis.zone) and paste your Osmosis address into the form. A bot should send you enough $OSMO to follow this tutorial.
 
-![Osmosis faucet](../../../static/img/quickstart/osmosis-faucet.png)
+![Osmosis faucet](../../.gitbook/assets/osmosis-faucet.png)
 
 {% hint style="info" %}
 We'll stick to the testnet for this tutorial, but once you're ready to build a real DAO, you'll need some mainnet tokens on any of the chains supported by DAO DAO. (The [mainnet version of DAO DAO](https://daodao.zone) is deployed on a handful of chains, including Osmosis mainnet). You can get $OSMO on some centralized exchanges, such as [Kraken](https://kraken.com), or on a decentralized exchange if you already have cryptocurrencies in the Cosmos ecosystem, like [Osmosis' DEX](https://osmosis.zone).
@@ -52,30 +48,30 @@ Every DAO has a name and a description. These will be displayed in the DAO DAO U
 
 Let's create a DAO called `Bookclub`. We'll make our DAO member-based for simplicity.
 
-![DAO title and description inputs](../../../static/img/quickstart/create-dao-title.png)
+![DAO title and description inputs](../../.gitbook/assets/create-dao-title.png)
 
 {% hint style="info" %}
-To learn more about the differences between member- and token-based DAOs, read our documentation [here](../whats-a-dao/#voting-power).
+To learn more about the differences between member- and token-based DAOs, read our documentation [here](../../introduction/whats-a-dao/#voting-power).
 {% endhint %}
 
 ## Add the initial members
 
 Now we can add the initial members of our DAO. If you're making this DAO with friends, add their Osmosis addresses during this step. Otherwise, you can start the DAO with only yourself and add new members via proposals later.
 
-![Member weights](../../../static/img/quickstart/create-dao-members.png)
+![Member weights](../../.gitbook/assets/create-dao-members.png)
 
 ### Create DAO
 
 On the next screen, there are many configuration options available that determine how the DAO behaves. You can [read about the available voting configuration options](../../dao-governance/configuration/voting/) if you like, but for now, we'll accept the defaults and create our DAO!
 
-![Review page](../../../static/img/quickstart/create-dao-review.png)
+![Review page](../../.gitbook/assets/create-dao-review.png)
 
 Go ahead and press `Create DAO` in the bottom right. If you see an error here, make sure you have some $OSMO in your testnet wallet.
 
 Your wallet will ask you to approve the transaction. Approve it.
 
-![Wallet approval prompt](../../../static/img/quickstart/create-dao-wallet-approve.png)
+![Wallet approval prompt](../../.gitbook/assets/create-dao-wallet-approve.png)
 
 🎉 **Congratulations!** You've made a DAO! 🎉
 
-![Created DAO home page](../../../static/img/quickstart/create-dao-done.png)
+![Created DAO home page](../../.gitbook/assets/create-dao-done.png)
