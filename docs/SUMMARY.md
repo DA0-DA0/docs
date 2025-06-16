@@ -1,5 +1,7 @@
 # Table of contents
 
+* [Welcome to DAO DAO](README.md)
+
 ## Introduction
 
 * [Quickstart](introduction/quickstart/README.md)
@@ -10,7 +12,6 @@
   * [Create your first proposal](introduction/quickstart/create-a-proposal.md)
   * [Voting](introduction/quickstart/voting.md)
   * [Congratulations!](introduction/quickstart/congratulations.md)
-* [Welcome to DAO DAO](introduction/welcome-to-dao-dao.md)
 * [What's a DAO?](introduction/whats-a-dao.md)
 * [What's a blockchain?](introduction/whats-a-blockchain.md)
 * [Technical breakdown](introduction/technical-breakdown.md)
