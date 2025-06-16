@@ -9,12 +9,14 @@ Your DAO can opt to display proposals from affiliated DAOs that you have the pow
 ## 1. Create Proposal
 
 a. From your DAO page, example circled in green, click the Proposal tab, indicated by the yellow arrow.
-![Create proposal](../../static/img/dao-management/change-appearance1.png)
+
+<figure><img src="../../static/img/dao-management/change-appearance1.png" alt=""><figcaption></figcaption></figure>
 
 b. Create a new proposal by clicking the +Proposal button.
 
 c. Give your proposal a title and description.
-![MVD title and description](../../static/img/dao-governance/vetoable1.png)
+
+<figure><img src="../../static/img/dao-governance/vetoable1.png" alt=""><figcaption></figcaption></figure>
 
 ## 2. Add Actions
 
@@ -30,6 +32,6 @@ c. At the bottom of the screen will be an option to publish your proposal. Once 
 
 ## 3. Vote
 
-a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](./proposals/how-to-vote-on-a-proposal)
+a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](proposals/how-to-vote-on-a-proposal/)
 
 b. If the DAO membership votes in favor of the proposal, all of the change will happen automatically at the close of the voting period.

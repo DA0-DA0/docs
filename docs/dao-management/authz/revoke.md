@@ -8,17 +8,25 @@ You can revoke any authorized priveleges via a DAO governance proposal.
 
 ## 1. Create Proposal
 
-a. From your DAO page, example circled in green, click the Proposal tab, indicated by the yellow arrow.![Create proposal](../../../static/img/dao-management/change-appearance1.png)
+a. From your DAO page, example circled in green, click the Proposal tab, indicated by the yellow arrow.
+
+<figure><img src="../../../static/img/dao-management/change-appearance1.png" alt=""><figcaption></figcaption></figure>
 
 b. Create a new proposal by clicking the +Proposal button.
 
-c. Give your proposal a title and description.![Auth Exec proposal title and description](../../../static/img/dao-management/authz-exec8.png)
+c. Give your proposal a title and description.
+
+<figure><img src="../../../static/img/dao-management/authz-exec8.png" alt=""><figcaption></figcaption></figure>
 
 ## 2. Add Actions
 
-a. Scroll down to the Action section of the Create proposal page. Select Authz Grant / Revoke from the Authorizations tab.![Authorizations tab and Authz Grant / Revoke](../../../static/img/dao-management/authz-exec2.png)
+a. Scroll down to the Action section of the Create proposal page. Select Authz Grant / Revoke from the Authorizations tab.
 
-b. Select the Revoke authorization tab, indicated by a red arrow in the image below.![Revoke authz exec action box](../../../static/img/dao-management/authz-exec9.png)
+<figure><img src="../../../static/img/dao-management/authz-exec2.png" alt=""><figcaption></figcaption></figure>
+
+b. Select the Revoke authorization tab, indicated by a red arrow in the image below.
+
+<figure><img src="../../../static/img/dao-management/authz-exec9.png" alt=""><figcaption></figcaption></figure>
 
 c. Under Grantee address, paste an Osmosis address or search for an account or DAO already on DAO DAO. This will be the party having Authz Exec privileges revoked.
 

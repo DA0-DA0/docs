@@ -14,7 +14,7 @@
   * [What's a blockchain?](introduction/whats-a-blockchain.md)
   * [Technical breakdown](introduction/technical-breakdown.md)
 * [DAO Management](dao-management/README.md)
-  * [Create your first DAO](dao-management/create-a-dao.md)
+  * [Create a DAO](dao-management/create-a-dao.md)
   * [Update appearance](dao-management/update-info.md)
   * [SubDAOs](dao-management/subdaos/README.md)
     * [What are SubDAOs?](dao-management/subdaos/what.md)

@@ -16,10 +16,10 @@ To register to vote, first visit the DAO's home page.
 
 On here you will see:
 
-- how many tokens you have staked
-- how many tokens you have unstaked
-- how many tokens are currently unstaking
-- your voting power
+* how many tokens you have staked
+* how many tokens you have unstaked
+* how many tokens are currently unstaking
+* your voting power
 
 Click the `Stake` or `Manage... stake` button to stake your tokens.
 
@@ -27,17 +27,10 @@ Click the `Stake` or `Manage... stake` button to stake your tokens.
 
 By staking your tokens, you are registering those tokens as voting power. Any tokens you do not stake won't count towards your voting power. If you want your votes to matter as much as possible, you'll likely want to stake all of them.
 
-There are some situations where you may not want to stake all of your tokens.
-For example:
+There are some situations where you may not want to stake all of your tokens. For example:
 
-1. Some DAOs require a proposal deposit be paid in order to create a proposal,
-   in an effort to ensure a minimum level of commitment to a proposal. If you
-   plan on making a proposal, you may want to leave some tokens unstaked.
-2. Some DAOs have an unstaking duration, which is the amount of time you must
-   wait after unstaking your tokens before those tokens are available to you. If
-   you are holding tokens in a DAO with a non-zero staking duration, and you
-   think you may want to sell or trade those tokens quickly in the future, you
-   may consider leaving some tokens unstaked.
+1. Some DAOs require a proposal deposit be paid in order to create a proposal, in an effort to ensure a minimum level of commitment to a proposal. If you plan on making a proposal, you may want to leave some tokens unstaked.
+2. Some DAOs have an unstaking duration, which is the amount of time you must wait after unstaking your tokens before those tokens are available to you. If you are holding tokens in a DAO with a non-zero staking duration, and you think you may want to sell or trade those tokens quickly in the future, you may consider leaving some tokens unstaked.
 
 ## Leaving
 
