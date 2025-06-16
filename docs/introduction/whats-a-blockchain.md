@@ -32,11 +32,9 @@ Before IBC, each blockchain was siloed. There was no way to send a token from on
 
 You can dive deeper into IBC from [its website](https://www.ibcprotocol.dev/).
 
-:::tip
-
+{% hint style="info" %}
 Since DAO DAO is IBC-native, your DAO's governance tokens can be shared across any chain that supports IBC. Want your governance token to be tradeable on [Osmosis](https://osmosis.zone)? DAO DAO can help with that!
-
-:::
+{% endhint %}
 
 #### How does IBC work?
 
@@ -49,8 +47,6 @@ Say Alice wants to send 10 ATOM from her chain to Bob's chain:
 
 The ATOM on Bob's chain is not real ATOM. They represent Alice's ATOM, and a proof that those ATOMs are frozen. But Bob can "redeem" her vouchers for ATOM anytime. So they're as good as ATOM!
 
-:::tip
-
+{% hint style="info" %}
 Want to learn more about IBC? Check out the [Cosmos docs](https://v1.cosmos.network/intro#designing-the-internet-of-blockchains).
-
-:::
+{% endhint %}
