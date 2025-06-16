@@ -18,11 +18,11 @@ Since you were the first one here, it's only fair that you suggest what everyone
 
 To begin, starting from your DAO's page, navigate to **Proposals > New Proposal**.
 
-![Create proposal button](../../../img/quickstart/create-proposal-button.png)
+![Create proposal button](../../../static/img/quickstart/create-proposal-button.png)
 
 Then, fill in the proposal's name and description.
 
-![Proposal creation form](../../../img/quickstart/create-proposal-form.png)
+![Proposal creation form](../../../static/img/quickstart/create-proposal-form.png)
 
 {% hint style="info" %}
 **Actions?**
@@ -38,6 +38,6 @@ Now that we're ready, go ahead and press **Publish**. Your wallet will prompt yo
 
 Once you approve it, you'll see that your proposal is live!
 
-![Created proposal](../../../img/quickstart/create-proposal-done.png)
+![Created proposal](../../../static/img/quickstart/create-proposal-done.png)
 
 Now that we've made a proposal, let's [vote on it](voting/).

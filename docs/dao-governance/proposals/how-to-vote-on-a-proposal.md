@@ -10,18 +10,18 @@ Once you've [created a proposal](./how-to-create-a-proposal), members of the DAO
 
 To begin, starting from your DAO's page, navigate to the proposal from the **Proposals** tab.
 
-![Proposals tab](/img/how-to/proposals-tab-with-proposals.png)
+![Proposals tab](../../../static/img/how-to/proposals-tab-with-proposals.png)
 
 Then, click on the proposal you want to vote on in the list.
 
-![Proposal page](/img/how-to/proposal-no-votes.png)
+![Proposal page](../../../static/img/how-to/proposal-no-votes.png)
 
 Click on the desired vote option on the left side of the page.
 
-![Vote options](/img/how-to/single-choice-proposal-vote-options.png)
+![Vote options](../../../static/img/how-to/single-choice-proposal-vote-options.png)
 
 Click on the **Cast your vote** button to submit your vote. Approve the transaction in your wallet to confirm submission.
 
-![Proposal still open](/img/how-to/open-proposal-already-voted.png)
+![Proposal still open](../../../static/img/how-to/open-proposal-already-voted.png)
 
 The proposal will be updated with your vote. If your vote was sufficient to pass or fail the proposal, it will now be complete. Since this proposal's outcome has not yet been determined, it is still open for voting.

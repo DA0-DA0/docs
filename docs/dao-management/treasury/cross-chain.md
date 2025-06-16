@@ -14,17 +14,17 @@ The first step is to [set up a cross-chain account](https://youtu.be/D4oiQl1Ne7k
 
 [Create a proposal](../../dao-governance/proposals/how-to-create-a-proposal) and add the `Create Cross-Chain Account` action from the `DAO Treasury` category.
 
-![Create proposal form](/img/features/proposals/single-choice-proposal.png)
+![Create proposal form](../../../static/img/features/proposals/single-choice-proposal.png)
 
-![DAO Governance category in Add an action modal](/img/how-to/add-action-modal-dao-governance-category.png)
+![DAO Governance category in Add an action modal](../../../static/img/how-to/add-action-modal-dao-governance-category.png)
 
-![Create Cross-Chain Account action in DAO Governance category](/img/how-to/cross-chain-action-dao-governance-category.png)
+![Create Cross-Chain Account action in DAO Governance category](../../../static/img/how-to/cross-chain-action-dao-governance-category.png)
 
-![Create Cross-Chain Account action](/img/how-to/create-cross-chain-account-action.png)
+![Create Cross-Chain Account action](../../../static/img/how-to/create-cross-chain-account-action.png)
 
 Simply select which chain you want to create an account on. You can even add multiple chains at once using the plus button on the right.
 
-![Multiple chains](/img/how-to/create-cross-chain-account-action-multiple.png)
+![Multiple chains](../../../static/img/how-to/create-cross-chain-account-action-multiple.png)
 
 Once this proposal is passed and executed, the cross-chain accounts will be created. This may take a few minutes as chain relayers have to detect and relay the actions to the other chains.
 
@@ -32,7 +32,7 @@ Once this proposal is passed and executed, the cross-chain accounts will be crea
 
 Once you have created cross-chain accounts, they will appear in the `Treasury & NFTs` tab of the DAO's page.
 
-![Treasury & NFTs tab](/img/how-to/treasury-nfts-tab.png)
+![Treasury & NFTs tab](../../../static/img/how-to/treasury-nfts-tab.png)
 
 Click on the address to the right of the chain you want to send tokens to in order to copy it. Just send tokens from your wallet to the corresponding address on the desired chain, and your DAO will receive them.
 
@@ -44,7 +44,7 @@ Check out the [How to send tokens](./send) guide to get started.
 
 When you select the token you want to send, you will see a list of all tokens on all chains the DAO has an account on.
 
-![Spend token modal](/img/how-to/spend-tokens-modal.png)
+![Spend token modal](../../../static/img/how-to/spend-tokens-modal.png)
 
 ## Staking cross-chain tokens and earning rewards
 
@@ -54,4 +54,4 @@ Check out the [How to stake tokens](./staking) guide to get started.
 
 You can change the token you're going to stake in the action.
 
-![Staking token picker](/img/how-to/staking-token-picker.png)
+![Staking token picker](../../../static/img/how-to/staking-token-picker.png)

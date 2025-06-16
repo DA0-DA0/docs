@@ -14,9 +14,9 @@ Members must join the DAO before a proposal is made in order to vote on it. Memb
 
 To begin, starting from your DAO's page, navigate to **Proposals > New Proposal**.
 
-![Create proposal button](../../../img/how-to/proposals-tab.png)
+![Create proposal button](../../../static/img/how-to/proposals-tab.png)
 
-![Proposal creation form](../../../img/how-to/create-proposal.png)
+![Proposal creation form](../../../static/img/how-to/create-proposal.png)
 
 Then, fill in the proposal's name, description, and actions (if needed).
 
@@ -33,4 +33,4 @@ Once you are satisfied with the proposal, press **Publish**. Your wallet will pr
 
 Once you approve it, your proposal will be live and the DAO members can vote on it!
 
-![Created proposal](../../../img/quickstart/create-proposal-done.png)
+![Created proposal](../../../static/img/quickstart/create-proposal-done.png)

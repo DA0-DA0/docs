@@ -10,7 +10,7 @@ DAO DAO supports single choice (`Yes`, `No`, or `Abstain`) and multiple choice (
 
 A single choice proposal contains a title, description, and an optional set of actions to execute if passed. The only voting options are `Yes`, `No`, and `Abstain`, and thus a single choice proposal either passes or fails.
 
-![Single choice proposal](/img/features/proposals/single-choice-proposal.png)
+![Single choice proposal](../../../static/img/features/proposals/single-choice-proposal.png)
 
 ### Title
 
@@ -44,17 +44,17 @@ A multiple choice proposal is just like a single choice proposal, except that in
 
 Simply choose the `Multiple Choice` proposal type when creating a new proposal.
 
-![Multiple choice proposal](/img/features/proposals/multiple-choice-proposal.png)
+![Multiple choice proposal](../../../static/img/features/proposals/multiple-choice-proposal.png)
 
 Each option has different actions associated with it.
 
-![Option 1](/img/features/proposals/multiple-choice-proposal-option-1.png)
+![Option 1](../../../static/img/features/proposals/multiple-choice-proposal-option-1.png)
 
-![Option 2](/img/features/proposals/multiple-choice-proposal-option-2.png)
+![Option 2](../../../static/img/features/proposals/multiple-choice-proposal-option-2.png)
 
 When you go to vote, the proposal will show each of the options and a `None of the above` option, instead of just `Yes` and `No`.
 
-![Multiple choice proposal](/img/features/proposals/multiple-choice-proposal-done.png)
+![Multiple choice proposal](../../../static/img/features/proposals/multiple-choice-proposal-done.png)
 
 ### Enable multiple choice proposals
 
@@ -62,14 +62,14 @@ If you create a new DAO, multiple choice proposals are enabled by default. If yo
 
 On the proposal creation page, click the `Add an action` button.
 
-![Proposal creation form](/img/features/proposals/enable-multiple-choice-add-action.png)
+![Proposal creation form](../../../static/img/features/proposals/enable-multiple-choice-add-action.png)
 
 Click on the `DAO Governance` category, and then choose `Enable Multiple Choice Proposals`.
 
-![DAO Governance category](/img/shared/action-modal-dao-governance-category.png)
+![DAO Governance category](../../../static/img/shared/action-modal-dao-governance-category.png)
 
-![Enable multiple choice action](/img/features/proposals/enable-multiple-choice-dao-governance-category.png)
+![Enable multiple choice action](../../../static/img/features/proposals/enable-multiple-choice-dao-governance-category.png)
 
-![Complete proposal](/img/features/proposals/enable-multiple-choice-done.png)
+![Complete proposal](../../../static/img/features/proposals/enable-multiple-choice-done.png)
 
 Once you publish, pass, and execute this proposal, multiple choice proposals will be enabled for the DAO!

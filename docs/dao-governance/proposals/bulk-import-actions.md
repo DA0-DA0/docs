@@ -7,7 +7,7 @@ sidebar_position: 7
 To bulk import actions, you can use the `Bulk Import Actions` action in the
 `Advanced` category of the Action Library when creating a proposal.
 
-![Bulk import actions](/img/dao-governance/bulk-import-actions.png)
+![Bulk import actions](../../../static/img/dao-governance/bulk-import-actions.png)
 
 You can use either a JSON or CSV file. CSV files are easier to use but only
 support some of the actions, whereas JSON files support all actions.

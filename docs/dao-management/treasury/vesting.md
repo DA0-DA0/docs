@@ -11,14 +11,14 @@ To create vesting payments, you must first create a vesting payment manager on e
 ## 1. Create a new proposal
 
 a. From your DAO page, select the Proposal tab and click the +Proposal button.
-![New proposal](/img/dao-management/vesting4.png)
+![New proposal](../../../static/img/dao-management/vesting4.png)
 b. Add a relevant title and description to your proposal.
 c. From the Action Library, select Enable Vesting Payments.
-![Action Library list](/img/dao-management/vesting1.png)
+![Action Library list](../../../static/img/dao-management/vesting1.png)
 d. Connect the chains on which you wish to enable vesting payments.
-![enable chains](/img/dao-management/vesting3.png)
+![enable chains](../../../static/img/dao-management/vesting3.png)
 e. publish your proposal by clicking the Publish button at the button of the screen.
-![Proposal confirmation](/img/dao-management/change-appearance5.png)
+![Proposal confirmation](../../../static/img/dao-management/change-appearance5.png)
 
 ## 2. Vote
 

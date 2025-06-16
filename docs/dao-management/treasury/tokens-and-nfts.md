@@ -43,9 +43,9 @@ action in a proposal.
 Find the `Manage Treasury Tokens` action in the `Treasury` category of the
 action library, and the `Manage Treasury NFTs` action in the `NFTs` category.
 
-![Manage Treasury Tokens action](/img/dao-management/treasury-manage-tokens.png)
+![Manage Treasury Tokens action](../../../static/img/dao-management/treasury-manage-tokens.png)
 
-![Manage Treasury NFTs action](/img/dao-management/treasury-manage-nfts.png)
+![Manage Treasury NFTs action](../../../static/img/dao-management/treasury-manage-nfts.png)
 
 Simply choose the chain (if the token/NFT lives in one of the DAO's [cross-chain
 accounts](./cross-chain)) and enter the contract address of the token/NFT you

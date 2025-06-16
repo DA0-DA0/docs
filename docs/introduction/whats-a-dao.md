@@ -32,7 +32,7 @@ We call the simplest form of DAO a member-based DAO. This type of DAO has _stati
 
 This is the DAO structure that replaces the [multisig](https://www.coindesk.com/learn/what-is-a-multisig-wallet/). Multisigs can be seen as an early form of a DAO since they solve some of the same issues. Both offer the ability to require multiple people to approve an action, thus allowing a group of people to manage assets and make decisions together.
 
-![Membership-based DAO members screenshot](../../img/introduction/membership.png)
+![Membership-based DAO members screenshot](../../static/img/introduction/membership.png)
 
 ### Tokens
 
@@ -62,7 +62,7 @@ In DAO DAO, tokens must be "staked" in order to be counted as voting power, whic
 
 Most DAOs have unstaking durations configured, meaning there is a minimum amount of time you must wait after unstaking your tokens before they are available to you. During the unstaking period, the tokens do not count towards your voting power, and you cannot transfer them. This adds a time cost to staking and ensures a greater level of participatory commitment from a DAO's members.
 
-![Token-based DAO members screenshot](../../img/introduction/tokens.png)
+![Token-based DAO members screenshot](../../static/img/introduction/tokens.png)
 
 ### NFTs
 

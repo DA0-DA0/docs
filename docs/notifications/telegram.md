@@ -11,22 +11,22 @@ Setting up Telegram notifications takes 60 seconds.
 
    On Mobile:
 
-   ![Telegram Mobile](/img/notifications/tg-start-mobile.jpg)
+   ![Telegram Mobile](../../static/img/notifications/tg-start-mobile.jpg)
 
    On Desktop:
 
-   ![Telegram Desktop](/img/notifications/tg-start-desktop.png)
+   ![Telegram Desktop](../../static/img/notifications/tg-start-desktop.png)
 
 2. Once you tap the `Start` button, you should see instructions for tracking a
    DAO.
 
    On Mobile:
 
-   ![Telegram Mobile](/img/notifications/tg-started-mobile.jpg)
+   ![Telegram Mobile](../../static/img/notifications/tg-started-mobile.jpg)
 
    On Desktop:
 
-   ![Telegram Desktop](/img/notifications/tg-started-desktop.png)
+   ![Telegram Desktop](../../static/img/notifications/tg-started-desktop.png)
 
 3. If you'd like to track DAOs with other people, add the bot to a group chat by
    tapping its name at the top of the screen and then tapping the `Add to Group
@@ -41,11 +41,11 @@ or Channel` button at the bottom.
 
    On Mobile:
 
-   ![Telegram Mobile](/img/notifications/tg-add-group-mobile.jpg)
+   ![Telegram Mobile](../../static/img/notifications/tg-add-group-mobile.jpg)
 
    On Desktop:
 
-   ![Telegram Desktop](/img/notifications/tg-add-group-desktop.png)
+   ![Telegram Desktop](../../static/img/notifications/tg-add-group-desktop.png)
 
 4. Once the bot is in the chat where you want to receive notifications, just
    send the command shown in the instructions to start tracking a DAO. You can
@@ -58,11 +58,11 @@ or Channel` button at the bottom.
 
    On Mobile:
 
-   ![Telegram Mobile](/img/notifications/tg-add-mobile.jpg)
+   ![Telegram Mobile](../../static/img/notifications/tg-add-mobile.jpg)
 
    On Desktop:
 
-   ![Telegram Desktop](/img/notifications/tg-add-desktop.png)
+   ![Telegram Desktop](../../static/img/notifications/tg-add-desktop.png)
 
 5. Now you're done! When new proposals are created, the bot will message you
    right away.
