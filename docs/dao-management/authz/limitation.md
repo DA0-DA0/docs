@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Limitation
 
 While powerful conceptually, the [Authz SDK module](https://docs.cosmos.network/main/build/modules/authz) suffers from one primary drawback that unfortunately makes it quite limited in application and in some cases, often experienced by DAOs, entirely useless. The issue has been raised [here](https://github.com/cosmos/cosmos-sdk/issues/18567), but the maintainers at the time were unable to grasp the importance of fixing it enough to prioritize it, and it remains unfixed.

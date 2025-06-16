@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Displaying tokens and NFTs
 
 In DAOs, some tokens are automatically displayed in the DAO's treasury, while others are not.
@@ -29,9 +25,9 @@ You can display CW20 tokens and CW721 NFTs in the DAO's treasury with a simple a
 
 Find the `Manage Treasury Tokens` action in the `Treasury` category of the action library, and the `Manage Treasury NFTs` action in the `NFTs` category.
 
-![Manage Treasury Tokens action](../../../static/img/dao-management/treasury-manage-tokens.png)
+![Manage Treasury Tokens action](../../.gitbook/assets/treasury-manage-tokens.png)
 
-![Manage Treasury NFTs action](../../../static/img/dao-management/treasury-manage-nfts.png)
+![Manage Treasury NFTs action](../../.gitbook/assets/treasury-manage-nfts.png)
 
 Simply choose the chain (if the token/NFT lives in one of the DAO's [cross-chain accounts](cross-chain/)) and enter the contract address of the token/NFT you want displayed, and the treasury will know to display it once you pass and execute the proposal.
 

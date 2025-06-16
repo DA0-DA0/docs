@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # How to create a proposal
 
 If you don't know what a proposal is, read the [proposal explanation doc](what/) first.
@@ -14,9 +10,9 @@ Members must join the DAO before a proposal is made in order to vote on it. Memb
 
 To begin, starting from your DAO's page, navigate to **Proposals > New Proposal**.
 
-![Create proposal button](../../../static/img/how-to/proposals-tab.png)
+![Create proposal button](../../.gitbook/assets/proposals-tab.png)
 
-![Proposal creation form](../../../static/img/how-to/create-proposal.png)
+![Proposal creation form](../../.gitbook/assets/create-proposal.png)
 
 Then, fill in the proposal's name, description, and actions (if needed).
 
@@ -33,4 +29,4 @@ Once you are satisfied with the proposal, press **Publish**. Your wallet will pr
 
 Once you approve it, your proposal will be live and the DAO members can vote on it!
 
-![Created proposal](../../../static/img/quickstart/create-proposal-done.png)
+![Created proposal](../../.gitbook/assets/create-proposal-done.png)

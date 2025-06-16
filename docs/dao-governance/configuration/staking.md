@@ -1,14 +1,10 @@
----
-sidebar_position: 3
----
-
 # Staking
 
 A DAO's staking configuration determines the rules of the token staking process. Only token-based and NFT-based DAOs have a staking process to configure. Member-based DAOs do not have staking because they do not use tokens.
 
 ## How to update the staking configuration
 
-To change the staking configuration of a DAO, you must submit a [governance proposal](../proposals/what) containing the `Update Staking Config` action from the `DAO Governance` category.
+To change the staking configuration of a DAO, you must submit a [governance proposal](../proposals/what/) containing the `Update Staking Config` action from the `DAO Governance` category.
 
 ## Parameters
 

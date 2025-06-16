@@ -1,12 +1,8 @@
----
-sidebar_position: 8
----
-
 # How to create an autofill proposal link
 
 Proposals and the actions they contain can be generated programmatically and passed in via URL—this enables a more user-friendly experience for users of a specific app or service that rely on DAO DAO for their governance needs.
 
-Similar to the [bulk import actions](./bulk-import-actions) feature, you must find the key and the shape of the data object for each action. However, unlike bulk import, you must also find the proposal module adapter ID, and the action key in the object must be `actionKey` instead of `key`.
+Similar to the [bulk import actions](bulk-import-actions/) feature, you must find the key and the shape of the data object for each action. However, unlike bulk import, you must also find the proposal module adapter ID, and the action key in the object must be `actionKey` instead of `key`.
 
 ## Link format
 
@@ -16,8 +12,8 @@ The link is simply the proposal creation page with a `prefill` parameter added, 
 
 The `prefill` parameter can either be:
 
-- a stringified JSON object
-- a base64-encoded JSON object
+* a stringified JSON object
+* a base64-encoded JSON object
 
 {% hint style="warning" %}
 Remember to URL-escape the `prefill` parameter, whichever format it's in. For example, base64 strings sometimes contain `+` and `=`, which must be escaped as `%2B` and `%3D` respectively, or else they'll be decoded incorrectly and fail to autofill the proposal.
@@ -101,17 +97,17 @@ See the bottom of this document for a complete example.
 
 The action keys can be found in [`@dao-dao/types/actions.ts`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/types/actions.ts) in the `ActionKey` enum. For example:
 
-- `spend`
-- `execute`
-- `mintNft`
-- `mint`
+* `spend`
+* `execute`
+* `mintNft`
+* `mint`
 
 The key and data format for an action are defined in its `README.md`, and the actions can be found in the following places:
 
-- [`@dao-dao/stateful/actions/core/actions`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/stateful/actions/core/actions) — common actions to all DAOs.
-- [`@dao-dao/stateful/voting-module-adapter/adapters/*/actions`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/stateful/voting-module-adapter/adapters) — each voting module adapter may contain specific actions (for example: member-based DAOs include a Manage Members action).
-- [`@dao-dao/stateful/proposal-module-adapter/adapters/*/common/actions`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/stateful/proposal-module-adapter/adapters) — each proposal module adapter may contain specific actions (for example: single choice proposals have a different Update Proposal Submission Config action from multiple choice proposals).
-- [`@dao-dao/stateful/modules/modules/*/actions`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/stateful/modules/modules) — each module may contain specific actions (for example: the vesting payments module adds an action to manage vesting payments).
+* [`@dao-dao/stateful/actions/core/actions`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/stateful/actions/core/actions) — common actions to all DAOs.
+* [`@dao-dao/stateful/voting-module-adapter/adapters/*/actions`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/stateful/voting-module-adapter/adapters) — each voting module adapter may contain specific actions (for example: member-based DAOs include a Manage Members action).
+* [`@dao-dao/stateful/proposal-module-adapter/adapters/*/common/actions`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/stateful/proposal-module-adapter/adapters) — each proposal module adapter may contain specific actions (for example: single choice proposals have a different Update Proposal Submission Config action from multiple choice proposals).
+* [`@dao-dao/stateful/modules/modules/*/actions`](https://github.com/DA0-DA0/dao-dao-ui/tree/development/packages/stateful/modules/modules) — each module may contain specific actions (for example: the vesting payments module adds an action to manage vesting payments).
 
 Here are some common ones:
 

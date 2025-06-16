@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # What are proposals?
 
 Proposals are how DAOs take action. You can think of proposals as the nervous system of the DAO—members submit and vote on proposals, and if passed, the DAO _does something_.

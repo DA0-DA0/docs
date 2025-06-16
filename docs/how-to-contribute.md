@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Contribute to DAO DAO!
 
 DAO DAO rewards the people who contribute to it.

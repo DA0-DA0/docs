@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Proposal submission
 
 A DAO's proposal submission configuration manages the rules around submitting a proposal for voting.

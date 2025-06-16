@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Enable vesting payments
 
 This feature allows DAOs to set up vesting contracts. A vesting payment distributes funds according to any schedule you choose, and the DAO can enable or disable early cancelation.
@@ -12,21 +8,21 @@ To create vesting payments, you must first create a vesting payment manager on e
 
 a. From your DAO page, select the Proposal tab and click the +Proposal button.
 
-<figure><img src="../../../static/img/dao-management/vesting4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vesting4.png" alt=""><figcaption></figcaption></figure>
 
 b. Add a relevant title and description to your proposal.
 
 c. From the Action Library, select Enable Vesting Payments.
 
-<figure><img src="../../../static/img/dao-management/vesting1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vesting1.png" alt=""><figcaption></figcaption></figure>
 
 d. Connect the chains on which you wish to enable vesting payments.
 
-<figure><img src="../../../static/img/dao-management/vesting3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vesting3.png" alt=""><figcaption></figcaption></figure>
 
 e. publish your proposal by clicking the Publish button at the button of the screen.
 
-<figure><img src="../../../static/img/dao-management/change-appearance5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/change-appearance5.png" alt=""><figcaption></figcaption></figure>
 
 ## 2. Vote
 

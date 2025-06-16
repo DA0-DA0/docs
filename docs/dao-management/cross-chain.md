@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Cross-chain support
 
 DAOs on DAO DAO can create and manage accounts on many chains with the magic of IBC, allowing them to hold assets and interact with smart contracts, native protocols, and dApps across the ecosystem. The following is a description of how this works. A user-friendly guide of how to manage cross-chain assets can be found [here](treasury/cross-chain/).
