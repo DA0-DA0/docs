@@ -10,7 +10,7 @@ You will be brought to an interface that looks identical to the interface for cr
 
 ![New SubDAO UI](../../.gitbook/assets/new-subdao.png)
 
-Create the SubDAO like you would any other DAO. If you need help, check out[Create your first DAO](../../introduction/quickstart/create-a-dao) in the Quickstart section.
+Create the SubDAO like you would any other DAO. If you need help, check out[Create your first DAO](../../introduction/quickstart/create-a-dao.md) in the Quickstart section.
 
 ![SubDAO home](../../.gitbook/assets/unregistered-subdao-home.png)
 

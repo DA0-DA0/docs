@@ -1,6 +1,6 @@
 # Cross-chain support
 
-DAOs on DAO DAO can create and manage accounts on many chains with the magic of IBC, allowing them to hold assets and interact with smart contracts, native protocols, and dApps across the ecosystem. The following is a description of how this works. A user-friendly guide of how to manage cross-chain assets can be found [here](treasury/cross-chain).
+DAOs on DAO DAO can create and manage accounts on many chains with the magic of IBC, allowing them to hold assets and interact with smart contracts, native protocols, and dApps across the ecosystem. The following is a description of how this works. A user-friendly guide of how to manage cross-chain assets can be found [here](treasury/cross-chain.md).
 
 ## Terminology
 
@@ -82,7 +82,7 @@ Chains without CosmWasm of course do not support Polytone, and thus ICA is the o
 
 #### Multi-hop IBC transfers (PFM)
 
-In order to [send tokens over IBC](treasury/send/#change-recipient-chain) with intermediary hops that unwind the IBC token (e.g. sending Noble USDC from Osmosis to Neutron), a DAO must have an account on each intermediary chain. It is a requirement of [packet-forward-middleware](https://github.com/cosmos/ibc-apps/tree/main/middleware/packet-forward-middleware) that an address be specified for each chain involved in a multi-hop in case it fails halfway through and needs to leave the tokens in an account on an intermediary chain. This is exceedingly rare but technically possible in the protocol and serves as a failsafe.
+In order to [send tokens over IBC](treasury/send.md#change-recipient-chain) with intermediary hops that unwind the IBC token (e.g. sending Noble USDC from Osmosis to Neutron), a DAO must have an account on each intermediary chain. It is a requirement of [packet-forward-middleware](https://github.com/cosmos/ibc-apps/tree/main/middleware/packet-forward-middleware) that an address be specified for each chain involved in a multi-hop in case it fails halfway through and needs to leave the tokens in an account on an intermediary chain. This is exceedingly rare but technically possible in the protocol and serves as a failsafe.
 
 In order to prevent loss of funds or asking DAOs to trust a third party, we decided to require that a DAO has an account on every intermediary chain in a multi-hop, so that if it fails, the tokens being sent remain under DAO control. Thus an ICA may be required to enable multi-hop transfers using assets native to that chain if CosmWasm/Polytone is unsupported.
 

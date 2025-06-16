@@ -4,7 +4,7 @@ A DAO's proposal submission configuration manages the rules around submitting a 
 
 ## How to update the proposal submission configuration
 
-To change the proposal submission configuration of a DAO, you must submit a [governance proposal](../proposals/what) containing the `Update Proposal Submission Config` action from the `DAO Governance` category.
+To change the proposal submission configuration of a DAO, you must submit a [governance proposal](../proposals/what.md) containing the `Update Proposal Submission Config` action from the `DAO Governance` category.
 
 If you have multiple choice proposals enabled, you will instead see two different actions, one labeled `Update Single Choice Proposal Submission Config` and the other `Update Multiple Choice Proposal Submission Config`. You may configure each proposal type (single and multiple choice) separately, though they should probably be kept in sync so the voting experience is consistent.
 
@@ -34,7 +34,7 @@ You may want to enable this if you are worried about spam.
 
 This determines who is allowed to submit proposals to your DAO. The options are:
 
-* Only members
-* Anyone
+- Only members
+- Anyone
 
 It defaults to `Only members`.

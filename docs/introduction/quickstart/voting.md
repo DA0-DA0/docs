@@ -1,6 +1,6 @@
 # Voting
 
-Now that everyone has joined the DAO and a [proposal has been made](../../introduction/quickstart/create-a-proposal), all current members of the DAO can vote on it!
+Now that everyone has joined the DAO and a [proposal has been made](../../introduction/quickstart/create-a-proposal.md), all current members of the DAO can vote on it!
 
 ![Proposal vote](../../.gitbook/assets/proposal-vote.png)
 

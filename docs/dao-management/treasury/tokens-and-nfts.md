@@ -29,7 +29,7 @@ Find the `Manage Treasury Tokens` action in the `Treasury` category of the actio
 
 ![Manage Treasury NFTs action](../../.gitbook/assets/treasury-manage-nfts.png)
 
-Simply choose the chain (if the token/NFT lives in one of the DAO's [cross-chain accounts](cross-chain)) and enter the contract address of the token/NFT you want displayed, and the treasury will know to display it once you pass and execute the proposal.
+Simply choose the chain (if the token/NFT lives in one of the DAO's [cross-chain accounts](cross-chain.md)) and enter the contract address of the token/NFT you want displayed, and the treasury will know to display it once you pass and execute the proposal.
 
 ### Troubleshooting
 

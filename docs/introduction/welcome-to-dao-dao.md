@@ -21,6 +21,6 @@ DAO DAO DAOs are[IBC](https://www.coinbase.com/cloud/discover/dev-foundations/ib
 
 ## Where do I begin?
 
-If you want to get started building a DAO, check out our [Create a DAO](../dao-management/create-a-dao) guide.
+If you want to get started building a DAO, check out our [Create a DAO](../dao-management/create-a-dao.md) guide.
 
 If you want to chat with like-minded people experimenting with new governance tools, hop in our [Discord server](https://discord.daodao.zone).

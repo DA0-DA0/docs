@@ -2,7 +2,7 @@
 
 Proposals and the actions they contain can be generated programmatically and passed in via URL—this enables a more user-friendly experience for users of a specific app or service that rely on DAO DAO for their governance needs.
 
-Similar to the [bulk import actions](bulk-import-actions) feature, you must find the key and the shape of the data object for each action. However, unlike bulk import, you must also find the proposal module adapter ID, and the action key in the object must be `actionKey` instead of `key`.
+Similar to the [bulk import actions](bulk-import-actions.md) feature, you must find the key and the shape of the data object for each action. However, unlike bulk import, you must also find the proposal module adapter ID, and the action key in the object must be `actionKey` instead of `key`.
 
 ## Link format
 

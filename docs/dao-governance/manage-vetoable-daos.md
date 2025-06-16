@@ -28,6 +28,6 @@ c. At the bottom of the screen will be an option to publish your proposal. Once 
 
 ## 3. Vote
 
-a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](proposals/how-to-vote-on-a-proposal)
+a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](proposals/how-to-vote-on-a-proposal.md)
 
 b. If the DAO membership votes in favor of the proposal, all of the change will happen automatically at the close of the voting period.
