@@ -4,8 +4,8 @@ The proposal module system enables DAOs to support any type of execution flow th
 
 DAO DAO provides two modules:
 
-* single choice (e.g. Yes/No/Abstain)
-* multiple choice (e.g. A/B/C/None of the Above)
+- single choice (e.g. Yes/No/Abstain)
+- multiple choice (e.g. A/B/C/None of the Above)
 
 You can always add new modules or disable existing ones, though there must always be at least one module enabled (or else the DAO will not function). The most likely reason one would want to add a new module is to use a new version with new features. Because the proposal module interface is standardized and unchanging, newer versions of proposal modules should be backwards compatible.
 
@@ -21,30 +21,30 @@ First you need the code IDs of the proposal module and its corresponding pre-pro
 
 The following guide will add the `v2.6.0` single choice proposal module to a DAO on Osmosis mainnet (`osmosis-1`), so we need the `dao-proposal-single` and `dao-pre-propose-single` code IDs.
 
-A few steps involve base64 encoding, which [base64encode.org](https://www.base64encode.org/) can help with.
+A few steps involve base64 encoding, which [base64encode.org](https://www.base64encode.org) can help with.
 
 Here is the configuration we will use:
 
-* threshold: majority
-* quorum: 20%
-* max voting period: 1 week
-* only members can execute: true
-* close proposal on execution failure: true
-* allow revoting: false
-* submission policy: DAO members only
-* no proposal deposit
+- threshold: majority
+- quorum: 20%
+- max voting period: 1 week
+- only members can execute: true
+- close proposal on execution failure: true
+- allow revoting: false
+- submission policy: DAO members only
+- no proposal deposit
 
 You can look at the JSON schemas' `instantiate` definitions for the proposal and pre-propose modules to see the configuration fields you need to set, as well as the `dao-dao-core` contract's JSON schema to see the `update_proposal_modules` execution message that performs the actual update:
 
-* [dao-proposal-single JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/proposal/dao-proposal-single/schema/dao-proposal-single.json)
-* [dao-pre-propose-single JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/pre-propose/dao-pre-propose-single/schema/dao-pre-propose-single.json)
-* [dao-dao-core JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/dao-dao-core/schema/dao-dao-core.json)
+- [dao-proposal-single JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/proposal/dao-proposal-single/schema/dao-proposal-single.json)
+- [dao-pre-propose-single JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/pre-propose/dao-pre-propose-single/schema/dao-pre-propose-single.json)
+- [dao-dao-core JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/dao-dao-core/schema/dao-dao-core.json)
 
 You can also look at the Rust source code, which contains the corresponding `InstantiateMsg` and `ExecuteMsg` structs, though you will need to know how serde serializes various types and enums which can be tricky. The JSON schemas above contain all the information you need, but here is the source code for reference:
 
-* [dao-proposal-single `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/proposal/dao-proposal-single/src/msg.rs)
-* [dao-pre-propose-single `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/pre-propose/dao-pre-propose-single/src/contract.rs) which just extends the [dao-pre-propose-base `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/packages/dao-pre-propose-base/src/msg.rs)
-* [dao-dao-core `ExecuteMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/packages/dao-interface/src/msg.rs) defined in the `dao-interface` crate.
+- [dao-proposal-single `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/proposal/dao-proposal-single/src/msg.rs)
+- [dao-pre-propose-single `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/pre-propose/dao-pre-propose-single/src/contract.rs) which just extends the [dao-pre-propose-base `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/packages/dao-pre-propose-base/src/msg.rs)
+- [dao-dao-core `ExecuteMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/packages/dao-interface/src/msg.rs) defined in the `dao-interface` crate.
 
 Putting that all together, the full message we need to execute on the DAO via a proposal, with everything decoded for readability, follows:
 

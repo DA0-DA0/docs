@@ -6,8 +6,8 @@ Proposal modules can either set a pre-propose module, or not use one, which effe
 
 There are two pre-propose module types:
 
-* base: manages deposits and submission policy
-* approval: same as base, plus the ability to set an approver that must approve pending proposals before they open for voting on the proposal module
+- base: manages deposits and submission policy
+- approval: same as base, plus the ability to set an approver that must approve pending proposals before they open for voting on the proposal module
 
 Each proposal module has corresponding pre-propose modules (e.g. the `dao-proposal-single` module has `dao-pre-propose-single` and `dao-pre-propose-approval-single`, the `dao-proposal-multiple` module has `dao-pre-propose-multiple` and `dao-pre-propose-approval-multiple`, etc.).
 
@@ -63,22 +63,22 @@ You can see the `dao-proposal-single` address is `DAO_PROPOSAL_SINGLE_ADDRESS`.
 
 You can also find the `dao-pre-propose-single` code ID in the `codeIds.json` file linked above: `1250`.
 
-A few steps involve base64 encoding, which [base64encode.org](https://www.base64encode.org/) can help with.
+A few steps involve base64 encoding, which [base64encode.org](https://www.base64encode.org) can help with.
 
 Here is the configuration we will use:
 
-* submission policy: DAO members only
-* no proposal deposit
+- submission policy: DAO members only
+- no proposal deposit
 
 You can look at the JSON schemas' `instantiate` definitions for the pre-propose module to see the configuration fields you need to set, as well as the `dao-proposal-single` contract's JSON schema to see the `update_pre_propose_info` execution message that performs the actual update:
 
-* [dao-pre-propose-single JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/pre-propose/dao-pre-propose-single/schema/dao-pre-propose-single.json)
-* [dao-proposal-single JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/proposal/dao-proposal-single/schema/dao-proposal-single.json)
+- [dao-pre-propose-single JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/pre-propose/dao-pre-propose-single/schema/dao-pre-propose-single.json)
+- [dao-proposal-single JSON schema](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/proposal/dao-proposal-single/schema/dao-proposal-single.json)
 
 You can also look at the Rust source code, which contains the corresponding `InstantiateMsg` and `ExecuteMsg` structs, though you will need to know how serde serializes various types and enums which can be tricky. The JSON schemas above contain all the information you need, but here is the source code for reference:
 
-* [dao-proposal-single `ExecuteMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/proposal/dao-proposal-single/src/msg.rs)
-* [dao-pre-propose-single `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/pre-propose/dao-pre-propose-single/src/contract.rs) which just extends the [dao-pre-propose-base `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/packages/dao-pre-propose-base/src/msg.rs)
+- [dao-proposal-single `ExecuteMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/proposal/dao-proposal-single/src/msg.rs)
+- [dao-pre-propose-single `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/contracts/pre-propose/dao-pre-propose-single/src/contract.rs) which just extends the [dao-pre-propose-base `InstantiateMsg` struct](https://github.com/DA0-DA0/dao-contracts/blob/development/packages/dao-pre-propose-base/src/msg.rs)
 
 Putting that all together, the full message we need to execute on the proposal module via a proposal, with everything decoded for readability, follows:
 

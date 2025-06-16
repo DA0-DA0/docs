@@ -1,6 +1,6 @@
 # Create your first proposal
 
-After [creating a DAO for your book club](../../introduction/quickstart/create-a-dao/), I'm sure you're busy telling all of your friends to download Leap so they can join you. Once they join your DAO, why don't we make a governance proposal for everyone to vote on?
+After [creating a DAO for your book club](../../introduction/quickstart/create-a-dao), I'm sure you're busy telling all of your friends to download Leap so they can join you. Once they join your DAO, why don't we make a governance proposal for everyone to vote on?
 
 Let's create a proposal to decide what book to read.
 
@@ -36,4 +36,4 @@ Once you approve it, you'll see that your proposal is live!
 
 ![Created proposal](../../.gitbook/assets/create-proposal-done.png)
 
-Now that we've made a proposal, let's [vote on it](../../introduction/quickstart/voting/).
+Now that we've made a proposal, let's [vote on it](../../introduction/quickstart/voting).

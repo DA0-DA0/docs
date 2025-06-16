@@ -17,9 +17,9 @@ An action could, for example, pay a contributor by transferring money from the D
 
 A blockchain software instruction can do pretty much anything:
 
-* Deploy a docker container on [Akash](https://akash.network/).
-* [Update the configuration](https://daodao.zone/dao/juno10h0hc64jv006rr8qy0zhlu4jsxct8qwa0vtaleayh0ujz0zynf2s2r7v8q/proposals/A7) of a smart contract, such as the DAO itself.
-* Pay a [RPC node provider](https://daodao.zone/dao/juno1gpwekludv6vu8pkpnp2hwwf7f84a7mcvgm9t2cvp92hvpxk07kdq8z4xj2/proposals/A7).
+- Deploy a docker container on [Akash](https://akash.network).
+- [Update the configuration](https://daodao.zone/dao/juno10h0hc64jv006rr8qy0zhlu4jsxct8qwa0vtaleayh0ujz0zynf2s2r7v8q/proposals/A7) of a smart contract, such as the DAO itself.
+- Pay a [RPC node provider](https://daodao.zone/dao/juno1gpwekludv6vu8pkpnp2hwwf7f84a7mcvgm9t2cvp92hvpxk07kdq8z4xj2/proposals/A7).
 
 Truly anything you can do on a blockchain is supported by DAO DAO DAOs, with the added benefits of sophisticated governance processes.
 {% endhint %}
@@ -32,4 +32,4 @@ This security measure prevents an attacker from purchasing a DAO's governance to
 
 ## How do I create a proposal?
 
-Check out the [How to create a proposal](how-to-create-a-proposal/) guide to get started.
+Check out the [How to create a proposal](how-to-create-a-proposal) guide to get started.

@@ -1,6 +1,6 @@
 # Grant Authorization
 
-You can grant any account, like a wallet, another DAO, or SubDAO, authorization to perform a number of actions on behalf of the DAO. While this is a very powerful feature, it is worth understanding the authz module's [critical limitation](limitation/) before dreaming about all of the authorization flows you want to create. In time, we hope this is resolved by the maintainers of the SDK.
+You can grant any account, like a wallet, another DAO, or SubDAO, authorization to perform a number of actions on behalf of the DAO. While this is a very powerful feature, it is worth understanding the authz module's [critical limitation](limitation) before dreaming about all of the authorization flows you want to create. In time, we hope this is resolved by the maintainers of the SDK.
 
 ## 1. Create Proposal
 
@@ -32,6 +32,6 @@ e. At the bottom of the screen will be an option to publish your proposal. Once 
 
 ## 3. Vote
 
-a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](../../dao-governance/proposals/how-to-vote-on-a-proposal/)
+a. Once the proposal is live, you and other DAO members can vote. [Learn more about voting here!](../../dao-governance/proposals/how-to-vote-on-a-proposal)
 
 b. If the DAO membership votes in favor of granting authz exec priveleges, the change will happen automatically once the proposal has been executed.

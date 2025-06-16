@@ -1,6 +1,6 @@
 # Cross-chain support
 
-DAOs on DAO DAO can create and manage accounts on many chains with the magic of IBC, allowing them to hold assets and interact with smart contracts, native protocols, and dApps across the ecosystem. The following is a description of how this works. A user-friendly guide of how to manage cross-chain assets can be found [here](treasury/cross-chain/).
+DAOs on DAO DAO can create and manage accounts on many chains with the magic of IBC, allowing them to hold assets and interact with smart contracts, native protocols, and dApps across the ecosystem. The following is a description of how this works. A user-friendly guide of how to manage cross-chain assets can be found [here](treasury/cross-chain).
 
 ## Terminology
 
@@ -28,7 +28,7 @@ Also, relayers routinely poll for IBC clients that are almost expired and automa
 
 ## Interchain Accounts (ICA)
 
-[ICA](https://ibc.cosmos.network/main/apps/interchain-accounts/overview/) is a native Cosmos SDK protocol that enables cross-chain accounts. Similar to Polytone, any entity on a blockchain can use ICA. While it is sometimes supported by chains that do not support CosmWasm (and thus do not support Polytone), we discourage using ICA due to its many drawbacks detailed below.
+[ICA](https://ibc.cosmos.network/main/apps/interchain-accounts/overview) is a native Cosmos SDK protocol that enables cross-chain accounts. Similar to Polytone, any entity on a blockchain can use ICA. While it is sometimes supported by chains that do not support CosmWasm (and thus do not support Polytone), we discourage using ICA due to its many drawbacks detailed below.
 
 ### Drawbacks
 

@@ -22,7 +22,7 @@ Make sure to store your seed phrase somewhere only you'll be able to find it. Th
 
 ## Connect your wallet
 
-To make your first DAO, head to [testnet.daodao.zone](https://testnet.daodao.zone/) and connect your wallet by pressing the `Log in` button.
+To make your first DAO, head to [testnet.daodao.zone](https://testnet.daodao.zone) and connect your wallet by pressing the `Log in` button.
 
 Once logged in, you will see your Osmosis testnet address. Click on it to copy and save it for the next step.
 
@@ -62,7 +62,7 @@ Now we can add the initial members of our DAO. If you're making this DAO with fr
 
 ### Create DAO
 
-On the next screen, there are many configuration options available that determine how the DAO behaves. You can [read about the available voting configuration options](../dao-governance/configuration/voting/) if you like, but for now, we'll accept the defaults and create our DAO!
+On the next screen, there are many configuration options available that determine how the DAO behaves. You can [read about the available voting configuration options](../dao-governance/configuration/voting) if you like, but for now, we'll accept the defaults and create our DAO!
 
 ![Review page](../.gitbook/assets/create-dao-review.png)
 

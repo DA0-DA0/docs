@@ -1,6 +1,6 @@
 # How to create a proposal
 
-If you don't know what a proposal is, read the [proposal explanation doc](what/) first.
+If you don't know what a proposal is, read the [proposal explanation doc](what) first.
 
 {% hint style="info" %}
 Members must join the DAO before a proposal is made in order to vote on it. Membership changes during a proposal's voting period are ignored as they only apply to future proposals.
@@ -18,7 +18,7 @@ Then, fill in the proposal's name, description, and actions (if needed).
 
 {% hint style="info" %}
 **What is an action?**\
-[Proposal actions](what/#actions) allow you to add rich functionality to proposals: software instructions that execute on the blockchain when a proposal is passed and executed. Read the [proposal docs](what/) to learn more.
+[Proposal actions](what/#actions) allow you to add rich functionality to proposals: software instructions that execute on the blockchain when a proposal is passed and executed. Read the [proposal docs](what) to learn more.
 {% endhint %}
 
 If you want to create a multiple choice proposal, check out the [multiple choice proposal docs](types/#multiple-choice).

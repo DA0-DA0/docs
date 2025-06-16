@@ -26,7 +26,7 @@ Because DAOs are programmable, there are infinite mechanisms one could create to
 
 We call the simplest form of DAO a member-based DAO. This type of DAO has _static membership_, meaning that the DAO must pass a proposal to change its members. Adding a new member, removing an existing member, and changing the voting powers of existing members all must be voted on by existing members through a proposal. In other words, no individual has the power to change the membership of the DAO.
 
-This is the DAO structure that replaces the [multisig](https://www.coindesk.com/learn/what-is-a-multisig-wallet/). Multisigs can be seen as an early form of a DAO since they solve some of the same issues. Both offer the ability to require multiple people to approve an action, thus allowing a group of people to manage assets and make decisions together.
+This is the DAO structure that replaces the [multisig](https://www.coindesk.com/learn/what-is-a-multisig-wallet). Multisigs can be seen as an early form of a DAO since they solve some of the same issues. Both offer the ability to require multiple people to approve an action, thus allowing a group of people to manage assets and make decisions together.
 
 ![Membership-based DAO members screenshot](../.gitbook/assets/membership.png)
 

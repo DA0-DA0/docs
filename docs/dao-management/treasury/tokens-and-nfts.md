@@ -4,16 +4,16 @@ In DAOs, some tokens are automatically displayed in the DAO's treasury, while ot
 
 ### Automatically displayed tokens
 
-* The native gas/fee token of the chain and any cross-chain accounts the DAO controls.
-* Tokens created via token factory (and thus live in the native bank module of the chain).
-* Tokens transferred over IBC from another chain.
+- The native gas/fee token of the chain and any cross-chain accounts the DAO controls.
+- Tokens created via token factory (and thus live in the native bank module of the chain).
+- Tokens transferred over IBC from another chain.
 
 ### Manually added tokens
 
-* [CW20 (smart contract)](https://github.com/CosmWasm/cw-plus/blob/main/packages/cw20/README.md) tokens
-* [CW721 (smart contract)](https://github.com/public-awesome/cw-nfts/blob/main/packages/cw721/README.md) NFTs
+- [CW20 (smart contract)](https://github.com/CosmWasm/cw-plus/blob/main/packages/cw20/README.md) tokens
+- [CW721 (smart contract)](https://github.com/public-awesome/cw-nfts/blob/main/packages/cw721/README.md) NFTs
 
-CW20 tokens were the first dynamic tokens supported in the Cosmos, before the [x/tokenfactory](https://docs.osmosis.zone/osmosis-core/modules/tokenfactory/) SDK module was built to enable creating custom tokens without smart contracts.
+CW20 tokens were the first dynamic tokens supported in the Cosmos, before the [x/tokenfactory](https://docs.osmosis.zone/osmosis-core/modules/tokenfactory) SDK module was built to enable creating custom tokens without smart contracts.
 
 CW721 NFTs are the base for pretty much all smart-contract-based NFTs in the Cosmos ecosystem.
 
@@ -29,7 +29,7 @@ Find the `Manage Treasury Tokens` action in the `Treasury` category of the actio
 
 ![Manage Treasury NFTs action](../../.gitbook/assets/treasury-manage-nfts.png)
 
-Simply choose the chain (if the token/NFT lives in one of the DAO's [cross-chain accounts](cross-chain/)) and enter the contract address of the token/NFT you want displayed, and the treasury will know to display it once you pass and execute the proposal.
+Simply choose the chain (if the token/NFT lives in one of the DAO's [cross-chain accounts](cross-chain)) and enter the contract address of the token/NFT you want displayed, and the treasury will know to display it once you pass and execute the proposal.
 
 ### Troubleshooting
 

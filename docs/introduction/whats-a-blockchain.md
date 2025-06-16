@@ -14,7 +14,7 @@ The interchain is a term used to describe interoperability between separate, sel
 
 ### What's a self-sovereign blockchain?
 
-[Layer 2](https://ethereum.org/en/layer-2/) blockchains are built on top of layer 1 blockchains, like Ethereum. If a blockchain depends on another blockchain to exist, which is the case for most layer 2 blockchains on Ethereum, it is _not_ self-sovereign.
+[Layer 2](https://ethereum.org/en/layer-2) blockchains are built on top of layer 1 blockchains, like Ethereum. If a blockchain depends on another blockchain to exist, which is the case for most layer 2 blockchains on Ethereum, it is _not_ self-sovereign.
 
 The [Cosmos ecosystem](https://cosmos.network) is comprised of many self-sovereign (i.e. layer 1) blockchains that utilize the [IBC](https://www.coinbase.com/cloud/discover/dev-foundations/ibc-protocol) protocol, allowing them to interact and participate in an interchain ecosystem, much like the Internet.
 
@@ -26,7 +26,7 @@ Short answer: the **inter-blockchain communication (IBC)** protocol.
 
 Before IBC, each blockchain was siloed. There was no way to send a token from one self-sovereign blockchain to another. IBC allows chains to share data with one another, including tokens.
 
-You can dive deeper into IBC from [its website](https://www.ibcprotocol.dev/).
+You can dive deeper into IBC from [its website](https://www.ibcprotocol.dev).
 
 {% hint style="info" %}
 Since DAO DAO is IBC-native, your DAO's governance tokens can be shared across any chain that supports IBC. Want your governance token to be tradeable on [Osmosis](https://osmosis.zone)? DAO DAO can help with that!

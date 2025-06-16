@@ -1,6 +1,6 @@
 # Voting
 
-Now that everyone has joined the DAO and a [proposal has been made](../../introduction/quickstart/create-a-proposal/), all current members of the DAO can vote on it!
+Now that everyone has joined the DAO and a [proposal has been made](../../introduction/quickstart/create-a-proposal), all current members of the DAO can vote on it!
 
 ![Proposal vote](../../.gitbook/assets/proposal-vote.png)
 
@@ -12,8 +12,8 @@ Go ahead and vote _yes_ on your new proposal and approve the transaction in your
 
 Since the proposal passed, you will see a button that says `Execute`. A few things happen when a proposal is executed:
 
-* Any software instructions (i.e. Actions) within the proposal are executed on the blockchain, taking immediate effect.
-* If a proposal deposit was required to submit the proposal, and the DAO is configured to return proposal deposits on passed proposals, the proposal deposit will be refunded to the proposer.
+- Any software instructions (i.e. Actions) within the proposal are executed on the blockchain, taking immediate effect.
+- If a proposal deposit was required to submit the proposal, and the DAO is configured to return proposal deposits on passed proposals, the proposal deposit will be refunded to the proposer.
 
 Since this DAO has no proposal deposit, and this proposal contains no actions, executing does nothing but change the status of the proposal to `Executed`. However, it is a good habit to execute proposals since it signifies that the proposal process has completed, and it will sometimes be necessary.
 

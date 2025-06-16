@@ -18,7 +18,7 @@ A description explains in detail what a proposal _is_. This may be a [constituti
 
 For example, if you are submitting a proposal to pay someone's salary, you may want to explain why you're paying them or what the relevant terms of work are.
 
-You can use [Markdown syntax](https://www.markdownguide.org/basic-syntax/) for rich formatting.
+You can use [Markdown syntax](https://www.markdownguide.org/basic-syntax) for rich formatting.
 
 ### Actions
 
@@ -54,7 +54,7 @@ When you go to vote, the proposal will show each of the options and a `None of t
 
 ### Enable multiple choice proposals
 
-If you create a new DAO, multiple choice proposals are enabled by default. If you have an existing DAO without multiple choice proposals enabled, you can enable them by [passing a single choice proposal](how-to-create-a-proposal/) containing the `Enable Multiple Choice Proposals` action in the `DAO Governance` category.
+If you create a new DAO, multiple choice proposals are enabled by default. If you have an existing DAO without multiple choice proposals enabled, you can enable them by [passing a single choice proposal](how-to-create-a-proposal) containing the `Enable Multiple Choice Proposals` action in the `DAO Governance` category.
 
 On the proposal creation page, click the `Add an action` button.
 
