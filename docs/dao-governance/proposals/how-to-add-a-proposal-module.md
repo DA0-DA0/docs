@@ -17,7 +17,7 @@ Be careful to verify all proposal modules function correctly before disabling on
 
 ## Guide
 
-First you need the code IDs of the proposal module and its corresponding pre-propose module. You can find all uploaded DAO DAO code IDs here: https://github.com/DA0-DA0/dao-dao-ui/blob/development/packages/utils/constants/codeIds.json
+First you need the code IDs of the proposal module and its corresponding pre-propose module. You can find all uploaded DAO DAO code IDs here: [https://github.com/DA0-DA0/dao-dao-ui/blob/development/packages/utils/constants/codeIds.json](https://github.com/DA0-DA0/dao-dao-ui/blob/development/packages/utils/constants/codeIds.json)
 
 The following guide will add the `v2.6.0` single choice proposal module to a DAO on Osmosis mainnet (`osmosis-1`), so we need the `dao-proposal-single` and `dao-pre-propose-single` code IDs.
 

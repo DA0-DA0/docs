@@ -21,7 +21,7 @@ Be careful, the DAO will be bricked and all assets will be locked if the pre-pro
 
 ## Guide
 
-First you need the address of the proposal module and the code ID of the pre-propose module. You can find all uploaded DAO DAO code IDs here: https://github.com/DA0-DA0/dao-dao-ui/blob/development/packages/utils/constants/codeIds.json
+First you need the address of the proposal module and the code ID of the pre-propose module. You can find all uploaded DAO DAO code IDs here: [https://github.com/DA0-DA0/dao-dao-ui/blob/development/packages/utils/constants/codeIds.json](https://github.com/DA0-DA0/dao-dao-ui/blob/development/packages/utils/constants/codeIds.json)
 
 The following guide will update a `v2.6.0` single choice proposal module to use the `v2.6.0` base pre-propose module on Osmosis mainnet (`osmosis-1`), so we need the `dao-proposal-single` address and `dao-pre-propose-single` code ID.
 
