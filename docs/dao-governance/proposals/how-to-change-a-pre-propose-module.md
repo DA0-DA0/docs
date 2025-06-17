@@ -16,7 +16,7 @@ You can always add, remove, or replace the pre-propose module for a proposal mod
 Adding and disabling proposal modules is not common, and can be dangerous, and thus is not easily supported by the UI, but it is not hard to do with a little bit of time.
 
 {% hint style="warning" %}
-Be careful, the DAO will be bricked and all assets will be locked if the pre-propose module is misconfigured. It is best practice to ensure at least one is functioning before disabling another. Or, better yet, just add an entirely new proposal module and then disable the existing one, instead of trying to change the pre-propose module.
+Be careful, the DAO will be bricked and all assets will be locked if the pre-propose module is misconfigured. It is best practice to ensure at least one is functioning before disabling another. Ideally, add an entirely new proposal module with the pre-propose module configured how you want it, test that it works by passing and executing a proposal, and then disable the old one (instead of trying to change the pre-propose module on your only working proposal module).
 {% endhint %}
 
 ## Guide
